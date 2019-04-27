@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "build": "vuepress build",
+    "deploy": "appcfg.py update .vuepress/dist",
+    "dev": "vuepress dev --debug",
+    "d": "vuepress build && appcfg.py update .vuepress/dist"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.0.0-alpha.47",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.42",
+    "axios": "^0.18.0",
+    "global": "^4.3.2",
+    "image-size": "^0.7.3",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "sync-request": "^6.1.0",
+    "vuepress": "^1.0.0-alpha.47",
+    "vuepress-plugin-container": "^2.0.1",
+    "vuepress-plugin-reading-time": "^0.1.1"
+  },
+  "dependencies": {
+    "@vuepress/plugin-last-updated": "^1.0.0-alpha.47",
+    "probe-image-size": "^4.0.0",
+    "vue-lazyload": "^1.2.6"
+  }
+}

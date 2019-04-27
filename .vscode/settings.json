@@ -1,0 +1,5 @@
+{
+  "eslint.enable": false,
+  "git.ignoreLimitWarning": true,
+  "python.formatting.provider": "black"
+}
