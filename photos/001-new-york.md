@@ -2,7 +2,9 @@
 title: New York
 subtitle: "The city so nice they named it twice — New York, New York"
 type: custom photo-post
+cover: https://res.cloudinary.com/websiddu/image/upload/c_scale,w_500/v1531626135/photos/newyork/cover.jpg
 permalink: photos/new-york.html
+pageClass: dark
 ---
 
 ::: story

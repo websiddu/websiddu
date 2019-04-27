@@ -1,56 +1,38 @@
 ---
-layout: post
-
 title: California route one
 subtitle: "Pictures taken on California route one"
-cover_image: route1/1
-size: 4
-excerpt: "Pictures taken on California route one"
-
-author:
-  name: Siddhartha Gudipati
-  twitter: websiddu
-  gplus: SiddharthaGudipati
-  bio: Designer
+cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1514865295/photos/route1/1.jpg
+permalink: /photos/california-route-one.html
+type: custom photo-post
+pageClass: dark
 ---
 
-{% photoset %}
-{% picture_set route1/4%}
-{% endphotoset %}
+::: photoset route1/1
+:::
 
+::: photoset route1/4
+:::
 
-{% photoset %}
-{% picture_set route1/10%}
-{% picture_set route1/21%}
-{% endphotoset %}
+::: photoset route1/10 route1/21
+:::
 
-{% photoset %}
-{% picture_set route1/11%}
-{% endphotoset %}
+::: photoset route1/11
+:::
 
-{% photoset %}
-{% picture_set route1/12%}
-{% picture_set route1/14%}
-{% endphotoset %}
+::: photoset route1/12 route1/14
+:::
 
+::: photoset route1/2
+:::
 
-{% photoset %}
-{% picture_set route1/2%}
-{% endphotoset %}
+::: photoset route1/17
+:::
 
-{% photoset %}
-{% picture_set route1/17%}
-{% endphotoset %}
+::: photoset route1/16
+:::
 
-{% photoset %}
-  {% picture_set route1/16%}
-{% endphotoset %}
+::: photoset route1/18
+:::
 
-{% photoset %}
-  {% picture_set route1/18%}
-{% endphotoset %}
-
-{% photoset %}
-  {% picture_set route1/19%}
-  {% picture_set route1/20%}
-{% endphotoset %}
+::: photoset route1/19 route1/20
+:::

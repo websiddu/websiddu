@@ -3,6 +3,8 @@ title: San Diego Zoo
 subtitle: "Summer city all year round"
 type: custom photo-post
 permalink: photos/san-diego-zoo.html
+cover: https://res.cloudinary.com/websiddu/image/upload/c_scale,w_500/v1537499560/photos/san-diego/DSC_0374.jpg
+pageClass: dark
 ---
 
 ::: story

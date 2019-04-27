@@ -1,42 +1,27 @@
 ---
-layout: post
-
-title: Cats &amp; Kittens
+title: Cats & Kittens
 subtitle: "A collection of cats and kittens"
-cover_image: cats/1
-size: 4
-excerpt: "A collection of cats and kittens"
-
-author:
-  name: Siddhartha Gudipati
-  twitter: websiddu
-  gplus: SiddharthaGudipati
-  bio: Designer
+cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1545875611/photos/cats/i1.jpg
+type: custom photo-post
+description: "A collection of cats and kittens"
+permalink: /photos/cats-&-kittens.html
+pageClass: dark
 ---
 
+:::photoset cats/2
+:::
 
-{% photoset %}
-  {% picture_set cats/2%}
-{% endphotoset %}
+:::photoset cats/3
+:::
 
-{% photoset %}
-  {% picture_set cats/3%}
-{% endphotoset %}
+:::photoset cats/4
+:::
 
-{% photoset %}
-  {% picture_set cats/4%}
-{% endphotoset %}
+:::photoset cats/5 cats/7
+:::
 
-{% photoset %}
-  {% picture_set cats/5%}
-  {% picture_set cats/7%}
-{% endphotoset %}
+:::photoset cats/6
+:::
 
-{% photoset %}
-  {% picture_set cats/6%}
-{% endphotoset %}
-
-{% photoset %}
-  {% picture_set cats/8%}
-{% endphotoset %}
-
+:::photoset cats/8
+:::

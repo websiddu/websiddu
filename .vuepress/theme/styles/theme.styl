@@ -20,15 +20,15 @@ body
   font-size 16px
   color $textColor
 
-body:after
-  content ''
-  top 0
-  bottom 0
-  width 0.5vw
-  max-width 8px
-  background $accentColor
-  position fixed
-  z-index 99
+// body:after
+//   content ''
+//   top 0
+//   bottom 0
+//   width 0.5vw
+//   max-width 8px
+//   background $accentColor
+//   position fixed
+//   z-index 99
 
 .page
   padding-left $sidebarWidth
@@ -99,8 +99,13 @@ body:after
     max-width 100%
 
 .content.custom.home
-  max-width: 1150px;
+  max-width: 1200px;
   margin: 0 10vw;
+
+.content.custom.photos-list
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4vw;
 
 .te
 	font-family "Mandali",sans-serif
@@ -132,11 +137,9 @@ body:after
     margin-right auto
     padding 4px
     p
-      font-size: 1.25rem;
+      font-size: 1.20rem;
       line-height: 1.55;
-      font-weight: 400;
-      margin-bottom: 1rem;
-
+      margin-bottom: 0.9rem;
 
 a
   font-weight 500
@@ -256,6 +259,16 @@ th, td
     .custom-layout
       padding-top 0
 
+.theme-container
+  &.dark
+    background $darkBackground
+    color #ccc
+    .navbar
+      background-color $darkBackground
+      border-bottom 1px solid #3a454c
+      .links
+        background transparent
+        color #ccc
 
 .home-title
   font-size 2.3rem

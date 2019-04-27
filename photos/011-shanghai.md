@@ -3,6 +3,7 @@ title: Shanghai
 subtitle: "The city so nice they named it twice — New York, New York"
 type: custom photo-post
 permalink: photos/shanghai.html
+cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1479961176/photos/shanghai/yuyuan-garden/2.jpg
 ---
 
 ::: story
@@ -74,5 +75,5 @@ Shanghai &mdash; It's an amazing city with everything around you is so huge that
 ::: photoset shanghai/city/1
 :::
 
-::: photoset shanghai/other/4 shanghai/other/1 shanghai/other/3
+::: photoset shanghai/other/1 shanghai/other/3
 :::
