@@ -4,6 +4,7 @@ const request = require("sync-request");
 
 module.exports = {
   port: 8089,
+
   plugins: [
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
@@ -77,12 +78,13 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href: "/favicon.png"
+        href: "/favicon.ico"
       }
     ]
   ],
   title: "",
   themeConfig: {
+    logo: "/img/logo.svg",
     search: false,
     nav: [
       {
