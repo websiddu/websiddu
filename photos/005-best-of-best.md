@@ -1,8 +1,10 @@
 ---
+pageClass: dark
+type: custom photo-post
+
 title: Best of best
 permalink: /photos/best-of-best.html
-type: custom photo-post
-pageClass: dark
+cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1507265570/photos/bob/2.jpg
 ---
 
 ::: photoset bob/1

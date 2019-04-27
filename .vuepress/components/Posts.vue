@@ -1,5 +1,5 @@
 <template>
-  <div class="posts" v-if="posts.length" :class="page">
+  <div class="posts" v-if="posts.length" :class="[page, size]">
     <template v-if="page == 'blog'">
       <section class="post" v-for="post in posts" :class="post.frontmatter.lang">
         <time class="muted">{{prettyDate(post.frontmatter.date)}}</time>
@@ -38,7 +38,7 @@ const monthNames = [
 ];
 
 export default {
-  props: ["page"],
+  props: ["page", "size"],
   name: "Posts",
   methods: {
     prettyDate(d) {
@@ -90,6 +90,10 @@ export default {
   grid-gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: 1fr;
+
+  &.s {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 
   &::before {
     content: "";

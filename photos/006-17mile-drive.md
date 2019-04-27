@@ -1,56 +1,36 @@
 ---
-layout: post
+pageClass: dark
+type: custom photo-post
 
 title: 17 Mile Drive
 subtitle: "A scenic road through Pebble Beach and Pacific Grove"
-cover_image: 17-mdrive/1-s
-size: 4
-excerpt: ""
-
-author:
-  name: Siddhartha Gudipati
-  twitter: websiddu
-  gplus: SiddharthaGudipati
-  bio: Designer
+permalink: /blog/17-mile-drive.html
+cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1515273173/photos/17-mdrive/1-s.jpg
 ---
 
+:::photoset 17-mdrive/2 17-mdrive/3
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/2%}
-  {% picture_set 17-mdrive/3%}
-{% endphotoset %}
+:::photoset 17-mdrive/4 17-mdrive/5
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/4%}
-  {% picture_set 17-mdrive/5%}
-{% endphotoset %}
+:::photoset 17-mdrive/6
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/6%}
-{% endphotoset %}
+:::photoset 17-mdrive/7 17-mdrive/8
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/7%}
-  {% picture_set 17-mdrive/8%}
-{% endphotoset %}
+:::photoset 17-mdrive/9
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/9%}
-{% endphotoset %}
+:::photoset 17-mdrive/15
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/15%}
-{% endphotoset %}
+:::photoset 17-mdrive/10
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/10%}
-{% endphotoset %}
+:::photoset 17-mdrive/13
+:::
 
-{% photoset %}
-  {% picture_set 17-mdrive/13%}
-{% endphotoset %}
-
-{% photoset %}
-  {% picture_set 17-mdrive/11%}
-  {% picture_set 17-mdrive/14%}
-{% endphotoset %}
+:::photoset 17-mdrive/11 17-mdrive/14
+:::

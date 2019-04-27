@@ -1,10 +1,11 @@
 ---
+pageClass: dark
+type: custom photo-post
+
 title: California route one
 subtitle: "Pictures taken on California route one"
 cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1514865295/photos/route1/1.jpg
 permalink: /photos/california-route-one.html
-type: custom photo-post
-pageClass: dark
 ---
 
 ::: photoset route1/1

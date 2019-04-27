@@ -1,9 +1,10 @@
 ---
+pageClass: dark
+type: custom photo-post
+
 title: Hearst Castle
 subtitle: "An amazing museum like no other"
-cover_image: hearst-castle/cover/cover.v2
-type: custom photo-post
-description: "A friend on mine Ruiyi Zhou took us to this beautify museum located 300 miles away to the south california. This may not be the best museum but I'm really impressed by the various architectural elements in the museum. There was little bus ride to the top of the hill which is nice."
+cover_image: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_autov1481399548/photos/hearst-castle/cover/cover.v1.jpg
 prev: /photos/shanghai.html
 permalink: /photos/hearst-castle.html
 ---
