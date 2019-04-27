@@ -100,12 +100,8 @@ module.exports = {
         link: "/photos/"
       },
       {
-        text: "Cook",
-        link: "/cook/"
-      },
-      {
         text: "About",
-        link: "/about/"
+        link: "/about.html"
       }
     ]
   }

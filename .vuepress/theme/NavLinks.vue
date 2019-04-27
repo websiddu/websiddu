@@ -102,11 +102,15 @@ export default {
   display: inline-block;
 
   a {
-    line-height: 1.4rem;
     color: inherit;
+    line-height: 1.5;
+    padding: 0 8px;
+    font-weight: 500;
 
     &:hover, &.router-link-active {
-      color: $accentColor;
+      color: #fff;
+      background: $accentColor;
+      border-radius: 4px;
     }
   }
 
@@ -137,14 +141,14 @@ export default {
 @media (min-width: $MQMobile) {
   .nav-links a {
     &:hover, &.router-link-active {
-      color: $textColor;
+      // color: $textColor;
     }
   }
 
   .nav-item > a:not(.external) {
     &:hover, &.router-link-active {
-      margin-bottom: -2px;
-      border-bottom: 2px solid lighten($accentColor, 8%);
+      // margin-bottom: -2px;
+      // border-bottom: 2px solid lighten($accentColor, 8%);
     }
   }
 }
