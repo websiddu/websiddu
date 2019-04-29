@@ -4,7 +4,6 @@ const request = require("sync-request");
 
 module.exports = {
   port: 8089,
-
   plugins: [
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
@@ -82,14 +81,16 @@ module.exports = {
       }
     ]
   ],
-  title: "",
+  title: "Siddhartha Gudipati",
   themeConfig: {
     logo: "/img/logo.svg",
+    title: "Siddhartha Gudipati",
     search: false,
     nav: [
       {
         text: "Home",
-        link: "/"
+        link: "/",
+        title: "Home — Siddhartha Gudipati"
       },
       {
         text: "Blog",

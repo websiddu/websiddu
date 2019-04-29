@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <!-- <Content custom/> -->
-
     <div class="container">
       <div class="logo">
         <a class="is-brand" href="/">
@@ -57,12 +55,18 @@
         </a>
       </div>
       <div class="content-body">
-        <h2
-          class="blurb"
-        >Hey there <span class="wave">👋</span>, my name is Siddhartha. I'm a designer at Google living in the Bay Area. I love making things.</h2>
+        <h2 class="blurb">
+          Hey there
+          <span class="wave">👋</span>, my name is Siddhartha. I'm a designer at Google living in the Bay Area. I love making things.
+        </h2>
+        <Content custom/>
         <div class="navigation">
           <nav class="nav">
-            <!-- <a href="http://portfolio.websiddu.com" class="nav-item">Portfolio</a> -->
+            <a
+              href="https://websiddu-portfolio.appspot.com"
+              target="_blank"
+              class="nav-item"
+            >Portfolio</a>
             <router-link to="/blog" class="nav-item">Blog</router-link>
             <router-link to="/photos" class="nav-item">Photos</router-link>
             <router-link to="/about.html" class="nav-item">About</router-link>
@@ -70,6 +74,8 @@
         </div>
       </div>
     </div>
+
+    <Content custom></Content>
 
     <div class="footer" v-if="data.footer">{{ data.footer }}</div>
   </div>

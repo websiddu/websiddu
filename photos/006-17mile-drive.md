@@ -4,7 +4,7 @@ type: custom photo-post
 
 title: 17 Mile Drive
 subtitle: "A scenic road through Pebble Beach and Pacific Grove"
-permalink: /blog/17-mile-drive.html
+permalink: /photos/17-mile-drive.html
 cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1515273173/photos/17-mdrive/1-s.jpg
 ---
 

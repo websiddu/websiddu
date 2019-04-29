@@ -44,7 +44,7 @@ export default {
         let height = c / minRatio;
 
         return {
-          url: img.url,
+          url: img.url.replace('w_100', 'w_1600'),
           width: width,
           height: height,
           margin: this.margin

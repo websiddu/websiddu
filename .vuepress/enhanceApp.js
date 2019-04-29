@@ -8,4 +8,12 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   Vue.use(VueLazyload);
+
+  Vue.mixin({
+    computed: {
+      $title() {
+        return `${this.$page.title} — ${this.$siteTitle}`;
+      }
+    }
+  });
 };

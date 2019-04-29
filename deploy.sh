@@ -8,6 +8,7 @@ yarn build
 
 # navigate into the build output directory
 cd .vuepress/dist
+# cp -R /Users/gsid/Work/personal/websiddu/portfolio.websiddu.com/dist portfolio
 
 # if you are deploying to a custom domain
 echo 'websiddu.com' > CNAME

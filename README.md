@@ -1,7 +1,5 @@
 ---
-lang: en-US
-title: Siddhartha Gudipati
-type: custom home
+title: Home
 home: true
 navbar: false
 ---
