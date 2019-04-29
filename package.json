@@ -21,6 +21,7 @@
   "dependencies": {
     "@vuepress/plugin-last-updated": "^1.0.0-alpha.47",
     "probe-image-size": "^4.0.0",
-    "vue-lazyload": "^1.2.6"
+    "vue-lazyload": "^1.2.6",
+    "vuepress-plugin-disqus": "^0.1.1"
   }
 }

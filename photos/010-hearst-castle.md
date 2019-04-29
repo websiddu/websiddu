@@ -4,7 +4,7 @@ type: custom photo-post
 
 title: Hearst Castle
 subtitle: "An amazing museum like no other"
-cover_image: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_autov1481399548/photos/hearst-castle/cover/cover.v1.jpg
+cover: https://res.cloudinary.com/websiddu/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1481403264/photos/hearst-castle/10.webp
 prev: /photos/shanghai.html
 permalink: /photos/hearst-castle.html
 ---

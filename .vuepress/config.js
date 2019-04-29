@@ -5,6 +5,7 @@ const request = require("sync-request");
 module.exports = {
   port: 8089,
   plugins: [
+    ["disqus", {}],
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
     [

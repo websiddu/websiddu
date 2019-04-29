@@ -32,6 +32,11 @@
         </span>
       </p>
     </div>
+    <div class="page-comments">
+      <ClientOnly v-if="isBlog">
+        <Disqus shortname="websiddu"/>
+      </ClientOnly>
+    </div>
 
     <slot name="bottom"/>
   </div>
@@ -215,6 +220,12 @@ function find(page, items, offset) {
       color: #aaa;
     }
   }
+}
+
+.page-comments {
+  @extend $wrapper;
+  padding-top: 1rem;
+  padding-bottom: 0;
 }
 
 .page-nav {
