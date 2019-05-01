@@ -3,7 +3,7 @@ pageClass: dark
 type: custom photo-post
 
 title: Shanghai
-subtitle: "The city so nice they named it twice — New York, New York"
+subtitle: "The city of tradition, food, people and buildings"
 permalink: photos/shanghai.html
 cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1479961176/photos/shanghai/yuyuan-garden/2.jpg
 ---
