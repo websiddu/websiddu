@@ -6,7 +6,7 @@
         <router-link :to="post.path">
           <h3 class="post-title">{{post.frontmatter.title}}</h3>
         </router-link>
-        <p>
+        <p class="desc">
           {{post.frontmatter.description}}
           <router-link :to="post.path">continue →</router-link>
         </p>
@@ -66,14 +66,14 @@ export default {
 
 <style lang="scss" scoped>
 .post {
-  margin-bottom: 6vh;
+  margin-bottom: 4.5rem;
   .post-title {
     margin: 0;
     margin-bottom: 4px;
     font-size: 24px;
     font-weight: 700;
   }
-  p {
+  p.desc {
     margin: 0;
     text-rendering: optimizeLegibility;
   }

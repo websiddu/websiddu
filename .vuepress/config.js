@@ -2,12 +2,21 @@ const container = require("markdown-it-container");
 const probe = require("probe-image-size");
 const request = require("sync-request");
 
+// UA - 88629726 - 1;
+
 module.exports = {
   port: 8089,
   plugins: [
-    ["disqus", {}],
+    "@vuepress/nprogress",
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
+    "disqus",
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-88629726-1"
+      }
+    ],
     [
       "container",
       {

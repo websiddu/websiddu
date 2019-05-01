@@ -888,15 +888,22 @@
   dependencies:
     lodash.throttle "^4.1.1"
 
+"@vuepress/plugin-back-to-top@^1.0.0-alpha.47":
+  version "1.0.0-alpha.47"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.0.0-alpha.47.tgz#138262700c22c80878a36e6837bfe03a4e514580"
+  integrity sha512-02wOpaIzJqwDMMd5+22f48iOC7iz3NgAX42VOJjFvQmrFzcBMm/HMzXG0nLF0Q23Idcbs1b5Vf4UPPCgiHDZWQ==
+  dependencies:
+    lodash.debounce "^4.0.8"
+
 "@vuepress/plugin-blog@^1.0.0-alpha.47":
   version "1.0.0-alpha.47"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-blog/-/plugin-blog-1.0.0-alpha.47.tgz#d453e79c1cd945ac9e4549984d9f0813219a8c1e"
   integrity sha512-8E4syDxQuSS1Ci9l6JjpbelmnboQjv4y4H1QllxqJJ5XsnMqW5KXMSkTK31+8tgTqWyEFcBdrOvEa2/5OEApAQ==
 
-"@vuepress/plugin-google-analytics@^1.0.0-alpha.42":
-  version "1.0.0-alpha.42"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.42.tgz#8ceef7fd88ff02aa505d8577888f836e325a5cb5"
-  integrity sha512-2w59V6x4l2SClnbq9te0DQ8kWwKUs9xx2tDMpbFj/4s3hquNQu38wI9MUTmuUXPCFCTUO2A3NB+SJT5L4w/2Mw==
+"@vuepress/plugin-google-analytics@^1.0.0-alpha.47":
+  version "1.0.0-alpha.47"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.0.0-alpha.47.tgz#48af1cda1bd9f1a9f5c3506c398a1c364db6647f"
+  integrity sha512-QuJoudT8EGo14oQsNrFpV9sKYNAkHH31Jv5R8/7JSEBcG9NKgpIUAaCkb2+/Ytwot2Oh/cd7MQsZvHQeXWuTBQ==
 
 "@vuepress/plugin-last-updated@^1.0.0-alpha.47":
   version "1.0.0-alpha.47"
