@@ -4,7 +4,8 @@
       v-for="img in imgs"
       v-lazy="img.url"
       :key="img.url"
-      :style="{width: `${img.width}px`, height: `${img.height}px`, flexBasis: `${img.width}px;`, margin: `${margin}px`}"
+      :alt="img.url"
+      :style="{width: `${img.width}`, height: `${img.height}`, margin: `${margin}px`}"
     >
   </section>
 </template>
@@ -18,7 +19,9 @@ export default {
   },
   methods: {
     handleResize() {
+      if (!this.$refs.photoset) return;
       this.contentWidth = this.$refs.photoset.getBoundingClientRect().width;
+      console.log(this.contentWidth);
     }
   },
   data() {
@@ -39,12 +42,29 @@ export default {
       let j = 0;
       imgs.forEach(img => (j += img.ratio / minRatio));
       let c = (this.contentWidth - imgs.length * (this.margin * 2)) / j;
+      let imgSize = "w_1600";
+
+      if (this.contentWidth < 800) {
+        imgSize = "w_800";
+      }
+
       imgs = imgs.map(img => {
-        let width = (c / minRatio) * img.ratio;
-        let height = c / minRatio;
+        let width = `${(c / minRatio) * img.ratio}px`;
+        let height = `${c / minRatio}px`;
+
+        console.log(this.$el);
+
+        if (
+          this.contentWidth < 600 &&
+          this.$el &&
+          !this.$el.parentNode.classList.contains("story")
+        ) {
+          width = "inherit";
+          height = "inherit";
+        }
 
         return {
-          url: img.url.replace('w_100', 'w_1600'),
+          url: img.url.replace("w_100", imgSize),
           width: width,
           height: height,
           margin: this.margin
@@ -59,7 +79,6 @@ export default {
 
 <style lang='scss' scoped>
 .photo-set {
-  display: flex;
-  flex-wrap: wrap;
+  overflow: hidden;
 }
 </style>

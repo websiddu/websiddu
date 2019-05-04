@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2016-11-20
 title: Hearst Castle
 subtitle: "An amazing museum like no other"
 cover: https://res.cloudinary.com/websiddu/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1481403264/photos/hearst-castle/10.webp

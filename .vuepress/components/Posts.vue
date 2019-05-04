@@ -14,8 +14,12 @@
     </template>
     <template v-if="page == 'photos'">
       <router-link :to="post.path" v-for="post in posts" class="photo">
-        <img :src="post.frontmatter.cover" alt>
-        <div class="title-wrap">{{post.frontmatter.title}}</div>
+        <img :src="post.frontmatter.cover" :alt="post.frontmatter.subtitle">
+        <div class="photo-info">
+          <div class="photo-title">{{post.frontmatter.title}}</div>
+          <div class="photo-subtitle">{{post.frontmatter.subtitle}}</div>
+        </div>
+        <div class="subtitle"></div>
       </router-link>
     </template>
   </div>
@@ -109,35 +113,62 @@ export default {
 
   .photo {
     position: relative;
-    border-radius: 12px;
-    overflow: hidden;
     display: block;
+    overflow: hidden;
 
-    .title-wrap {
+    .photo-info {
       background: linear-gradient(
         to bottom,
         rgba(33, 36, 37, 0) 0%,
-        rgba(33, 36, 37, 0.7) 50%,
-        rgba(33, 36, 37, 0.84) 100%
+        rgba(33, 36, 37, 0.8) 50%,
+        rgba(33, 36, 37, 0.9) 100%
       );
-      font-size: 2.2rem;
-      font-weight: 700;
+
       color: #fff;
       position: absolute;
-      padding: 0 24px;
+      padding: 16px 24px 24px;
       bottom: 0;
       left: 0;
       right: 0;
-      height: 20%;
       display: flex;
-      align-items: flex-end;
-      padding-bottom: 24px;
+      flex-flow: column;
+      .photo-title {
+        font-size: 2rem;
+        font-weight: 700;
+        transform: translateY(24px);
+        transition: all 0.2s ease-in-out;
+      }
+      .photo-subtitle {
+        line-height: 1.4;
+        opacity: 0;
+        transform: translateY(24px);
+        transition: all 0.2s ease-in-out;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-top: 4px;
+      }
     }
 
     img {
-      position: absolute;
-      top: 0;
-      left: 0;
+      transition: all 4s ease-out;
+      max-width: 100%;
+      display: block;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+
+      .photo-title {
+        transform: translateY(0);
+      }
+
+      .photo-subtitle {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   }
 }

@@ -2,6 +2,7 @@
 pageClass: dark
 type: custom photo-post
 
+date: 2018-06-12
 title: San Diego Zoo
 subtitle: "Summer city all year round"
 permalink: photos/san-diego-zoo.html

@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2017-06-04
 title: Napa valley
 subtitle: "Beautiful long drive with awesome winery"
 cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1501377964/photos/napa-valley/9.jpg

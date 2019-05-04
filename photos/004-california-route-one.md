@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2017-11-02
 title: California route one
 subtitle: "Pictures taken on California route one"
 cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1514865295/photos/route1/1.jpg

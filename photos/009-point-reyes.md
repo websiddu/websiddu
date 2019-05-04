@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2016-11-22
 title: Point reyes
 subtitle: "A worthful long drive"
 cover: https://res.cloudinary.com/websiddu/image/upload/w_1000,ar_1:1,c_fill,g_auto/v1480030797/photos/point-reyes/cover/point-reyes.jpg

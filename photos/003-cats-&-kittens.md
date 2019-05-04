@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2017-12-30
 title: Cats & Kittens
 subtitle: "A collection of cats and kittens"
 cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1545875611/photos/cats/i1.jpg

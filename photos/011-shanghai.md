@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2016-09-03
 title: Shanghai
 subtitle: "The city of tradition, food, people and buildings"
 permalink: photos/shanghai.html
@@ -9,7 +9,7 @@ cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_au
 ---
 
 ::: story
-In september 2016, I visited Shanghai's Google office as part of my work. And it was my first time visiting China. I went there without any expectations. I spend there for the whole week and visited some tourist places. Thanks to Uber, VPN and Cyan(a friend of a friend) which made travelling much easier and faster.
+In September 2016, I visited Shanghai's Google office as part of my work. And it was my first time visiting China. I went there without any expectations. I spend there for the whole week and visited some tourist places. Thanks to Uber, VPN and Cyan(a friend of a friend) which made traveling much easier and faster.
 :::
 
 ::: story

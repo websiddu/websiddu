@@ -110,7 +110,6 @@ export default {
     &:hover, &.router-link-active {
       color: #fff;
       background: $accentColor;
-      border-radius: 4px;
     }
   }
 

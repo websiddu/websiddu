@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2017-09-02
 title: 17 Mile Drive
 subtitle: "A scenic road through Pebble Beach and Pacific Grove"
 permalink: /photos/17-mile-drive.html

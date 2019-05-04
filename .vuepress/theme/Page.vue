@@ -253,20 +253,6 @@ function find(page, items, offset) {
   }
 }
 
-@media (max-width: $MQMobile) {
-  .page-edit {
-    .edit-link {
-      margin-bottom: 0.5rem;
-    }
-
-    .last-updated {
-      font-size: 0.8em;
-      float: none;
-      text-align: left;
-    }
-  }
-}
-
 .photos-page-title {
   font-size: 6rem;
   font-weight: bold;
@@ -280,10 +266,34 @@ function find(page, items, offset) {
   font-weight: 400;
   line-height: 1.5;
   font-size: 1.7rem;
-  margin: 0 auto 4.5rem;
+  margin: 0 auto 4rem;
   text-align: center;
   opacity: 0.6;
   max-width: 42rem;
   color: #fff;
+}
+
+@media (max-width: $MQMobile) {
+  .page-edit {
+    .edit-link {
+      margin-bottom: 0.5rem;
+    }
+
+    .last-updated {
+      font-size: 0.8em;
+      float: none;
+      text-align: left;
+    }
+  }
+
+  .photos-page-title {
+    font-size: 4rem;
+    margin: 2rem 0 1rem 0;
+  }
+
+  .photos-page-subtitle {
+    margin: 0 auto 0;
+    font-size: 1.4rem;
+  }
 }
 </style>

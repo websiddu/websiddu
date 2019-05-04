@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2017-10-01
 title: Best of best
 subtitle: "Best photos from my collection"
 permalink: /photos/best-of-best.html

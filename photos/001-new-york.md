@@ -2,7 +2,7 @@
 pageClass: dark
 type: custom photo-post
 
-date:
+date: 2018-07-10
 title: New York
 subtitle: "The city so nice they named it twice — New York, New York"
 cover: https://res.cloudinary.com/websiddu/image/upload/c_scale,w_500/v1531626135/photos/newyork/cover.jpg

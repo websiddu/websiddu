@@ -111,6 +111,10 @@ module.exports = {
         link: "/photos/"
       },
       {
+        text: "Projects",
+        link: "/projects.html"
+      },
+      {
         text: "About",
         link: "/about.html"
       }

@@ -1,7 +1,7 @@
 ---
 pageClass: dark
 type: custom photo-post
-
+date: 2016-12-25
 title: Los Angeles
 subtitle: "A three day road trip to the film capital"
 cover: https://res.cloudinary.com/websiddu/image/upload/w_500,ar_1:1,c_fill,g_auto/v1483207732/photos/los-angeles/cover/cover.v3.jpg
