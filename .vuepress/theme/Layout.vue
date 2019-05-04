@@ -25,6 +25,8 @@
       <slot name="page-bottom" slot="bottom"/>
     </Page>
 
+    <SiteFooter v-if="!$page.frontmatter.home"></SiteFooter>
+
     <SWUpdatePopup :updateEvent="swUpdateEvent"/>
   </div>
 </template>
@@ -38,6 +40,7 @@ import Page from "./Page.vue";
 import Sidebar from "./Sidebar.vue";
 import SWUpdatePopup from "./SWUpdatePopup.vue";
 import { resolveSidebarItems } from "./util";
+import SiteFooter from "../components/SiteFooter";
 
 export default {
   components: { Home, Page, Sidebar, Navbar, SWUpdatePopup },

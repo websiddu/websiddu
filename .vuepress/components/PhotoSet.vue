@@ -21,7 +21,6 @@ export default {
     handleResize() {
       if (!this.$refs.photoset) return;
       this.contentWidth = this.$refs.photoset.getBoundingClientRect().width;
-      console.log(this.contentWidth);
     }
   },
   data() {
@@ -62,7 +61,7 @@ export default {
         }
 
         return {
-          url: img.url.replace("w_100", imgSize),
+          url: img.url.replace("w_100", imgSize).replace("http://", "//"),
           width: width,
           height: height,
           margin: this.margin

@@ -26,12 +26,11 @@
     <div class="page-nav" v-if="prev || next">
       <p class="inner">
         <span v-if="prev" class="next">
-          <router-link v-if="prev" class="prev" :to="prev.path">{{ prev.title || prev.path }}</router-link>&nbsp;→
+          <router-link v-if="prev" class="prev" :to="prev.path">{{ prev.title || prev.path }}&nbsp;→</router-link>
         </span>
 
         <span v-if="next" class="prev">
-          ←
-          <router-link v-if="next" :to="next.path">{{ next.title || next.path }}</router-link>
+          <router-link v-if="next" :to="next.path">← {{ next.title || next.path }}</router-link>
         </span>
       </p>
     </div>
@@ -188,10 +187,6 @@ function find(page, items, offset) {
 @import './styles/config.styl';
 @require './styles/wrapper.styl';
 
-.page {
-  padding-bottom: 2rem;
-}
-
 .post-meta {
   color: #777;
   font-size: 0.95rem;
@@ -238,7 +233,7 @@ function find(page, items, offset) {
 .page-nav {
   @extend $wrapper;
   padding-top: 1rem;
-  padding-bottom: 0;
+  padding-bottom: 2rem;
 
   .inner {
     min-height: 2rem;
@@ -246,10 +241,28 @@ function find(page, items, offset) {
     border-top: 1px solid $borderColor;
     padding-top: 1rem;
     overflow: auto; // clear float
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+  }
+
+  .prev, .next {
+    flex: 1;
+    min-width: 220px;
+
+    a {
+      display: inline-flex;
+      padding: 0 8px;
+
+      &:hover {
+        background: #f8f8f8;
+      }
+    }
   }
 
   .next {
-    float: right;
+    justify-content: flex-end;
+    text-align: right;
   }
 }
 

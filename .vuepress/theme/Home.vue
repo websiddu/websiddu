@@ -173,20 +173,20 @@ a:not(.is-brand) {
   font-weight: 300;
   max-width: 45rem;
   padding-top: 20vh;
-  padding-bottom: 5vh;
+  padding-bottom: 4vh;
   position: relative;
   color: rgba(0, 0, 0, 0.7);
 
   &:after {
     content: '';
     display: inline-block;
-    width: 16%;
+    width: 8vw;
+    min-width: 80px;
     height: 4px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     bottom: 0;
     left: 0;
-    border-radius: 4px;
   }
 }
 

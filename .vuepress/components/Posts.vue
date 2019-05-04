@@ -3,9 +3,9 @@
     <template v-if="page == 'blog'">
       <section class="post" v-for="post in posts" :class="post.frontmatter.lang">
         <time class="muted">{{prettyDate(post.frontmatter.date)}}</time>
-        <router-link :to="post.path">
-          <h3 class="post-title">{{post.frontmatter.title}}</h3>
-        </router-link>
+        <h3 class="post-title">
+          <router-link :to="post.path">{{post.frontmatter.title}}</router-link>
+        </h3>
         <p class="desc">
           {{post.frontmatter.description}}
           <router-link :to="post.path">continue →</router-link>
@@ -75,7 +75,7 @@ export default {
     margin: 0;
     margin-bottom: 4px;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
   }
   p.desc {
     margin: 0;
