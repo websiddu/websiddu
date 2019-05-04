@@ -52,8 +52,6 @@ export default {
         let width = `${(c / minRatio) * img.ratio}px`;
         let height = `${c / minRatio}px`;
 
-        console.log(this.$el);
-
         if (
           this.contentWidth < 600 &&
           this.$el &&
