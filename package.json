@@ -1,9 +1,8 @@
 {
   "scripts": {
     "build": "vuepress build",
-    "deploy": "appcfg.py update .vuepress/dist",
-    "dev": "vuepress dev --debug",
-    "d": "vuepress build && appcfg.py update .vuepress/dist"
+    "deploy": "./deploy.sh",
+    "dev": "vuepress dev --debug"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47",
