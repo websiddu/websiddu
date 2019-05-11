@@ -169,6 +169,7 @@ export default {
 .navigation {
   padding-top: 8vh;
   padding-bottom: 6vh;
+  max-width: 400px;
 }
 
 .nav-item a.nav-link {
@@ -245,5 +246,8 @@ span.wave {
 }
 
 @media (max-width: $MQMobileNarrow) {
+  .nav-links {
+    min-width: unset;
+  }
 }
 </style>

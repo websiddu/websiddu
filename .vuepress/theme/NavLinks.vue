@@ -100,7 +100,7 @@ export default {
 
 .nav-links {
   display: flex;
-  max-width: 400px;
+  max-width: 100vw;
   min-width: 380px;
   justify-content: space-between;
   flex-wrap: wrap;
