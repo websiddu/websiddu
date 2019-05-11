@@ -271,7 +271,7 @@ function find(page, items, offset) {
 
 .photos-page-title {
   font-size: 5rem;
-  font-weight: bold;
+  font-weight: 700;
   margin: 4rem 0 1rem 0;
   text-align: center;
   color: #fff;

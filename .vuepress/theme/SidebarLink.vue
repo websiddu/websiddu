@@ -107,7 +107,7 @@ a.sidebar-link {
   }
 
   &.active {
-    font-weight: 600;
+    font-weight: 500;
     color: $accentColor;
     border-left-color: $accentColor;
   }

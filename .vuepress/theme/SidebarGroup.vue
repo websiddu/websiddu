@@ -49,7 +49,7 @@ export default {
   transition: color 0.15s ease;
   cursor: pointer;
   font-size: 1.1em;
-  font-weight: bold;
+  font-weight: 700;
   // text-transform uppercase
   padding: 0 1.5rem;
   margin-top: 0;
