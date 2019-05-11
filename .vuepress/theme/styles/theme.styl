@@ -307,12 +307,33 @@ th, td
   &.dark
     background $darkBackground
     color #ccc
+    .sidebar
+      background #292f33
+      border-right-color #202427
+
+      .nav-item
+          a.nav-link
+            color: #BDC1C6
+            &:hover
+              color #BDC1C6
+            &.router-link-active
+              color #fff
+              display inline-block
+              position relative
+
     .navbar
       background-color $darkBackground
-      // border-bottom 1px solid #3a454c
       .links
         background transparent
-        color #ccc
+        color #F1F3F4
+      .nav-item
+        a.nav-link
+          color: #BDC1C6
+          &:hover
+            color #BDC1C6
+          &.router-link-active
+            color #fff
+
     footer
       border-top-color #3a3a3a
       a

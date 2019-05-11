@@ -61,16 +61,26 @@
         </h2>
         <Content custom/>
         <div class="navigation">
-          <nav class="nav">
-            <a
-              href="https://websiddu-portfolio.appspot.com"
-              target="_blank"
-              class="nav-item"
-            >Portfolio</a>
-            <router-link to="/blog" class="nav-item">Blog</router-link>
-            <router-link to="/photos" class="nav-item">Photos</router-link>
-            <router-link to="/projects.html" class="nav-item">Projects</router-link>
-            <router-link to="/about.html" class="nav-item">About</router-link>
+          <nav class="nav-links">
+            <div class="nav-item">
+              <a
+                href="https://websiddu-portfolio.appspot.com"
+                target="_blank"
+                class="nav-link"
+              >Portfolio</a>
+            </div>
+            <div class="nav-item">
+              <router-link to="/blog" class="nav-link">Blog</router-link>
+            </div>
+            <div class="nav-item">
+              <router-link to="/photos" class="nav-link">Photos</router-link>
+            </div>
+            <div class="nav-item">
+              <router-link to="/projects.html" class="nav-link">Projects</router-link>
+            </div>
+            <div class="nav-item">
+              <router-link to="/about.html" class="nav-link">About</router-link>
+            </div>
           </nav>
         </div>
       </div>
@@ -116,40 +126,6 @@ export default {
   justify-content: center;
 }
 
-.nav {
-  max-width: 800px;
-}
-
-a:not(.is-brand) {
-  color: #888;
-  position: relative;
-
-  &:before {
-    content: '';
-    position: absolute;
-    right: 0;
-    height: 2px;
-    bottom: -0.35em;
-    padding: 0 0.2em;
-    left: 0;
-    background-color: #333;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all 300ms cubic-bezier(0.325, -0.075, 0, 1.65);
-  }
-
-  &:hover {
-    color: #333;
-
-    &:before {
-      transition: all 300ms cubic-bezier(0.325, -0.075, 0, 1.65);
-      visibility: visible;
-      -webkit-transform: scaleX(1);
-      transform: scaleX(1);
-    }
-  }
-}
-
 .logo-back {
   fill: #4A89DC;
 }
@@ -193,16 +169,13 @@ a:not(.is-brand) {
 .navigation {
   padding-top: 8vh;
   padding-bottom: 6vh;
+  display: inline-flex;
 }
 
-.nav-item {
-  padding: 0;
-}
-
-.nav-item a, a.nav-item {
+.nav-item a.nav-link {
   font-size: 1.1rem;
   font-weight: 500;
-  margin-right: 3vw;
+  color: #5F6368;
 }
 
 span.wave {

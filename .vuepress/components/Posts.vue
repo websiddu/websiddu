@@ -139,7 +139,6 @@ export default {
         font-weight: 700;
         transform: translateY(24px);
         transition: all 0.2s ease-in-out;
-        margin-bottom: 8px;
       }
       .photo-subtitle {
         line-height: 1.4;

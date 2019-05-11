@@ -99,23 +99,58 @@ export default {
 @import './styles/config.styl';
 
 .nav-links {
-  display: inline-block;
+  display: flex;
+  max-width: 800px;
+  justify-content: space-between;
 
   a {
     color: inherit;
     line-height: 1.5;
-    padding: 0 6px;
+    display: inline-block;
+    color: #80868B;
 
-    &:hover, &.router-link-active {
-      color: #fff;
-      background: $accentColor;
+    &:before, &.router-link-active:before {
+      content: '';
+      position: absolute;
+      right: 0;
+      height: 2px;
+      bottom: -0.1rem;
+      padding: 0 0.2rem;
+      left: 0;
+      background-color: #80868B;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 300ms cubic-bezier(0.325, -0.075, 0, 1.65);
+    }
+
+    &:hover {
+      color: #333;
+
+      &:before {
+        transition: all 300ms cubic-bezier(0.325, -0.075, 0, 1.65);
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
+    }
+
+    &.router-link-active {
+      // color: $accentColor;
+      color: #000;
+
+      &:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        // background-color: $accentColor;
+      }
     }
   }
 
   .nav-item {
     position: relative;
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: 1.8rem;
     line-height: 2rem;
 
     &:first-child {
@@ -124,12 +159,12 @@ export default {
   }
 
   .repo-link {
-    margin-left: 1.5rem;
+    margin-left: 2rem;
   }
 }
 
 @media (max-width: $MQMobile) {
-  .nav-links {
+  .sidebar .nav-links {
     .nav-item, .repo-link {
       margin-left: 0;
     }

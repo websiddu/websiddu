@@ -94,11 +94,13 @@ function resolveOpenGroupIndex(route, items) {
 
   .nav-links {
     display: none;
-    border-bottom: 1px solid $borderColor;
+    // border-bottom: 1px solid $borderColor;
     padding: 0.5rem 0 0.75rem 0;
 
     a {
-      font-weight: 600;
+      font-weight: 500;
+      display: inline-flex;
+      position: relative;
     }
 
     .nav-item, .repo-link {
