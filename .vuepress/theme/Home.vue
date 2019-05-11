@@ -169,7 +169,6 @@ export default {
 .navigation {
   padding-top: 8vh;
   padding-bottom: 6vh;
-  display: inline-flex;
 }
 
 .nav-item a.nav-link {

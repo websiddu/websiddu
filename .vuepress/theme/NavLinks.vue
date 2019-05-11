@@ -100,8 +100,10 @@ export default {
 
 .nav-links {
   display: flex;
-  max-width: 800px;
+  max-width: 400px;
+  min-width: 380px;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   a {
     color: inherit;
@@ -150,7 +152,6 @@ export default {
   .nav-item {
     position: relative;
     display: inline-block;
-    margin-left: 1.8rem;
     line-height: 2rem;
 
     &:first-child {
@@ -159,7 +160,7 @@ export default {
   }
 
   .repo-link {
-    margin-left: 2rem;
+    margin-left: 1.8rem;
   }
 }
 

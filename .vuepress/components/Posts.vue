@@ -74,8 +74,8 @@ export default {
   .post-title {
     margin: 0;
     margin-bottom: 4px;
-    font-size: 1.5rem;
     a {
+      font-size: 1.5rem;
       font-weight: 500;
     }
   }
