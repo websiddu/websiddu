@@ -1,7 +1,7 @@
 ---
 title: Morning thoughts
 date: February 11, 2017
-description: Here are the list of morning thoughts I had from the past few weeks, some might sound stupid but they are really deep you just have to think which we general do less these days...
+description: Here are the list of morning thoughts I had from the past few weeks, some might sound stupid but they are really deep you just have to think which we general do less these...
 permalink: /blog/morning-thoughts.html
 prev: /blog/questions-i-want-answers-for.html
 ---

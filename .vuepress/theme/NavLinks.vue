@@ -104,8 +104,7 @@ export default {
   a {
     color: inherit;
     line-height: 1.5;
-    padding: 0 8px;
-    font-weight: 500;
+    padding: 0 6px;
 
     &:hover, &.router-link-active {
       color: #fff;

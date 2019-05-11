@@ -38,6 +38,9 @@
       <ClientOnly v-if="isBlog">
         <Disqus shortname="websiddu"/>
       </ClientOnly>
+      <br>
+      <br>
+      <br>
     </div>
 
     <slot name="bottom"/>
@@ -210,7 +213,7 @@ function find(page, items, offset) {
 
   .last-updated {
     float: right;
-    font-size: 0.9em;
+    font-size: 0.88em;
 
     .prefix {
       font-weight: 500;
@@ -267,7 +270,7 @@ function find(page, items, offset) {
 }
 
 .photos-page-title {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
   margin: 4rem 0 1rem 0;
   text-align: center;
@@ -278,7 +281,7 @@ function find(page, items, offset) {
   color: #fff;
   font-weight: 400;
   line-height: 1.5;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: 0 auto 4rem;
   text-align: center;
   opacity: 0.6;
@@ -300,13 +303,13 @@ function find(page, items, offset) {
   }
 
   .photos-page-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 2rem 0 1rem 0;
   }
 
   .photos-page-subtitle {
     margin: 0 auto 0;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
   }
 }
 </style>

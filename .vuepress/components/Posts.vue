@@ -74,8 +74,10 @@ export default {
   .post-title {
     margin: 0;
     margin-bottom: 4px;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 1.5rem;
+    a {
+      font-weight: 500;
+    }
   }
   p.desc {
     margin: 0;
@@ -133,10 +135,11 @@ export default {
       display: flex;
       flex-flow: column;
       .photo-title {
-        font-size: 2rem;
+        font-size: 1.9rem;
         font-weight: 700;
         transform: translateY(24px);
         transition: all 0.2s ease-in-out;
+        margin-bottom: 8px;
       }
       .photo-subtitle {
         line-height: 1.4;

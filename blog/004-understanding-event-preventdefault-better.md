@@ -13,60 +13,59 @@ It's pretty common that many of us use `event.preventDefault` and `return false`
 
 Let's see an example, say in your awesome cool website you have a link to google.com and you want to show google.com in a modal window instead opening up in the new tab, then you will do something similar to below.
 
-{% highlight javascript %}
+```js
 $("a.open_modal").click(function(event) {
   event.preventDefault();
   // Open modal
-  $('#modal').modal(\$(this).attr('href'));
+  $('#modal').modal($(this).attr('href'));
 }
-{% endhighlight %}
+```
 
 The example above is specific to jQuery, However `preventDefault()` is a JavaScript function on an event. Most of the developers think that `preventDefault()` is a jQuery function but its not. See the below example
 
-{% highlight html %}
-
+```html
 <!DOCTYPE html>
 <html>
-<head>
-  <title>preventDefault example</title>
-  <script>
-  function stopDefAction(evt) {
-    evt.preventDefault();
-    alert("You shall not pass!!");
-  }
-  function Init() {
-    document.getElementById('my-form').addEventListener(
-      'submit', stopDefAction, false
-   );
-  }
-  </script>
-</head>
-<body onload="Init()">
-  <p>Please click on the submit button.</p>
-  <form id="my-form">
-    <input type="checkbox" id="my-checkbox" />
-    <label for="my-checkbox">Checkbox</label>
-    <input type="submit" value="Submit" />
-  </form>
-</body>
+  <head>
+    <title>preventDefault example</title>
+    <script>
+      function stopDefAction(evt) {
+        evt.preventDefault();
+        alert("You shall not pass!!");
+      }
+      function Init() {
+        document
+          .getElementById("my-form")
+          .addEventListener("submit", stopDefAction, false);
+      }
+    </script>
+  </head>
+  <body onload="Init()">
+    <p>Please click on the submit button.</p>
+    <form id="my-form">
+      <input type="checkbox" id="my-checkbox" />
+      <label for="my-checkbox">Checkbox</label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
 </html>
-{% endhighlight %}
+```
 
 Above example stops the normal form submit when you click on the submit button. See in action below
 
 <a class="jsbin-embed" href="http://jsbin.com/dasob/8/embed?output">preventDefault example</a><script src="http://static.jsbin.com/js/embed.js"></script>
 
-#### event.defaultPrevented
+## event.defaultPrevented
 
 So now we successfully prevented the default action, now you may ask how do I find out the event is prevented or not. As of Gecko 6.0, calling preventDefault() causes the `event.defaultPrevented` property's value to become true. In short `event.preventDefault()` will make the boolean `event.defaultPrevented` true. A simple if condition to check if default is prevented or not.
 
 > event.defaultPrevented is a boolean turned to true when event.preventDefault() is called.
 
-{% highlight js %}
+```js
 if (e.defaultPrevented) {
-/_ the default was prevented _/
+  // the default was prevented
 }
-{% endhighlight %}
+```
 
 Browser support for event.defaultPrevented
 

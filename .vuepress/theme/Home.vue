@@ -168,19 +168,19 @@ a:not(.is-brand) {
 }
 
 .blurb {
-  font-size: 2.3rem;
-  line-height: 1.5;
-  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 400;
   max-width: 45rem;
-  padding-top: 20vh;
+  padding-top: 17vh;
   padding-bottom: 4vh;
   position: relative;
   color: rgba(0, 0, 0, 0.7);
+  margin-top: 3.5rem !important;
 
   &:after {
     content: '';
     display: inline-block;
-    width: 8vw;
     min-width: 80px;
     height: 4px;
     background: rgba(0, 0, 0, 0.5);
@@ -200,9 +200,8 @@ a:not(.is-brand) {
 }
 
 .nav-item a, a.nav-item {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-right: 3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-right: 3vw;
 }
 
@@ -264,11 +263,11 @@ span.wave {
   }
 
   .blurb {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .nav-item a, a.nav-item {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-right: 0;
   }
 }
