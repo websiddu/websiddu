@@ -13,7 +13,6 @@ cd .vuepress/dist
 # if you are deploying to a custom domain
 echo 'websiddu.com' > CNAME
 
-git init
 git add -A
 git commit -m 'deploy'
 
