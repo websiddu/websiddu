@@ -8,7 +8,7 @@ prev: /blog/try-banana-peanut-chocolate-protein-shake.html
 description: It's obvious that almost all web developer and front-end developers use Sublime Text. Every one has there own use case and reasons for using ST, some might say its clear, fast and slim some might say its beautiful...
 ---
 
-[[toc]]
+<TOC />
 
 It's obvious that almost all web developer and front-end developers use Sublime Text. Every one has there own use case and reasons for using ST, some might say its clear, fast and slim some might say its beautiful, highly customizable and slick. I want to share my ST settings and plugins that I use as a front-end developer.
 

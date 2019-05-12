@@ -8,7 +8,7 @@ permalink: /blog/email-that-paved-my-path.html
 prev: /blog/use-of-using-use-strict-in-js.html
 ---
 
-[[toc]]
+<TOC />
 
 This story takes us back to 2011, the year when I had received my appointment letter from Tata Consultancy Services after patiently waiting for 5 months. On the 23rd of September, I became a part of their Initial Learning Program(ILP) along with 500 other participants. My interests or preferences weren't taken into account when I was allotted the Java stream exactly like <a href="https://www.youtube.com/embed/ZuU8fRrMvMo?rel=0&showinfo=0&autoplay=true" target="_blank">this</a>.
 

@@ -8,7 +8,7 @@ next: /blog/నా-సంతకం-తెలుగు-లో-మరి-మీద
 prev: /blog/integrating-your-node-app-with-uw-saml.html
 ---
 
-[[toc]]
+<TOC />
 
 I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says,
 

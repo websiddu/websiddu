@@ -7,7 +7,7 @@ prev: /blog/morning-thoughts.html
 state: published
 ---
 
-[[toc]]
+<TOC />
 
 Often times when testing a design, it’s useful to create a prototype with realistic data. And giving UX Researchers an easy way to manipulate data allows them to test multiple variations very quickly and see the changes in real time. In this short tutorial we will show you how to sync a Google Sheets spreadsheet to a Firebase Realtime database and use the firebase database in you hi-fi prototype as a data source.
 
