@@ -173,7 +173,7 @@ export default {
 }
 
 .nav-item a.nav-link {
-  font-size: 1.1rem;
+  font-size: 1.03rem;
   font-weight: 500;
   color: #5F6368;
 }

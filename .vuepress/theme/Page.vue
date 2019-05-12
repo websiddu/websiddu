@@ -251,8 +251,8 @@ function find(page, items, offset) {
 
   .prev, .next {
     flex: 1;
-    min-width: 220px;
 
+    // min-width: 220px;
     a {
       display: inline-flex;
       padding: 0 8px;

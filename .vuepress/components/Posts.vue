@@ -57,7 +57,10 @@ export default {
       let currentPage = this.page ? this.page : this.$page.path;
       let posts = this.$site.pages
         .filter(x => {
-          return x.path.match(new RegExp(`(${currentPage})(?=.*html)`));
+          return (
+            x.path.match(new RegExp(`(${currentPage})(?=.*html)`)) &&
+            x.frontmatter.state != "draft"
+          );
         })
         .sort((a, b) => {
           return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
@@ -75,8 +78,8 @@ export default {
     margin: 0;
     margin-bottom: 4px;
     a {
-      font-size: 1.5rem;
-      font-weight: 500;
+      font-size: 1.4rem;
+      font-weight: 700;
     }
   }
   p.desc {
