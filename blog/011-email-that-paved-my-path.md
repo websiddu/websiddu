@@ -16,7 +16,7 @@ It was a rigorous training program which lasted over 90 days with the exception 
 
 ## The Start
 
-Though the opportunity had me elated, a sense of nervousness crept inside me. I was asked to wait outside for the manager during which time I peered through the window to see people seriously staring into their monitors. During the interview though, I held my nerve. It got over in a few minutes but the result wasn't exciting. I was assigned a support team called CRLM (Customer relation some thing...) for Celcom project, one which I wasn't fond of since the beginning. I felt this could be a chance to subdue my discontent to the project. A month had passed since this decision and I realised that this assignment had only fortified my discontent to the project and made me understand that I don't belong here.
+Though the opportunity had me elated, a sense of nervousness crept inside me. I was asked to wait outside for the manager during which time I peered through the window to see people seriously staring into their monitors. During the interview though, I held my nerve. It got over in a few minutes but the result wasn't exciting. I was assigned a support team called CRLM (Customer relation some thing...) for Celcom project, one which I wasn't fond of since the beginning. I felt this could be a chance to subdue my discontent to the project. A month had passed since this decision and I realized that this assignment had only fortified my discontent to the project and made me understand that I don't belong here.
 
 ![It begins](http://i.giphy.com/mxDZecDOOsWCA.gif#center)
 
@@ -40,7 +40,7 @@ after many google searches, I discovered that there is something called web 2.0 
 "How do I get into innovation labs ?" <br>
 "How do innovation labs work ?"<br>
 
-After reading those answers, I learnt that a person needs at-least 2 to 3 years of experience to get into innovation labs (Someone misguided me! dammit! ). I asked a question as well but none answered my question(Funny thing is Ashok, the head of labs answerd that question after I joined the labs. And It read "Now you are here, sing the song of triumph").
+After reading those answers, I learnt that a person needs at-least 2 to 3 years of experience to get into innovation labs (Someone misguided me! dammit! ). I asked a question as well but none answered my question(Funny thing is Ashok, the head of labs answers that question after I joined the labs. And It read "Now you are here, sing the song of triumph").
 
 ![Just Ask](http://4.bp.blogspot.com/-kZfjf7QLb4Y/UjbhrEVgb3I/AAAAAAAAAGE/3ok5Q0NDlMo/s1600/tcs8.JPG#left)
 
