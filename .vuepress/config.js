@@ -4,6 +4,18 @@ const request = require("sync-request");
 
 // UA - 88629726 - 1;
 
+const autometa_options = {
+  author: {
+    name: "Siddhartha Gudipati",
+    twitter: "websiddu"
+  },
+  site: {
+    name: "Siddhartha Gudipati",
+    twitter: "websiddu"
+  },
+  canonical_base: "https://websiddu.com"
+};
+
 module.exports = {
   port: 8089,
   plugins: [
@@ -11,11 +23,12 @@ module.exports = {
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
     "disqus",
+    ["autometa", autometa_options],
     [
-      "@vuepress/google-analytics",
+      ("@vuepress/google-analytics",
       {
         ga: "UA-88629726-1"
-      }
+      })
     ],
     [
       "container",

@@ -3,19 +3,20 @@
 # abort on errors
 set -e
 
-mv .vuepress/dist/.git .vuepress/
+# mv .vuepress/dist/.git .vuepress/
 
 # build
 yarn build
 
 # navigate into the build output directory
-mv .vuepress/.git .vuepress/dist/
+# mv .vuepress/.git .vuepress/dist/
 cd .vuepress/dist
 # cp -R /Users/gsid/Work/personal/websiddu/portfolio.websiddu.com/dist portfolio
 
 # if you are deploying to a custom domain
 echo 'websiddu.com' > CNAME
 
+git init
 git add -A
 git commit -m "Deployed at `date +'%Y-%m-%d %H:%M:%S'`"
 

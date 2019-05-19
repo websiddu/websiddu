@@ -16,6 +16,7 @@
     "sass-loader": "^7.1.0",
     "sync-request": "^6.1.0",
     "vuepress": "^1.0.0-alpha.47",
+    "vuepress-plugin-autometa": "^0.1.10",
     "vuepress-plugin-container": "^2.0.1",
     "vuepress-plugin-reading-time": "^0.1.1"
   },
