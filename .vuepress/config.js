@@ -16,6 +16,10 @@ const autometa_options = {
   canonical_base: "https://websiddu.com"
 };
 
+const feed_options = {
+  canonical_base: "https://websiddu.com"
+};
+
 module.exports = {
   port: 8089,
   plugins: [
@@ -23,7 +27,8 @@ module.exports = {
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
     "disqus",
-    ["autometa", autometa_options],
+    ["feed", feed_options],
+    [("autometa", autometa_options)],
     [
       ("@vuepress/google-analytics",
       {
