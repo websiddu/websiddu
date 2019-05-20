@@ -79,7 +79,7 @@ export default {
     margin-bottom: 4px;
     a {
       font-size: 1.4rem;
-      font-weight: 700;
+      font-weight: 500;
     }
   }
   p.desc {

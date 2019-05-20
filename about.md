@@ -18,5 +18,6 @@ This site is hosted on [Github](https://github.com/websiddu/websiddu). It is bui
 - [Twitter](https://twitter.com/websiddu)
 - [Instagram](https://instagram.com/websiddu)
 - [LinkedIn](https://linkedin.com/websiddu)
+- [RSS Feed](https://websiddu.com/rss.xml)
 
-If you like my posts or want to collaborate or ask for a suggestion drop an email to me@websiddu.com. Also follow me on twitter [@websiddu](https://twitter.com/websiddu) to read my #MorningThoughts.
+If you like my posts or have a suggestion or just want to talk drop an email to me@websiddu.com. Also follow me on twitter [@websiddu](https://twitter.com/websiddu) to read my #MorningThoughts.

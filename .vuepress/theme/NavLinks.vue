@@ -119,10 +119,14 @@ export default {
       bottom: -0.1rem;
       padding: 0 0.2rem;
       left: 0;
-      background-color: #80868B;
       visibility: hidden;
       transform: scaleX(0);
       transition: all 300ms cubic-bezier(0.325, -0.075, 0, 1.65);
+      background-color: $navLinkActiveBarColor;
+    }
+
+    &.router-link-active:before {
+      background-color: $navLinkActiveColor;
     }
 
     &:hover {
@@ -138,7 +142,7 @@ export default {
 
     &.router-link-active {
       // color: $accentColor;
-      color: #000;
+      color: $navLinkActiveColor;
 
       &:before {
         visibility: visible;

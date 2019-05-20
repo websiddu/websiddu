@@ -11,25 +11,34 @@
 
 @font-face
   font-family 'Inter'
-  src url('/fonts/Inter-Regular.eot') format('embedded-opentype'), url('/fonts/Inter-Regular.woff') format('woff'), url('/fonts/Inter-Regular.ttf')  format('truetype'), url('/fonts/Inter-Regular.svg#Inter-Regular') format('svg');
+  src url('/fonts/Inter-Regular.eot') format('embedded-opentype'),
+      url('/fonts/Inter-Regular.woff') format('woff'),
+      url('/fonts/Inter-Regular.ttf')  format('truetype'),
+      url('/fonts/Inter-Regular.svg#Inter-Regular') format('svg');
   font-weight normal
   font-style normal
-  font-display fallback;
+  font-display optional
 
 @font-face
   font-family 'Inter'
-  src url('/fonts/Inter-Medium.eot') format('embedded-opentype'), url('/fonts/Inter-Medium.woff') format('woff'), url('/fonts/Inter-Medium.ttf')  format('truetype'), url('/fonts/Inter-Medium.svg#Inter-Medium') format('svg');
+  src url('/fonts/Inter-Medium.eot') format('embedded-opentype'),
+      url('/fonts/Inter-Medium.woff') format('woff'),
+      url('/fonts/Inter-Medium.ttf')  format('truetype'),
+      url('/fonts/Inter-Medium.svg#Inter-Medium') format('svg');
   font-weight 500
   font-style normal
-  font-display fallback;
+  font-display optional
 
 
 @font-face
   font-family 'Inter'
-  src url('/fonts/Inter-SemiBold.eot') format('embedded-opentype'), url('/fonts/Inter-SemiBold.woff') format('woff'), url('/fonts/Inter-SemiBold.ttf')  format('truetype'), url('/fonts/Inter-SemiBold.svg#Inter-SemiBold') format('svg');
+  src url('/fonts/Inter-SemiBold.eot') format('embedded-opentype'),
+      url('/fonts/Inter-SemiBold.woff') format('woff'),
+      url('/fonts/Inter-SemiBold.ttf') format('truetype'),
+      url('/fonts/Inter-SemiBold.svg#Inter-SemiBold') format('svg');
   font-weight 700
   font-style normal
-  font-display fallback;
+  font-display optional
 
 
 html, body
@@ -350,14 +359,19 @@ th, td
             color #BDC1C6
           &.router-link-active
             color #fff
+            &:before
+              background-color $navLinkActiveBarColor
 
     footer
       border-top-color #3a3a3a
-      a
-        color #ccc
+      a.nav-link
+        color: #BDC1C6
         &:hover
-          border-bottom-color #ccc
-
+          color #BDC1C6
+        &.router-link-active
+          color #fff
+          &:before
+            background-color $navLinkActiveBarColor
 
 
 .home-title
