@@ -7,6 +7,8 @@ next: /blog/morning-thoughts.html
 prev: /blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html
 ---
 
+![Cover — Photo by Evan Dennis on Unsplash](https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558758433/blog/covers/evan-dennis-75563-unsplash.jpg)
+
 Have you ever wondered or lost thinking about something so deep that you want to find an answer even you know that you will never find that answer? Questions like What is the purpose of my life? Why I’m even living here? Etc.. Here some of questions that I would love to get answers for (some of them are really stupid)
 
 - Why am I even writing this blog?

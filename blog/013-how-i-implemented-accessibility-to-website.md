@@ -8,6 +8,8 @@ next: /blog/నా-సంతకం-తెలుగు-లో-మరి-మీద
 prev: /blog/integrating-your-node-app-with-uw-saml.html
 ---
 
+![Cover](https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558759191/blog/covers/absolutvision-1243127-unsplash.jpg)
+
 <TOC />
 
 I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says,
