@@ -12,7 +12,11 @@ export default ({
   Vue.mixin({
     computed: {
       $title() {
-        return `${this.$page.title} — ${this.$siteTitle}`;
+        let type = this.$page.relativePath.split("/")[0];
+
+        return type == "blog"
+          ? this.$page.title
+          : `${this.$page.title} — ${this.$siteTitle}`;
       }
     }
   });
