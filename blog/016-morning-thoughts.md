@@ -1,7 +1,7 @@
 ---
 title: Morning thoughts
 date: February 11, 2017
-description: Here are the list of morning thoughts I had from the past years weeks, some might sound stupid but they are really deep you just have to think which we general do less these...
+description: Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these...
 permalink: /blog/morning-thoughts.html
 prev: /blog/questions-i-want-answers-for.html
 next: /blog/sync-google-sheets-to-firebase.html
@@ -9,7 +9,7 @@ next: /blog/sync-google-sheets-to-firebase.html
 
 ![Cover](https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558756403/blog/covers/daniel-mingook-kim-139409-unsplash.jpg)
 
-Here are the list of morning thoughts I had from the past years weeks, some might sound stupid but they are really deep you just have to think which we general do less these days.
+Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these days.
 
 > It's just the perception of people to think moon gets small on some days. Because they look at it from far away. Likewise you are not small but the people judging you are. Wait for your time to show how big & shiny you are.
 

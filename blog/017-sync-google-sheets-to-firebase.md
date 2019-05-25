@@ -43,7 +43,7 @@ In the menu, go to Tools -> Script editor. It will take you to a code editor wit
 
 Replace the `firebaseUrl` placeholder with your database URL from Step 2. In your menu, go to View -> Show manifest file, which will add a file called `appsscript.json`.
 
-This will add an `appsscript.json` file to your project. Replace the contents with the following [snippet](https://gist.github.com/edwinlee/85ac9033a133d056a8ded6b74f27f30f%23file-code-gs&sa=D&ust=1557640083682000).
+This will add an `appsscript.json` file to your project. Replace the contents with the following [snippet](https://gist.github.com/edwinlee/85ac9033a133d056a8ded6b74f27f30f).
 
 ### Step 5: Start the sync
 
