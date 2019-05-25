@@ -1,13 +1,71 @@
 ---
 title: Morning thoughts
 date: February 11, 2017
-description: Here are the list of morning thoughts I had from the past few weeks, some might sound stupid but they are really deep you just have to think which we general do less these...
+description: Here are the list of morning thoughts I had from the past years weeks, some might sound stupid but they are really deep you just have to think which we general do less these...
 permalink: /blog/morning-thoughts.html
 prev: /blog/questions-i-want-answers-for.html
 next: /blog/sync-google-sheets-to-firebase.html
 ---
 
-Here are the list of morning thoughts I had from the past few weeks, some might sound stupid but they are really deep you just have to think which we general do less these days.
+![Cover](https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558756403/blog/covers/daniel-mingook-kim-139409-unsplash.jpg)
+
+Here are the list of morning thoughts I had from the past years weeks, some might sound stupid but they are really deep you just have to think which we general do less these days.
+
+> It's just the perception of people to think moon gets small on some days. Because they look at it from far away. Likewise you are not small but the people judging you are. Wait for your time to show how big & shiny you are.
+
+> Expectations will lead you mostly to disappoint. Like When you go to a new fancy restaurant, risk of disappointment is high.. however with subway it's extremely low. Expect less from people/things and be less disappointed.
+
+> What is success? What is life? What is life with out success? What is success with out life?
+
+> Generally the world shakes you up rigorously — if you are a can of soda you will burst when someone triggers you. Alternatively you can be a bottle of water and still keep your cool regardless of shaking/provocation and avoid spills.
+
+> Doesn't matter how big you write a zero. The value of zero is always zero. Add value. Don't be a zero.
+
+> Being rich is like long hair you can have many hairstyles and apply any color you want, but being poor is like having a bald head and you can't do much. But what really matters is whats under the hair and inside the head.
+
+> Nobody need to be nobody. Everybody should be unique.
+
+> Belief keeps you sane.
+
+> It's not who you are that defines you, it's who you decided to be that defines who you are. You can choose your own self. Choose wisely.
+
+> Time is magic.
+
+> "You" is not just you. "You" is made/influenced by you, your family, friends, culture, surroundings, society and the internet. So you is not always you. You can't be you unless you give up the other part of you or may be become a yogi/yogini.
+
+> Not all stones gets an opportunity to be something, not all stones that got an opportunity, become a sculpture — some become tiles by giving up.. some become beautiful sculptures by being patient and allowing to chip away all unwanted rock. Don't give up.
+
+> Hard work alone will not bring you success. A bit of luck should favor your hard work. Like even a large firecracker needs a little bit of fire to put a beautiful show in the sky.
+
+> Know that you don't know what you don't know. Knowing this will make you less ignorant.
+
+> Gossiping is like scratching your skin allergies, though it feels good temporarily, there is something wrong happening with you. You gotta fix it ASAP.
+
+> Where logic ends, chaos begins. Where logic begins, chaos ends. Logic brings chaos into order. Be logical.. don't be stupid.
+
+> The reality we think thats real may not be really real.
+
+> It's ok to be not ok. Sometimes the only way to be not sad is by accepting our incapabilities.
+
+> Judging someone's acts without knowing the reasons is like judging the size of an iceberg by just looking at its tip. You never know how deep or shallow it is. Always remember you might be wrong.
+
+> We never laugh for the same joke again. Then.. Why cry for the same problem again and again.
+
+> The brightest light on to your eyes will make you not see things. Don't over do things.. even they are for good.
+
+> Being open to things that you were not open before will make you open the doors for openness and can open up many life choices.
+
+> We all are forced to act helplessly according to the impulses from the modes of material nature. None can refrain us from doing something, not even for a moment. Pause.
+
+> As fire is covered by smoke, the humans are covered by different degrees of lust. Be the fire(pure) with less smoke(impure).
+
+> The process of finding the right partner is like conduct a chemical experiment sometimes you never know why it failed even when you did everything correctly or worked when you know you messed up.
+
+> New year resolutions are things that you were not able to do the previous year. And most likely the list stays the same next year as well.
+
+> Stop dreaming. Start working.
+
+> Bad decisions you made are like putting more salt in the curry. Only things that you could do are try repairing it or discard it completely and start fresh. No point in regretting.
 
 > Having balance is the most important thing, both in life and also bank account. Live thoughtful. Spend careful.
 
@@ -17,7 +75,7 @@ Here are the list of morning thoughts I had from the past few weeks, some might 
 
 > Knowing people is like understanding a piece of art work. The more sophisticated the art/people are the more time you have to spend. Once you know them you may appreciate, enjoy, love them.
 
-> Boeken heart is like a broken glass, even if you try to patch them up it will never be the same. Try not to break hearts.
+> Broken heart is like a broken glass, even if you try to patch them up it will never be the same. Try not to break hearts.
 
 > Everyone does what they want to do, so why bother convincing them what to do or what not to do?
 
