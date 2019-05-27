@@ -77,5 +77,6 @@ export default {
 <style lang='scss' scoped>
 .photo-set {
   overflow: hidden;
+  line-height: 0;
 }
 </style>
