@@ -33,8 +33,7 @@ module.exports = {
     "disqus",
     ["@vuepress/google-analytics", ga_options],
     ["feed", feed_options],
-    [("autometa", autometa_options)],
-
+    ["autometa", autometa_options],
     [
       "container",
       {
