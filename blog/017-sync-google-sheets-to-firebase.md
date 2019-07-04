@@ -7,8 +7,6 @@ prev: /blog/morning-thoughts.html
 state: published
 ---
 
-<TOC />
-
 Often times when testing a design, it’s useful to create a prototype with realistic data. And giving UX Researchers an easy way to manipulate data allows them to test multiple variations very quickly and see the changes in real time. In this short tutorial we will show you how to sync a Google Sheets spreadsheet to a Firebase Realtime database and use the firebase database in you hi-fi prototype as a data source.
 
 Using a Realtime database is easier and faster than directly using the Sheets API. The Firebase free tier also supports up to 100,000 simultaneous connections vs. 400 using the Sheets API. Once the spreadsheet is synced, you can use any stack to access your data very easily.

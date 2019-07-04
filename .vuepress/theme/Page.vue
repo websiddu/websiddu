@@ -1,7 +1,7 @@
 <template>
   <div class="page">
-    <slot name="top"/>
-    <header :class="type" class="content header">
+    <slot name="top" />
+    <header :class="type" class="content__default header">
       <h1 v-if="isBlog">{{$page.frontmatter.title}}</h1>
       <div class="post-meta" v-if="isBlog">{{$page.frontmatter.date}} — {{$page.readingTime.text}}</div>
 
@@ -14,7 +14,7 @@
     <div class="page-edit">
       <div class="edit-link" v-if="editLink">
         <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
-        <OutboundLink/>
+        <OutboundLink />
       </div>
 
       <div class="last-updated" v-if="lastUpdated && isBlog">
@@ -36,14 +36,13 @@
     </div>
     <div class="page-comments">
       <ClientOnly v-if="isBlog">
-        <Disqus shortname="websiddu"/>
+        <Disqus shortname="websiddu" />
       </ClientOnly>
-      <br>
-      <br>
-      <br>
+      <br />
+      <br />
     </div>
 
-    <slot name="bottom"/>
+    <slot name="bottom" />
   </div>
 </template>
 

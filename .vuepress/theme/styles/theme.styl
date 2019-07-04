@@ -89,18 +89,18 @@ body
   .nav-links
     min-width unset
 
-.content:not(.custom) a.img-link
+.content__default:not(.custom) a.img-link
   color: $textColor
 
-.content:not(.custom) a.img-link:hover
+.content__default:not(.custom) a.img-link:hover
   text-decoration none
 
-.content.header
+.content__default.header
   @extend $wrapper-header
   min-height 48px
   position relative
 
-.content:not(.custom)
+.content__default:not(.custom)
   @extend $wrapper
   a:hover
     text-decoration underline
@@ -111,7 +111,7 @@ body
   img
     max-width 100%
 
-.content.custom
+.content__default.custom
   padding 0
   margin 0
   // > *:first-child
@@ -119,11 +119,11 @@ body
   img
     max-width 100%
 
-.content.custom.home
+.content__default.custom.home
   max-width: 1200px;
   margin: 0 10vw;
 
-.content.custom.photos-list
+.content__default.custom.photos-list
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 4vw;
@@ -146,7 +146,7 @@ body
   ol
     list-style-type: telugu
 
-.content.custom.photo-post
+.content__default.custom.photo-post
   max-width 1600px
   width 95vw
   margin 0 auto
@@ -187,13 +187,13 @@ footer
 
 
 @media (max-width: $MQNarrow)
-  .content.custom.photo-post .story
+  .content__default.custom.photo-post .story
     width 80vw
 
 @media (max-width: $MQMobile)
   a[target="_blank"]
     word-break break-all
-  .content.custom.photo-post .story
+  .content__default.custom.photo-post .story
     width 90vw
     h2
       font-size 1.7rem
@@ -239,7 +239,7 @@ strong
 h1, h2, h3, h4, h5, h6
   font-weight 500
   line-height 1.25
-  .content:not(.custom) > &
+  .content__default:not(.custom) > &
     margin-top (0.5rem - $navbarHeight)
     padding-top ($navbarHeight + 1.5rem)
     margin-bottom 0
@@ -319,7 +319,7 @@ th, td
     .sidebar-mask
       display: block
   &.no-navbar
-    .content:not(.custom) > h1, h2, h3, h4, h5, h6
+    .content__default:not(.custom) > h1, h2, h3, h4, h5, h6
         margin-top 1.5rem
         padding-top 0
     .sidebar

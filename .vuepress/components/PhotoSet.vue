@@ -60,11 +60,11 @@ export default {
 
         let url = img.url.replace("w_100", resize).replace("https://", "//");
 
-        let ua = navigator.userAgent.toLowerCase();
+        // let ua = window.navigator.userAgent.toLowerCase();
 
-        if (ua.indexOf("safari") > -1) {
-          url = url.replace(".webp", ".jpeg");
-        }
+        // if (ua.indexOf("safari") > -1) {
+        url = url.replace(".webp", ".jpeg");
+        // }
 
         return {
           url: url,
