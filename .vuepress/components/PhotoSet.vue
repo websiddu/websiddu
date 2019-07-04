@@ -41,15 +41,12 @@ export default {
       let j = 0;
       imgs.forEach(img => (j += img.ratio / minRatio));
       let c = (this.contentWidth - imgs.length * (this.margin * 2)) / j;
-      let imgSize = "w_1600";
-
-      if (this.contentWidth < 800 || imgs.length > 1) {
-        imgSize = "w_800";
-      }
 
       imgs = imgs.map(img => {
         let width = (c / minRatio) * img.ratio;
         let height = c / minRatio;
+
+        let resize = `w_${Math.ceil(width / 100) * 100 + 50}`;
 
         if (
           this.contentWidth < 600 &&
@@ -58,12 +55,19 @@ export default {
         ) {
           width = "inherit";
           height = "inherit";
+          resize = `w_${Math.ceil(this.contentWidth / 100) * 100 + 50}`;
         }
 
-        let resize = `w_${Math.ceil(width / 100) * 100}`;
+        let url = img.url.replace("w_100", resize).replace("https://", "//");
+
+        let ua = navigator.userAgent.toLowerCase();
+
+        if (ua.indexOf("safari") > -1) {
+          url = url.replace(".webp", ".jpeg");
+        }
 
         return {
-          url: img.url.replace("w_100", resize).replace("http://", "//"),
+          url: url,
           width: width + "px",
           height: height + "px",
           margin: this.margin

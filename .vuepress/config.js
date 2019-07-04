@@ -65,7 +65,7 @@ module.exports = {
         const imageArr = [];
 
         images.map(img => {
-          const imgURL = `https://res.cloudinary.com/websiddu/image/upload/c_scale,w_100/photos/${img}.jpeg`;
+          const imgURL = `https://res.cloudinary.com/websiddu/image/upload/c_scale,w_100/photos/${img}.webp`;
           const imgData = request("GET", imgURL);
           let body = imgData.body;
           if (typeof body == "string") {
