@@ -17,7 +17,7 @@ Sketch material is a sketch plugin that will help you generate complex material 
 
 ## Sync to slides
 
-Sync your Sketch artboards to Google Slides with ease.
+Sync your Sketch art boards to Google Slides with ease.
 
 - [Project website](https://websiddu.github.io/sync-to-slides/)
 - [Source code](https://github.com/websiddu/sync-to-slides)

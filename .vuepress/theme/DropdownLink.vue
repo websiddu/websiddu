@@ -20,11 +20,11 @@
               :key="childSubItem.link"
               v-for="childSubItem in subItem.items"
             >
-              <NavLink :item="childSubItem"/>
+              <NavLink :item="childSubItem" />
             </li>
           </ul>
 
-          <NavLink v-else :item="subItem"/>
+          <NavLink v-else :item="subItem" />
         </li>
       </ul>
     </DropdownTransition>
@@ -51,9 +51,7 @@ export default {
   },
 
   methods: {
-    closeDD() {
-      console.log("Close this!");
-    },
+    closeDD() {},
     toggle() {
       this.open = !this.open;
     }

@@ -6,7 +6,7 @@
       :key="img.url"
       :alt="img.url"
       :style="{width: `${img.width}`, height: `${img.height}`, margin: `${margin}px`}"
-    >
+    />
   </section>
 </template>
 
@@ -43,13 +43,13 @@ export default {
       let c = (this.contentWidth - imgs.length * (this.margin * 2)) / j;
       let imgSize = "w_1600";
 
-      if (this.contentWidth < 800) {
+      if (this.contentWidth < 800 || imgs.length > 1) {
         imgSize = "w_800";
       }
 
       imgs = imgs.map(img => {
-        let width = `${(c / minRatio) * img.ratio}px`;
-        let height = `${c / minRatio}px`;
+        let width = (c / minRatio) * img.ratio;
+        let height = c / minRatio;
 
         if (
           this.contentWidth < 600 &&
@@ -60,10 +60,12 @@ export default {
           height = "inherit";
         }
 
+        let resize = `w_${Math.ceil(width / 100) * 100}`;
+
         return {
-          url: img.url.replace("w_100", imgSize).replace("http://", "//"),
-          width: width,
-          height: height,
+          url: img.url.replace("w_100", resize).replace("http://", "//"),
+          width: width + "px",
+          height: height + "px",
           margin: this.margin
         };
       });
@@ -78,5 +80,26 @@ export default {
 .photo-set {
   overflow: hidden;
   line-height: 0;
+  img {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+img[lazy="loaded"] {
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 }
 </style>

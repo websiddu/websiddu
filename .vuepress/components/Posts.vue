@@ -14,7 +14,7 @@
     </template>
     <template v-if="page == 'photos'">
       <router-link :to="post.path" v-for="post in posts" class="photo">
-        <img :src="post.frontmatter.cover" :alt="post.frontmatter.subtitle">
+        <img :src="post.frontmatter.cover" :alt="post.frontmatter.subtitle" />
         <div class="photo-info">
           <div class="photo-title">{{post.frontmatter.title}}</div>
           <div class="photo-subtitle">{{post.frontmatter.subtitle}}</div>
@@ -66,7 +66,6 @@ export default {
           return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
         });
 
-      console.log(posts);
       return posts;
     }
   }

@@ -20,6 +20,10 @@ const feed_options = {
   canonical_base: "https://websiddu.com"
 };
 
+const ga_options = {
+  ga: "UA-88629726-1"
+};
+
 module.exports = {
   port: 8089,
   plugins: [
@@ -27,14 +31,10 @@ module.exports = {
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
     "disqus",
+    ["@vuepress/google-analytics", ga_options],
     ["feed", feed_options],
     [("autometa", autometa_options)],
-    [
-      ("@vuepress/google-analytics",
-      {
-        ga: "UA-88629726-1"
-      })
-    ],
+
     [
       "container",
       {
@@ -65,7 +65,7 @@ module.exports = {
         const imageArr = [];
 
         images.map(img => {
-          const imgURL = `https://res.cloudinary.com/websiddu/image/upload/c_scale,w_100/photos/${img}.webp`;
+          const imgURL = `https://res.cloudinary.com/websiddu/image/upload/c_scale,w_100/photos/${img}.jpeg`;
           const imgData = request("GET", imgURL);
           let body = imgData.body;
           if (typeof body == "string") {
