@@ -15,5 +15,14 @@ permalink: photos/yosemite.html
 :::photoset yosemite/2 yosemite/3
 :::
 
+:::photoset yosemite/7
+:::
+
+:::photoset yosemite/5 yosemite/6
+:::
+
 :::photoset yosemite/1
+:::
+
+:::photoset yosemite/4 yosemite/8
 :::
