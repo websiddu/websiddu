@@ -11,6 +11,10 @@ next: /blog/sync-google-sheets-to-firebase.html
 
 Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these days.
 
+> Don't hurry and don't worry. You are neither early or nor too late. Your time will come.
+
+> It is what it is.
+
 > It's just the perception of people to think moon gets small on some days. Because they look at it from far away. Likewise you are not small but the people judging you are. Wait for your time to show how big & shiny you are.
 
 > Expectations will lead you mostly to disappoint. Like When you go to a new fancy restaurant, risk of disappointment is high.. however with subway it's extremely low. Expect less from people/things and be less disappointed.
