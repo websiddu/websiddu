@@ -130,15 +130,15 @@ Not all colorblindness common, share of different type of colorblind humans worl
 
 ## How do I Design?
 
-### When designing Red & Green
+### Designing for red/green
 
 - Don’t just rely on color to differentiate between data.
 - Use some kind of additional indicator to show the difference. E.g Icon, +ve -ve signs, fill patterns
 
 When using conditional formatting in tables don't just rely on red & green, add an additional indicator like an icon here shown below.
 
-<Spec d="https://res.cloudinary.com/websiddu/image/upload/v1562401336/blog/018/1d.png"
-dnt="https://res.cloudinary.com/websiddu/image/upload/v1562401336/blog/018/1dnt.png" />
+<Spec d="https://res.cloudinary.com/websiddu/image/upload/v1562405056/blog/018/1d.png"
+dnt="https://res.cloudinary.com/websiddu/image/upload/v1562405056/blog/018/1dnt.png" />
 
 Similarly when showing a scorecard, don't just rely on the color alone, use an additional indicator to denote the special situation
 
