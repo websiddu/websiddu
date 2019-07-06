@@ -2,11 +2,11 @@
   <div class="do-dont">
     <div class="dont">
       <img :src="dnt" alt />
-      <div class="label">Dont.</div>
+      <div class="label">👎🏽Dont.</div>
     </div>
     <div class="do">
       <img :src="d" alt />
-      <div class="label">Do.</div>
+      <div class="label">👍🏽Do.</div>
     </div>
   </div>
 </template>
@@ -39,7 +39,7 @@ export default {
         left: 0;
         right: -2px;
         position: absolute;
-        height: 4px;
+        height: 3px;
         background: #ee675c;
         border-radius: 0 0 4px 4px;
       }
