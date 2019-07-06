@@ -27,7 +27,7 @@ tags:
 
 One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness. Let’s jump right in,
 
-> Color blindness is not ‘color blindness’!
+> Color blindness is not "color blindness"!
 
 There are still a lot of people who think that if you are colorblind you really can’t see any colors. But the term is misleading, as more than 99% of all colorblind people can see colors. A better wording would be color vision deficiency, which describes this visual disorder more precisely.
 
@@ -39,7 +39,9 @@ Color perception build up by three different types of cones[1]. Each type is sen
 
 ## Understanding vision deficiency
 
-Let’s look at a human eye and understand its construction,
+Let’s look at a human eye and understand what it is constructed of, we all know retina is responsible for our vision and the retina is built with a number of atomic cells called cones and rods. Cone cells, or cones, are photoreceptor cells in the retinas of vertebrate eyes that will they respond differently to light of different wavelengths, and are thus responsible for color vision and function best in relatively bright light, as opposed to rod cells, which are responsible for seeing in dim light.
+
+Cones contain one of three different photopigments. This makes cones sensitive to long (red), medium (green), or short (blue) wavelengths of light. The presence of three types of photopigments, each sensitive to a different part of the visual spectrum, is what gives us our rich color vision. Humans are unusual among mammals for our trichromatic vision – named for the three different types of photopigments we have. Here are the three types of cones responsive to different wavelengths,
 
 ![Img](//res.cloudinary.com/websiddu/image/upload/c_scale,w_450/v1562349079/blog/018/chart.png#right)
 
@@ -51,7 +53,7 @@ Let’s look at a human eye and understand its construction,
 <br >
 <br >
 
-### Type of color vision deficiency
+So when one or more types of these cones are missing/defective the vision deficiency occurs and can see fewer or no colors. There are 3 types of vision deficiency,
 
 **Monochromatism**
 Either no cones available or just one type of them.
@@ -61,6 +63,18 @@ Only two different cone types. Third one is missing completely.
 
 **Anomalous trichromatism (Anomaly)**
 All three types exists but with shifted peaks of sensitivity for one of them, which results in a smaller color spectrum.
+
+Based on the cone type missing or defective, there are many types of colorblindness, for e.g, if a person is missing (anopia) red cones (protan) its called Proto-anopia, if they have malfunctioned (anomaly) red cones(protan) its called Proto-anomaly, similar for all the other 2 cone types.
+
+And below image shows how the the different wavelengths are missing or disoriented from the normal cone curves,
+
+![Image showing the different wavelengths](https://res.cloudinary.com/websiddu/image/upload/v1562400013/blog/018/cones.png)
+
+here is what different colorblind people see from the original colors,
+
+<ColorBlindHelper />
+
+Not all colorblindness common, share of different type of colorblind humans worldwide and it looks like below,
 
 <table style="font-size: 14px">
 <tr>
@@ -120,6 +134,15 @@ All three types exists but with shifted peaks of sensitivity for one of them, wh
 
 - Don’t just rely on color to differentiate between data.
 - Use some kind of additional indicator to show the difference. E.g Icon, +ve -ve signs, fill patterns
+
+When using conditional formatting in tables don't just rely on red & green, add an additional indicator like an icon here shown below.
+
+<Spec d="https://res.cloudinary.com/websiddu/image/upload/v1562401336/blog/018/1d.png"
+dnt="https://res.cloudinary.com/websiddu/image/upload/v1562401336/blog/018/1dnt.png" />
+
+Similarly when showing a scorecard, don't just rely on the color alone, use an additional indicator to denote the special situation
+
+<Spec d="https://res.cloudinary.com/websiddu/image/upload/v1562402569/blog/018/2d.png" dnt="https://res.cloudinary.com/websiddu/image/upload/v1562402569/blog/018/2dnt.png" />
 
 ### Creating color blind friendly charts
 
