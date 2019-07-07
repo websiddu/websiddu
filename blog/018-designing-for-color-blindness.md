@@ -66,7 +66,7 @@ All three types exists but with shifted peaks of sensitivity for one of them, wh
 
 Based on the cone type missing or defective, there are many types of colorblindness, for e.g, if a person is missing (anopia) red cones (protan) its called Proto-anopia, if they have malfunctioned (anomaly) red cones(protan) its called Proto-anomaly, similar for all the other 2 cone types.
 
-And below image shows how the the different wavelengths are missing or disoriented from the normal cone curves,
+And below image shows how different wavelengths are missing or disoriented from the normal cone curves,
 
 ![Image showing the different wavelengths](https://res.cloudinary.com/websiddu/image/upload/v1562400013/blog/018/cones.png)
 
@@ -175,9 +175,9 @@ also try to avoiding bad color combos
 
 #### Use a colorblind friendly color palette
 
-By using a colorblind safe color palette, you are making sure that everyone can capture the differences and meanings of the information presented in the chart, as well as easily remember things you have put focus on.
+By using a colorblind-safe color palette, you are making sure that everyone can capture the differences and meanings of the information presented in the chart, as well as easily remember things you have put focus on.
 
-The following are some colorblind safe color palette
+The following are some colorblind-safe color palette
 
 <ColorBlindColors />
 
@@ -189,15 +189,22 @@ Clearly label the information when necessary, this helps to avoid confusion.
 
 #### Provide a fallback
 
-If any of the above steps won’t optimize the graph, then provide a fallback of the data in a tabular format.
+If any of the above steps won’t optimize the graph, then provide a fallback of the data in a tabular or a readable format. Like shown in the below chart provide an option to toggle to the raw data view.
+
+<ColorBlindFallBack />
 
 ## What software should I use?
 
-- [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/)
-- [Sketch Stark](https://getstark.co/)
-- [Chrome plugin](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa?hl=en)
+It is important that we test our designs beforehand, but there might not be always a colorblind person accessible to help you in testing your designs. Thanks to technology, there are some softwares that can simulate different type of colorblindness, the best one out of all is Sim Daltonism, a tiny MacOS only app that let's check your designs and websites with easy. There are other software but I recommend using Sim Daltonism.
 
-## Reference
+![Screenshot of Sim Daltonism software](https://res.cloudinary.com/websiddu/image/upload/v1562479031/blog/018/software.png)
+
+- [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/)
+- Alternates
+  - [Sketch Stark](https://getstark.co/)
+  - [Chrome plugin](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa?hl=en)
+
+## References
 
 - [Color-Blind-Essentials](http://www.color-blindness.com/wp-content/documents/Color-Blind-Essentials.pdf) by Daniel
 - [Web Design for Color Blind Persons](http://www.journal.faa-design.com/pdf/4-4-tawfeek.pdf)
