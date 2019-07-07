@@ -233,9 +233,10 @@ export default {
     height: 32px;
     display: flex;
     align-items: center;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+    color: #5f6368;
     .clr-block {
       height: 32px;
       width: 30px;

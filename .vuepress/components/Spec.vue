@@ -25,6 +25,7 @@ export default {
   .dont {
     flex: 1;
     position: relative;
+    min-width: 230px;
 
     img {
       line-height: 1;
@@ -60,6 +61,17 @@ export default {
         background: #5bb974;
       }
     }
+  }
+}
+
+@media (max-width: 719px) {
+  .do-dont .do {
+    margin-left: 0;
+  }
+
+  .do-dont .dont {
+    margin-right: 0;
+    margin-bottom: 24px;
   }
 }
 </style>

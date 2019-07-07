@@ -13,13 +13,13 @@
         </select>
         <img :src="img2.photo" :alt="img2.name" width="160px" height="320px" />
       </div>
-      <div class="prev">
+      <div class="prev hm">
         <select v-model="img3">
           <option v-for="option in options" :value="option">{{option.name}}</option>
         </select>
         <img :src="img3.photo" :alt="img3.name" width="160px" height="320px" />
       </div>
-      <div class="prev">
+      <div class="prev hm">
         <select v-model="img4">
           <option v-for="option in options" :value="option">{{option.name}}</option>
         </select>
@@ -109,6 +109,7 @@ export default {
 .image-preview {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   .prev {
     width: 160px;
   }
@@ -118,6 +119,12 @@ export default {
   select {
     width: 160px;
     margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 719px) {
+  .hm {
+    display: none;
   }
 }
 </style>
