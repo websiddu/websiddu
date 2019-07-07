@@ -5,25 +5,25 @@
         <select v-model="img1" disabled>
           <option :value="img1">Normal</option>
         </select>
-        <img :src="img1.photo" :alt="img1.name" width="160px" height="580px" />
+        <img :src="img1.photo" :alt="img1.name" width="160px" height="320px" />
       </div>
       <div class="prev">
         <select v-model="img2">
           <option v-for="option in options" :value="option">{{option.name}}</option>
         </select>
-        <img :src="img2.photo" :alt="img2.name" width="160px" height="580px" />
+        <img :src="img2.photo" :alt="img2.name" width="160px" height="320px" />
       </div>
       <div class="prev">
         <select v-model="img3">
           <option v-for="option in options" :value="option">{{option.name}}</option>
         </select>
-        <img :src="img3.photo" :alt="img3.name" width="160px" height="580px" />
+        <img :src="img3.photo" :alt="img3.name" width="160px" height="320px" />
       </div>
       <div class="prev">
         <select v-model="img4">
           <option v-for="option in options" :value="option">{{option.name}}</option>
         </select>
-        <img :src="img4.photo" :alt="img4.name" width="160px" height="580px" />
+        <img :src="img4.photo" :alt="img4.name" width="160px" height="320px" />
       </div>
     </div>
   </div>

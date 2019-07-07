@@ -20,6 +20,7 @@ export default {
 <style lang='scss'>
 .do-dont {
   display: flex;
+  flex-wrap: wrap;
   .do,
   .dont {
     flex: 1;
@@ -33,6 +34,8 @@ export default {
     .label {
       font-weight: 500;
       line-height: 40px;
+      color: #80868b;
+      font-size: 15px;
 
       &:before {
         content: "";

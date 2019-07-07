@@ -4,6 +4,7 @@ date: May 11, 2019
 description: Often times when testing a design, it’s useful to create a prototype with realistic data. And giving UX Researchers an easy way to manipulate data allows them to test multiple variations very quickly and...
 permalink: /blog/sync-google-sheets-to-firebase.html
 prev: /blog/morning-thoughts.html
+next: /blog/designing-for-color-blindness.html
 state: published
 ---
 

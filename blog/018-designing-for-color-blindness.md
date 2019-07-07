@@ -1,8 +1,8 @@
 ---
-title: Designing for colorblind users
+title: Designing for color blindness
 date: Jul 05, 2019
 description: One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..
-permalink: /blog/designing-for-colorblind.html
+permalink: /blog/designing-for-color-blindness.html
 prev: /blog/sync-google-sheets-to-firebase.html
 state: published
 autometa:
@@ -144,17 +144,46 @@ Similarly when showing a scorecard, don't just rely on the color alone, use an a
 
 <Spec d="https://res.cloudinary.com/websiddu/image/upload/v1562402569/blog/018/2d.png" dnt="https://res.cloudinary.com/websiddu/image/upload/v1562402569/blog/018/2dnt.png" />
 
-### Creating color blind friendly charts
+When designing form validations make sure you are not just relying on color alone to convey the message; e.g like below take a simple form when the user submits an incomplete while the text itself is enough its better to mix the message with an icon giving stronger indication focus.
+
+<Spec d="https://res.cloudinary.com/websiddu/image/upload/v1562439500/blog/018/3d.png" dnt="https://res.cloudinary.com/websiddu/image/upload/v1562439500/blog/018/3dnt.png" />
+
+### Designing color blind friendly charts
 
 #### Leverage dark and light when necessary
 
 Sometimes your chart design will require a combination that is considered unsuitable for those who are color blind. In cases where you must use combinations like red and green, it’s highly recommended that you leverage a dark vs. light combination.
 
+<Spec dnt="https://res.cloudinary.com/websiddu/image/upload/v1562441167/blog/018/4dnt.png" d="https://res.cloudinary.com/websiddu/image/upload/v1562441167/blog/018/4d.png" />
+
 #### Alternatives for distinguishing information.
 
 Think of alternatives to color, like fill patterns and symbols to indicate different colors.
 
-#### Label information when necessary.
+<Spec dnt="https://res.cloudinary.com/websiddu/image/upload/v1562443364/blog/018/5dnt.png" d="https://res.cloudinary.com/websiddu/image/upload/v1562443364/blog/018/5d.png" />
+
+also try to avoiding bad color combos
+
+- Green & Red
+- Green & Brown
+- Blue & Purple
+- Green & Blue
+- Light Green & Yellow
+- Blue & Grey
+- Green & Grey
+- Green & Black
+
+#### Use a colorblind friendly color palette
+
+By using a colorblind safe color palette, you are making sure that everyone can capture the differences and meanings of the information presented in the chart, as well as easily remember things you have put focus on.
+
+The following are some colorblind safe color palette
+
+<ColorBlindColors />
+
+To learn more visit https://colorbrewer2.org
+
+#### Label information when necessary
 
 Clearly label the information when necessary, this helps to avoid confusion.
 
