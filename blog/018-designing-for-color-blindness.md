@@ -33,7 +33,7 @@ There are still a lot of people who think that if you are colorblind you really 
 
 So what actually is color vision deficiency? In simpler words, if you are suffering from a color vision deficiency you perceive a narrower color spectrum compared to somebody with normal color vision.
 
-Color perception build up by three different types of cones[1]. Each type is sensitive to a certain wavelength of light (red, green, blue). Every perceived color is therefore a mixture of stimuli of those three cone types.
+Color perception build up by three different types of cones. Each type is sensitive to a certain wavelength of light (red, green, blue). Every perceived color is therefore a mixture of stimuli of those three cone types.
 
 **So why is this important?** Approximately 8% of all men and 0.5% of all women worldwide are affected by color vision deficiency.
 
@@ -200,7 +200,7 @@ It is important that we test our designs beforehand, but there might not be alwa
 ![Screenshot of Sim Daltonism software](https://res.cloudinary.com/websiddu/image/upload/v1562479031/blog/018/software.png)
 
 - [Sim Daltonism](https://michelf.ca/projects/sim-daltonism/)
-- Alternates
+- Alternatives
   - [Sketch Stark](https://getstark.co/)
   - [Chrome plugin](https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa?hl=en)
 
