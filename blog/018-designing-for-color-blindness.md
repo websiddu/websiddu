@@ -211,3 +211,5 @@ It is important that we test our designs beforehand, but there might not be alwa
 - [Color blindness: how to design an accessible user interface](https://uxdesign.cc/color-blindness-in-user-interfaces-66c27331b858)
 - [Color Blindness Simulator](http://www.color-blindness.com/coblis-color-blindness-simulator/)
 - [Using color blind simulator](http://accelconf.web.cern.ch/AccelConf/icalepcs2017/papers/thsh103.pdf)
+
+If you like the post or have a suggestion? Please leave a comment below and also don't forget to follow me on twitter [@websiddu](https://twitter.com/websiddu)
