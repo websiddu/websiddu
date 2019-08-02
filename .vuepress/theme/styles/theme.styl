@@ -102,8 +102,13 @@ body
 
 .content__default:not(.custom)
   @extend $wrapper
+  a
+    border-bottom 2px solid #e2eafd
   a:hover
-    text-decoration underline
+    color #2161f2
+    background #f0f4fe
+    border-bottom 2px solid #2161f2
+    font-weight 500
   p.demo
     padding 1rem 1.5rem
     border 1px solid #ddd
@@ -237,7 +242,6 @@ strong
   font-weight 500
 
 h1, h2, h3, h4, h5, h6
-  font-weight 500
   line-height 1.25
   .content__default:not(.custom) > &
     margin-top (0.5rem - $navbarHeight)
@@ -257,9 +261,8 @@ h1
   font-size 2.2rem
 
 h2
-  font-size 1.65rem
+  font-size 1.8rem
   padding-bottom .3rem
-  // border-bottom 1px solid $borderColor
 
 h3
   font-size 1.35rem
@@ -327,6 +330,25 @@ th, td
     .custom-layout
       padding-top 0
 
+.btn
+  -webkit-appearance: none;
+  display: inline-block;
+  border-radius: 4px;
+  border: 0
+  background: #607d8b;
+  color: #fff;
+  text-transform: none;
+  padding: .6rem .7rem .6rem .6rem;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 0.95rem
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+  display inline-flex
+  align-items center
+
+
 .theme-container
   &.dark
     background $darkBackground
@@ -359,6 +381,14 @@ th, td
             color #fff
             &:before
               background-color $navLinkActiveBarColor
+
+    .author
+      background-color $darkBackground
+      border-top-color #3a3a3a
+      .container
+        background-color $darkBackground
+        box-shadow 0 0 8px #0000004d
+
 
     footer
       border-top-color #3a3a3a

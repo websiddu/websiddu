@@ -6,10 +6,8 @@
         <h3 class="post-title">
           <router-link :to="post.path">{{post.frontmatter.title}}</router-link>
         </h3>
-        <p class="desc">
-          {{post.frontmatter.description}}
-          <router-link :to="post.path">continue →</router-link>
-        </p>
+        <p class="desc">{{post.frontmatter.description}}</p>
+        <!-- <router-link :to="post.path">continue →</router-link> -->
       </section>
     </template>
     <template v-if="page == 'photos'">
@@ -74,7 +72,7 @@ export default {
 
 <style lang="scss" scoped>
 .post {
-  margin-bottom: 4.5rem;
+  margin-bottom: 3.5rem;
   .post-title {
     margin: 0;
     margin-bottom: 4px;
@@ -86,6 +84,10 @@ export default {
   p.desc {
     margin: 0;
     text-rendering: optimizeLegibility;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
   time {
     color: #888;

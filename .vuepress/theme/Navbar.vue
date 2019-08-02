@@ -1,13 +1,13 @@
 <template>
   <header class="navbar">
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
+    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
     <router-link :to="$localePath" class="home-link">
       <img
         class="logo"
         v-if="$site.themeConfig.logo"
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
-      >
+      />
       <!-- <span
         ref="siteName"
         class="site-name"
@@ -19,7 +19,7 @@
     <div class="links" :style="{
         'max-width': linksWrapMaxWidth + 'px'
       }">
-      <NavLinks class="can-hide"/>
+      <NavLinks class="can-hide" />
     </div>
   </header>
 </template>

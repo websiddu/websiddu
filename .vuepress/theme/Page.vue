@@ -10,17 +10,68 @@
     </header>
 
     <Content :class="type"></Content>
-
     <div class="page-edit">
       <div class="edit-link" v-if="editLink">
         <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
         <OutboundLink />
       </div>
+      <div class="page-actions" v-if="isBlog">
+        <a
+          class="btn"
+          :href="`http://twitter.com/share?text=${$page.frontmatter.title}&amp;url=https://websiddu.com/${$page.frontmatter.permalink}&amp;via=websiddu`"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="18" cy="5" r="3" />
+            <circle cx="6" cy="12" r="3" />
+            <circle cx="18" cy="19" r="3" />
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+          </svg>
+          &nbsp;Share
+        </a>
+        &nbsp;&nbsp;
+        <button class="btn" @click="discuss = true" v-if="!discuss">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+          </svg>
+          &nbsp;Discuss
+        </button>
+      </div>
+
+      <div style="flex: 1;"></div>
 
       <div class="last-updated" v-if="lastUpdated && isBlog">
         <span class="prefix">{{ lastUpdatedText }}:</span>
         <span class="time">{{ lastUpdated }}</span>
       </div>
+    </div>
+
+    <div class="page-comments" v-if="discuss">
+      <ClientOnly v-if="isBlog">
+        <Disqus shortname="websiddu" />
+      </ClientOnly>
+      <br />
     </div>
 
     <div class="page-nav" v-if="prev || next">
@@ -34,12 +85,10 @@
         </span>
       </p>
     </div>
-    <div class="page-comments">
-      <ClientOnly v-if="isBlog">
-        <Disqus shortname="websiddu" />
-      </ClientOnly>
-      <br />
-      <br />
+    <div class="author" v-if="isBlog">
+      <div class="content__default">
+        <Me></Me>
+      </div>
     </div>
 
     <slot name="bottom" />
@@ -51,6 +100,11 @@ import { resolvePage, normalize, outboundRE, endingSlashRE } from "./util";
 
 export default {
   props: ["sidebarItems", "type"],
+  data() {
+    return {
+      discuss: false
+    };
+  },
 
   computed: {
     isBlog() {
@@ -200,6 +254,8 @@ function find(page, items, offset) {
   padding-top: 1rem;
   padding-bottom: 1rem;
   overflow: auto;
+  display: flex;
+  align-items: center;
 
   .edit-link {
     display: inline-block;
@@ -266,6 +322,12 @@ function find(page, items, offset) {
     justify-content: flex-end;
     text-align: right;
   }
+}
+
+.author {
+  background: #fafafa;
+  padding: 32px 0;
+  border-top: solid 1px #eee;
 }
 
 .photos-page-title {
