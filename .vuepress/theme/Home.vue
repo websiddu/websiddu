@@ -100,7 +100,7 @@ export default {
   display: inline-block;
 
   img {
-    height: 48px;
+    height: 54px;
   }
 }
 
