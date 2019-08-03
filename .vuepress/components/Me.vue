@@ -1,14 +1,14 @@
 <template>
   <div>
-    <div class="container">
-      <div class="image">
+    <div class="me-container">
+      <div class="me-image">
         <img
           src="//res.cloudinary.com/websiddu/image/upload/c_scale,w_300/v1564721811/photos/misc/sid.jpg"
           alt="Siddhartha Gudipati"
           class="image"
         />
       </div>
-      <div class="content">
+      <div class="me-content">
         I'm Sid, a designer. I write about my random thoughts, some tech, ux and also post pictures I clicked with my Sony a7iii. If you enjoy content follow me on twitter.
         <div style="margin-bottom: 12px;" />
         <a
@@ -29,8 +29,10 @@
 export default {};
 </script>
 
-<style lang='scss' scoped>
-.container {
+<style lang="stylus">
+@import '../theme/styles/config.styl';
+
+.me-container {
   background: #fff;
   padding: 24px 32px 24px 24px;
   box-shadow: 0 0 8px #eee;
@@ -40,6 +42,7 @@ export default {};
   justify-content: center;
   margin: 0 auto;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 
 .image {
@@ -48,7 +51,18 @@ export default {};
   margin-right: 18px;
 }
 
-.content {
+.me-content {
   flex: 1;
+}
+
+@media (max-width: $MQMobile) {
+  .me-container {
+    flex-flow: column;
+  }
+
+  .me-image {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
 }
 </style>

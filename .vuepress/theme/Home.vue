@@ -19,13 +19,13 @@
         <Content custom />
         <div class="navigation">
           <nav class="nav-links">
-            <div class="nav-item">
+            <!-- <div class="nav-item">
               <a
                 href="https://websiddu-portfolio.appspot.com"
                 target="_blank"
                 class="nav-link"
               >Portfolio</a>
-            </div>
+            </div>-->
             <div class="nav-item">
               <router-link to="/blog" class="nav-link">Articles</router-link>
             </div>

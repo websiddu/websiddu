@@ -352,14 +352,18 @@ function find(page, items, offset) {
 
 @media (max-width: $MQMobile) {
   .page-edit {
+    flex-direction: column-reverse;
+    align-items: unset;
+
     .edit-link {
-      margin-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
 
     .last-updated {
       font-size: 0.8em;
       float: none;
       text-align: left;
+      margin-bottom: 1rem;
     }
   }
 

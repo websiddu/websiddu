@@ -9,11 +9,10 @@
           <a href="https://github.com/websiddu" target="_blank" class="nav-link">Github</a>
         </div>
         <div class="nav-item">
-          <a
-            href="https://github.com/websiddu/websiddu"
-            target="_blank"
-            class="nav-link"
-          >View source</a>
+          <a href="https://github.com/websiddu/websiddu" target="_blank" class="nav-link">Source</a>
+        </div>
+        <div class="nav-item">
+          <a href="https://websiddu.com/feed.atom" target="_blank" class="nav-link">Feed</a>
         </div>
         <div class="nav-spacer"></div>
         <div class="nav-item">
@@ -44,6 +43,7 @@ export default {};
 .footer-content {
   display: flex;
   @extend $wrapper;
+  flex-wrap: wrap;
   width: 100%;
 
   .nav-links {
@@ -62,5 +62,14 @@ export default {};
 
 .nav-spacer {
   flex: 1;
+}
+
+@media (max-width: $MQMobile) {
+  .footer-content {
+    .nav-links {
+      min-width: unset;
+      justify-content: unset;
+    }
+  }
 }
 </style>

@@ -133,6 +133,9 @@ $navbar-horizontal-padding = 1.5rem;
 @media (max-width: $MQMobile) {
   .navbar {
     padding-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     .can-hide {
       display: none;
@@ -140,6 +143,9 @@ $navbar-horizontal-padding = 1.5rem;
 
     .links {
       padding-left: 1.5rem;
+    }
+
+    .home-link {
     }
   }
 }
