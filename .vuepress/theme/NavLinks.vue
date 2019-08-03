@@ -2,14 +2,14 @@
   <nav class="nav-links" v-if="userLinks.length || repoLink">
     <!-- user links -->
     <div class="nav-item" v-for="item in userLinks" :key="item.link">
-      <DropdownLink v-if="item.type === 'links'" :item="item"/>
-      <NavLink v-else :item="item"/>
+      <DropdownLink v-if="item.type === 'links'" :item="item" />
+      <NavLink v-else :item="item" />
     </div>
 
     <!-- repo link -->
     <a v-if="repoLink" :href="repoLink" class="repo-link" target="_blank" rel="noopener noreferrer">
       {{ repoLabel }}
-      <OutboundLink/>
+      <OutboundLink />
     </a>
   </nav>
 </template>
@@ -116,7 +116,7 @@ export default {
       position: absolute;
       right: 0;
       height: 2px;
-      bottom: -0.1rem;
+      bottom: 1px;
       padding: 0 0.2rem;
       left: 0;
       visibility: hidden;

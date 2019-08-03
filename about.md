@@ -6,7 +6,7 @@ title: "About — Siddhartha Gudipati"
 
 My name is Siddhartha, I'm a designer, developer, armature photographer sometimes a thinker hailing from a tiny South Indian [village](https://www.google.com/maps/@16.4209652,80.7832448,606m/data=!3m1!1e3). I currently work as a Sr. Interaction designer at [Google](https://about.google/intl/en_us/) living in the bay area. Before Google I was interning at [Yahoo](https://www.yahoo.com) and before that I worked at [TCS Innovation labs](https://www.tcs.com).
 
-I started this website to share some of my thoughts about design, tech or life in general. I also post pictures I clicked as an armature photographer when travelling on this website.
+I started this website to share some of my thoughts about design, tech or life in general. I also post pictures I clicked as an armature photographer on this site.
 
 ![Siddhartha Gudipati](https://res.cloudinary.com/websiddu/image/upload/c_scale,w_800/v1564824294/photos/misc/sid_1.jpg)
 
@@ -31,6 +31,5 @@ I started this website to share some of my thoughts about design, tech or life i
 - **Editor**: [Visual Studio Code](https://code.visualstudio.com)
 - **Site generator**: [Vuepress](https://v1.vuepress.vuejs.org)
 - **Typeset**: [Inter](https://rsms.me/inter/)
-  <!-- If you like my posts or have a suggestion or just want to talk drop an email to me@websiddu.com. Also follow me on twitter [@websiddu](https://twitter.com/websiddu) to read my #MorningThoughts. -->
 
-<!-- - [RSS Feed](https://websiddu.com/rss.xml) -->
+If you like my posts or have a suggestion or just want to talk drop an email to me@websiddu.com. Also follow me on twitter [@websiddu](https://twitter.com/websiddu) to read my #MorningThoughts.

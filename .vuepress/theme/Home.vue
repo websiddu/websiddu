@@ -27,7 +27,7 @@
               >Portfolio</a>
             </div>
             <div class="nav-item">
-              <router-link to="/blog" class="nav-link">Blog</router-link>
+              <router-link to="/blog" class="nav-link">Articles</router-link>
             </div>
             <div class="nav-item">
               <router-link to="/photos" class="nav-link">Photos</router-link>

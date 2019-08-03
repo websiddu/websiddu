@@ -120,7 +120,7 @@ module.exports = {
         title: "Home — Siddhartha Gudipati"
       },
       {
-        text: "Blog",
+        text: "Articles",
         link: "/blog/"
       },
       {
