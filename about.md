@@ -15,7 +15,8 @@ I started this website to share some of my thoughts about design, tech or life i
 - **Email**: me@websiddu.com
 - **Twitter**: [websiddu](https://twitter.com/websiddu)
 - **Instagram**: [websiddu](https://instagram.com/websiddu)
-- **LinkedIn**: [websiddu](https://linkedin.com/websiddu)
+- **LinkedIn**: [websiddu](https://linkedin.com/in/websiddu)
+- **Github**: [websiddu](https://github.com/websiddu)
 
 ## Gear
 
