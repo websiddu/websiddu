@@ -110,7 +110,7 @@ module.exports = {
   ],
   title: "Siddhartha Gudipati",
   themeConfig: {
-    logo: "/img/logo.svg",
+    logo: "/img/logo.new.svg",
     title: "Siddhartha Gudipati",
     search: false,
     nav: [

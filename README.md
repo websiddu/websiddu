@@ -2,7 +2,7 @@
 
 Personal website running on Vuepress, Vue, and Github pages.
 
-# Installation
+## Installation
 
 ```
   git clone https://github.com/websiddu/websiddu
@@ -11,10 +11,10 @@ Personal website running on Vuepress, Vue, and Github pages.
   yarn run dev
 ```
 
-# Contributing
+## Contributing
 
 If you see any typos or formatting errors in a post, or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!
 
-# Author
+## Author
 
 - [Siddhartha Gudipati](http://twitter.com/websiddu)
