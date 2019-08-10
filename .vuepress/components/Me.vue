@@ -9,7 +9,7 @@
         />
       </div>
       <div class="me-content">
-        I'm Sid, a designer. I write about my random thoughts, some tech, ux and also post pictures I clicked with my Sony a7iii. If you enjoy content follow me on twitter.
+        I'm Sid, a designer. I write about tech, ux, life, random thoughts and also post pictures I clicked with my Sony a7iii. If you enjoy content follow me on twitter.
         <div style="margin-bottom: 12px;" />
         <a
           href="https://twitter.com/websiddu?ref_src=twsrc%5Etfw"

@@ -91,6 +91,18 @@ Let’s jump into designing the website. Don’t just think draw them out on a p
 
 95% of the portfolio website will contain the above 8 sections. You may have different designs by rearranging these components.
 
+### Option I
+
+![Option I](https://res.cloudinary.com/websiddu/image/upload/v1565469801/blog/019/1.png)
+
+### Option II
+
+![Options II](https://res.cloudinary.com/websiddu/image/upload/v1565466015/blog/019/2.png)
+
+### Option III
+
+![Options III](https://res.cloudinary.com/websiddu/image/upload/v1565466015/blog/019/3.png)
+
 Here I will give your couple of very simple and effective never fail designs.
 
 I have seen a number of good portfolio website with these two patterns. One particular version that I didn’t cover is a portfolio with a landing page and requires a click to see the list of projects. This is particularly not a good design as David won’t even bother clicking the button. David likes scrolling.
