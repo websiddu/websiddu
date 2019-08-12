@@ -93,15 +93,15 @@ Let’s jump into designing the website. Don’t just think draw them out on a p
 
 ### Option I
 
-![Option I](https://res.cloudinary.com/websiddu/image/upload/v1565469801/blog/019/1.png)
+![Option I](https://res.cloudinary.com/websiddu/image/upload/v1565479060/blog/019/Option1.png)
 
 ### Option II
 
-![Options II](https://res.cloudinary.com/websiddu/image/upload/v1565466015/blog/019/2.png)
+![Options II](https://res.cloudinary.com/websiddu/image/upload/v1565479060/blog/019/Option2.png)
 
 ### Option III
 
-![Options III](https://res.cloudinary.com/websiddu/image/upload/v1565466015/blog/019/3.png)
+![Options III](https://res.cloudinary.com/websiddu/image/upload/v1565480000/blog/019/Option3.png)
 
 Here I will give your couple of very simple and effective never fail designs.
 

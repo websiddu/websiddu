@@ -111,6 +111,21 @@ body
     background #f0f4fe
     border-bottom 2px solid #2161f2
     font-weight 500
+  a.img-link
+    border-bottom none
+    img
+      transition ease-in-out 0.2s all
+  a.img-link:hover
+    color unset
+    background unset
+    border-bottom none
+    font-weight normal
+    img
+      transform scale(1.008);
+  a.img-link:active
+    img
+      transform scale(1);
+
   p.demo
     padding 1rem 1.5rem
     border 1px solid #ddd
