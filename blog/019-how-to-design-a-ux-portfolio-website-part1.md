@@ -71,70 +71,100 @@ Now you really know what your website is going to be. Write down all these consi
 
 ## Design
 
-Let’s jump into designing the website. Don’t just think draw them out on a piece of paper. Its upto your creativity how you structure your website. To begin with I divided the portfolio site into different sub parts,
+After researching and reviewing numerous portfolio, most commonly appeared pages on site are
 
-- Logo
-- Name & Blurb
-- Navigation
-  - Home
-  - Resume
-  - About
-  - Contact
-- Projects List
-- Project Details
+- Projects list page or Home page
+  - Project details page
+- Resume
+- About page
+- Contact page
+
+Those are the most common pages and you can add other pages like a blog for photography page if you are into such things. Now you have a sitemap of your portfolio website, the next step is to finalize some common components & layouts.
+
+Most common components across all the pages are a header and a footer.
+
+- Header
+  - Logo or Name
+  - Navigation
 - Footer
+  - Quick contact information
   - Social links
-  - Some other fun stuff
-- About
-- Contact
-  - Contact form
+  - Copyright information
 
-95% of the portfolio website will contain the above 8 sections. You may have different designs by rearranging these components.
+### Home
 
-### Option I
+The homepage or landing page is the most important page for your portfolio, this is where you get to impress your audience. The landing page should contain two main components a welcome message, a short blurb and the projects list.
+
+#### Option I
 
 ![Option I](https://res.cloudinary.com/websiddu/image/upload/v1565479060/blog/019/Option1.png)
 
-### Option II
+#### Option II
 
 ![Options II](https://res.cloudinary.com/websiddu/image/upload/v1565479060/blog/019/Option2.png)
 
-### Option III
+#### Option III
 
 ![Options III](https://res.cloudinary.com/websiddu/image/upload/v1565480000/blog/019/Option3.png)
 
-Here I will give your couple of very simple and effective never fail designs.
+Now you picked the landing page, the next step is to design your project detail page.
 
-I have seen a number of good portfolio website with these two patterns. One particular version that I didn’t cover is a portfolio with a landing page and requires a click to see the list of projects. This is particularly not a good design as David won’t even bother clicking the button. David likes scrolling.
+### Details
 
-Now you decided on the layout for the landing page let’s move to the project detail pages. If you get the layout correct for the project details page your portfolio will look great. Let’s think about the detail page and jot down all the possible information about your side project or school project that you did.
-
-I referred multiple good portfolio and listed the most common sections.
+I reviewed several good portfolio and distilled the common sections in a good project details page.
 
 - Project title
-- Brief intro about the project
-- Type of project
-- Timeline
-- The team members
-- Your role
+- Project summary
+  - Type of project
+  - Timeline
+  - The team members
+  - Your role
 - Main content
   - Introduction
-    - A video
+    - A video or Image
     - Links to resources
   - Problem
-  - Process
+  - Goals
+  - Process (optional)
   - Research
   - Prototypes
     - Paper prototypes – Pros and Cons
   - Design
-  - Images
-  - Videos
-  - Outcome
-- Next Project
-- Previous Project
+    - Images
+    - Videos
+  - Outcome & Learnings
+- Page footer
+  - Next Project
+  - Previous Project
 
-Write down this information for each and every project under the subheadings project project in each google doc.
+Write down this information for each and every project under the subheadings project project in each google doc. Once you start writing things your will start remembering small details of your design. Bring up all the pictures you took with your group, the paper prototypes you made. Just looking at them will refresh your memories.
 
-Once you start writing things your will start remembering small details of your design. Take your time doing only one project on a weekend, not more than that. Bring up all the pictures you took with your group, the paper prototypes you made. Just looking at them will refresh your memories.
+Once you are confident that you want to put in each project them you need to layout this information. You can keep tweaking the content once the layout is finalized. You can use different layouts for the detail pages. Here are a couple of common once.
 
-Once you are confident that you want to put in each project them we need to layout this information. You can keep tweaking the content once the layout is finalized. You could use the same layout that you created on the Google doc. But we are designers, let's activate some negative spaces and build a nice layout for our project detail pages.
+![Image](https://res.cloudinary.com/websiddu/image/upload/blog/019/details.png)
+
+### About
+
+The purpose of the about page is to tell your story, here is an opportunity for you to tell some interesting things about you and tell how you got into design. You can be very creative here, some uses pictures some uses words. Just go out of the box. Here are some pointers to get you started,
+
+- Where you are from
+- Your design philosophy
+- Places you've worked at
+- Your timeline
+- Hobbies & other talents
+- Books you've read
+- Music you love
+- Social media links
+- Anything that is interesting about yourself
+
+![Image](https://res.cloudinary.com/websiddu/image/upload/blog/019/about.png)
+
+### Contact
+
+The contact page should contain your email address or a little contact form as an optional.
+
+![Image](https://res.cloudinary.com/websiddu/image/upload/blog/019/contact.png)
+
+### Resume
+
+This is super straightforward, just link to your latest PDF resume. Helps recruiters to reach out to you and allows recruiters to forward your profile to their colleagues.
