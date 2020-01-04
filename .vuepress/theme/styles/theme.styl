@@ -7,7 +7,7 @@
 @require './toc'
 
 @import url('https://fonts.googleapis.com/css?family=Mandali');
-
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
 
 @font-face
   font-family 'Inter'
@@ -307,7 +307,7 @@ a.header-anchor
     text-decoration none
 
 code, kbd, .line-number
-  font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+  font-family 'Fira Code', source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
 
 p, ul, ol
   line-height 1.7
@@ -365,6 +365,19 @@ th, td
   display inline-flex
   align-items center
 
+
+.filename
+  background #20232b
+  padding .4rem 1rem .7rem
+  font-size 0.9rem
+  color #fff
+  font-weight 500
+  border-top-left-radius 6px
+  border-top-right-radius 6px
+  margin-bottom -1rem
+  + div[class*="language-"]
+    border-top-left-radius 0px
+    border-top-right-radius 0px
 
 .theme-container
   &.dark
