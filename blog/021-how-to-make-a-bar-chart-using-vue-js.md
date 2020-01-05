@@ -74,9 +74,9 @@ Create a file called `BarChart.vue` in `src/component`. We are going to create a
 ```html
 <template> </template>
 <script>
-export default {
-  name: "BarChart"
-};
+  export default {
+    name: "BarChart"
+  };
 </script>
 
 <style lang="scss"></style>
@@ -92,15 +92,15 @@ Now let create a SVG element, and setup some initial height and width for the SV
 </template>
 
 <script>
-export default {
-  name: "BarChart",
-  data() {
-    return {
-      height: 200,
-      width: 500
-    };
-  }
-};
+  export default {
+    name: "BarChart",
+    data() {
+      return {
+        height: 200,
+        width: 500
+      };
+    }
+  };
 </script>
 
 <style lang="scss"></style>
@@ -118,11 +118,10 @@ let dataSet = [
   ["Karen", 21],
   ["Kirsty", 25],
   ["Chris", 30]
-]
+];
 ```
 
 Now pull make the data available for you vue component, for now we will place the dataset in the data field.
-
 
 <div class="filename">BarChart.vue</div>
 
@@ -132,25 +131,25 @@ Now pull make the data available for you vue component, for now we will place th
 </template>
 
 <script>
-export default {
-  name: "BarChart",
-  data() {
-    return {
-      height: 200,
-      width: 500,
-      dataset: [
-        ["Bob", 33],
-        ["Robin", 24],
-        ["Mark", 22],
-        ["Joe", 29],
-        ["Eve", 38],
-        ["Karen", 21],
-        ["Kirsty", 25],
-        ["Chris", 30]
-      ],
-    };
-  }
-};
+  export default {
+    name: "BarChart",
+    data() {
+      return {
+        height: 200,
+        width: 500,
+        dataset: [
+          ["Bob", 33],
+          ["Robin", 24],
+          ["Mark", 22],
+          ["Joe", 29],
+          ["Eve", 38],
+          ["Karen", 21],
+          ["Kirsty", 25],
+          ["Chris", 30]
+        ]
+      };
+    }
+  };
 </script>
 
 <style lang="scss"></style>
@@ -169,11 +168,13 @@ Once that is done we'll need to import the scaling functions to our components. 
 The linerScale function takes two chained functions `.range` will take an array of the height of the chart and 0, and domain will take the 0 to max age in the data and will return a function. Let's see an example below
 
 ```js
-let scale = scaleLinear().range([200, 0]).domain([0, 50]);
+let scale = scaleLinear()
+  .range([200, 0])
+  .domain([0, 50]);
 
-scale(23) // returns 108
-scale(33) // returns 68
-scale(11) // returns 156
+scale(23); // returns 108
+scale(33); // returns 68
+scale(11); // returns 156
 ```
 
 Similarly for y axis you will need to use the `scaleBand` function as this in this case x-axis is not a continuous scale. We'll add two computed properties x and y that will return a corresponding scaling function.
@@ -250,7 +251,6 @@ Now we can loop through the bars object in our HTML and generate some bars.
 
 Let's place our component in the Home.vue by importing it and calling the `<BarChart>` tag in the file like below,
 
-
 <div class="filename">Home.vue</div>
 
 ```html
@@ -261,19 +261,19 @@ Let's place our component in the Home.vue by importing it and calling the `<BarC
 </template>
 
 <script>
-import BarChart from "@/components/BarChart.vue";
+  import BarChart from "@/components/BarChart.vue";
 
-export default {
-  name: "home",
-  components: { BarChart }
-};
+  export default {
+    name: "home",
+    components: { BarChart }
+  };
 </script>
 
 <style lang="scss" scoped>
-.chart {
-  margin: 120px auto;
-  display: block;
-}
+  .chart {
+    margin: 120px auto;
+    display: block;
+  }
 </style>
 ```
 
@@ -290,10 +290,7 @@ We'll be using a another group tag `g` to place our x-axis and move that to the 
   <svg class="barchart" :width="width + 40" :height="height + 40">
     <g transform="translate(20, 20)">
       <g class="x-axis" fill="none" :transform="`translate(0, ${height})`">
-        <path
-          stroke="currentColor"
-          :d="`M0.5,6V0.5H${width}.5V6`"
-        ></path>
+        <path stroke="currentColor" :d="`M0.5,6V0.5H${width}.5V6`"></path>
       </g>
       <g class="bars" fill="none">
         <rect
@@ -316,7 +313,6 @@ This is will generate a line below the graph like below, you can adjust the tick
 ![Preview](/img/blog/21/preview-2.png)
 
 Now we need to add the ticks to the x-axis, horizontal ticks are nothing but labels for the bars and for that we can loop though the bars again and places the text label right under the bar. You can create another `g` tag and loop that though the bars and add a `text` tag inside the `g` tag along with a `line` tag to show the little tick.
-
 
 ```html{10-22}
 <template>
@@ -398,7 +394,6 @@ computed: {
 
 Now the `yTicks` property will contain an array values in equal intervals scaled according to the height of the container, similar to the x-axis we will create a path and then group that loops within each group we'll have a `text` and `line` tag to place the label and show the tick. And we'll use the scale `y()` function to generate the corresponding `y` value for given tick value.
 
-
 ```html{24-43}
 <template>
   <svg class="barchart" :width="width + 40" :height="height + 40">
@@ -469,9 +464,18 @@ The next step we can remove all the hard coded values form the graph and get tho
 
 ```html
 <template>
-  <svg class="barchart" :width="width + 40" :height="height + 40">
-    <g transform="translate(20, 20)">
-      <g class="x-axis" fill="none" :transform="`translate(0, ${height})`">
+  <svg
+    class="barchart"
+    :width="width + marginLeft / 2"
+    :height="height + marginTop"
+  >
+    <g :transform="`translate(${marginLeft / 2}, ${marginTop / 2})`">
+      <g
+        class="x-axis"
+        fill="none"
+        :transform="`translate(0, ${height})`"
+        style="color: #888"
+      >
         <path
           class="domain"
           stroke="currentColor"
@@ -491,7 +495,12 @@ The next step we can remove all the hard coded values form the graph and get tho
           <text fill="currentColor" y="9" dy="0.71em">{{ bar.xLabel }}</text>
         </g>
       </g>
-      <g class="y-axis" fill="none" :transform="`translate(0, 0)`">
+      <g
+        class="y-axis"
+        fill="none"
+        :transform="`translate(0, 0)`"
+        style="color: #888"
+      >
         <path
           class="domain"
           stroke="currentColor"
@@ -514,7 +523,7 @@ The next step we can remove all the hard coded values form the graph and get tho
       <g class="bars" fill="none">
         <rect
           v-for="(bar, index) in bars"
-          fill="pink"
+          fill="#2196f3"
           :key="index"
           :height="bar.height"
           :width="bar.width"
@@ -527,58 +536,104 @@ The next step we can remove all the hard coded values form the graph and get tho
 </template>
 
 <script>
-import { scaleLinear, scaleBand } from "d3-scale";
+  import { scaleLinear, scaleBand } from "d3-scale";
 
-export default {
-  name: "BarChart",
-  data() {
-    return {
-      height: 200,
-      width: 500,
-      data: [
-        ["Bob", 33],
-        ["Robin", 24],
-        ["Mark", 22],
-        ["Joe", 29],
-        ["Eve", 38],
-        ["Karen", 21],
-        ["Kirsty", 25],
-        ["Chris", 30]
-      ]
-    };
-  },
-  computed: {
-    yTicks() {
-      return this.y.ticks(5);
+  export default {
+    name: "BarChart",
+    props: {
+      height: { default: 200 },
+      width: { default: 500 },
+      dataSet: { default: [] },
+      marginLeft: { default: 40 },
+      marginTop: { default: 40 },
+      marginBottom: { default: 40 },
+      marginRight: { default: 40 },
+      tickCount: { default: 5 },
+      barPadding: { default: 0.3 }
     },
-    x() {
-      return scaleBand()
-        .range([0, this.width])
-        .padding(0.3)
-        .domain(this.data.map(e => e[0]));
-    },
-    y() {
-      let values = this.data.map(e => e[1]);
-      return scaleLinear()
-        .range([this.height, 0])
-        .domain([0, Math.max(...values)]);
-    },
-    bars() {
-      let bars = this.data.map(d => {
-        return {
-          xLabel: d[0],
-          x: this.x(d[0]),
-          y: this.y(d[1]),
-          width: this.x.bandwidth(),
-          height: this.height - this.y(d[1])
-        };
-      });
+    computed: {
+      yTicks() {
+        return this.y.ticks(this.tickCount);
+      },
+      x() {
+        return scaleBand()
+          .range([0, this.width])
+          .padding(this.barPadding)
+          .domain(this.dataSet.map(e => e[0]));
+      },
+      y() {
+        let values = this.dataSet.map(e => e[1]);
+        return scaleLinear()
+          .range([this.height, 0])
+          .domain([0, Math.max(...values)]);
+      },
+      bars() {
+        let bars = this.dataSet.map(d => {
+          return {
+            xLabel: d[0],
+            x: this.x(d[0]),
+            y: this.y(d[1]),
+            width: this.x.bandwidth(),
+            height: this.height - this.y(d[1])
+          };
+        });
 
-      return bars;
+        return bars;
+      }
     }
-  }
-};
+  };
 </script>
 
 <style lang="scss"></style>
 ```
+
+<div class="filename">Home.vue</div>
+
+```html
+<template>
+  <div class="home">
+    <BarChart
+      class="chart"
+      :data-set="data"
+      :margin-left="40"
+      :margin-top="40"
+      :tick-count="5"
+      :bar-padding="0.5"
+    />
+  </div>
+</template>
+
+<script>
+  import BarChart from "@/components/BarChart.vue";
+
+  export default {
+    name: "home",
+    data() {
+      return {
+        data: [
+          ["Bob", 33],
+          ["Robin", 24],
+          ["Mark", 22],
+          ["Joe", 29],
+          ["Eve", 38],
+          ["Karen", 21],
+          ["Kirsty", 25],
+          ["Chris", 30]
+        ]
+      };
+    },
+    components: {
+      BarChart
+    }
+  };
+</script>
+
+<style lang="scss" scoped>
+  .chart {
+    margin: 40px auto 0;
+    display: block;
+  }
+</style>
+```
+
+![Preview](/img/blog/21/preview-5.png)

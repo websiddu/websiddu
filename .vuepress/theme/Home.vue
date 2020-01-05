@@ -100,7 +100,7 @@ export default {
   display: inline-block;
 
   img {
-    height: 54px;
+    height: 64px;
   }
 }
 
@@ -115,12 +115,13 @@ export default {
   color: rgba(0, 0, 0, 0.7);
   margin-top: 3.5rem !important;
 
-  &:after {
+  &:before {
     content: '';
     display: inline-block;
-    min-width: 80px;
+    min-width: 70px;
     height: 4px;
-    background: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    background: #3D5AFE;
     position: absolute;
     bottom: 0;
     left: 0;
