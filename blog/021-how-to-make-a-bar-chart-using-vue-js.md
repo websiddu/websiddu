@@ -27,10 +27,8 @@ We're going to create a small re usable bar chart component with Vue. We will go
 
 I've created a live demo and put the source up on GitHub.
 
-- **[View demo](https://taniarascia.github.io/vue-tutorial/)**
-- **[View source](https://github.com/taniarascia/vue-tutorial)**
-
-(You can also view the demo on CodeSandbox.)
+- **[View demo](https://wtyzj.csb.app)**
+- **[View source](https://codesandbox.io/s/vue-barchart-wtyzj)**
 
 ## Setup and Installation
 
@@ -636,4 +634,21 @@ The next step we can remove all the hard coded values form the graph and get tho
 </style>
 ```
 
+Adding some details and moving all the hard coded values to props will result in a beautiful chart like below.
+
 ![Preview](/img/blog/21/preview-5.png)
+
+## Conclusion
+
+To recap we created a re-usable barchart from scratch using vue and d3-scale, and here is a TLDR; version of the post
+
+- Create a SVG element
+- Import `linearScale` and `scaleBand` from `d3-scale`
+- Loop thought the data and generate the array with x, y, height, width and xLabel
+- In the template render the bars using the `rect` tag
+- Use the `path` tag to render the x-axis and y-axis
+- Loop thought bar and use the `text` tag to render x-axis labels(names)
+- Generate the number of ticks you want by using the `.ticks(n)` function
+- Loop thought the tricks and use the `text` tag to render the y-axis values(ages).
+
+If you like the post please feel free to share it with on twitter of leave a comment below. If you found any errors in this article, please feel free to edit on [GitHub](https://github.com/websiddu/websiddu/blob/master/blog/021-how-to-make-a-bar-chart-using-vue-js.md)
