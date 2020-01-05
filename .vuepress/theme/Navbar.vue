@@ -97,7 +97,7 @@ $navbar-horizontal-padding = 1.5rem;
   .logo {
     height: $navbarHeight - 1.4rem;
     min-width: $navbarHeight - 1.4rem;
-    margin-right: 0.8rem;
+    // margin-right: 0.8rem;
     vertical-align: top;
   }
 
@@ -132,7 +132,7 @@ $navbar-horizontal-padding = 1.5rem;
 
 @media (max-width: $MQMobile) {
   .navbar {
-    padding-left: 4rem;
+    // padding-left: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
