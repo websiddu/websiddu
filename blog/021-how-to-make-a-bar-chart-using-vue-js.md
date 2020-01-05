@@ -1,7 +1,7 @@
 ---
 title: How to make a bar chart using Vue.js
 date: Jan 03, 2020
-description: Here are some of my favorite type faces that I collected over the years which are elegantly designed for the web.
+description: Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.
 permalink: /blog/how-to-make-a-bar-chart-using-vue-js.html
 prev: /blog/how-to-design-a-ux-portfolio-website-part1.html
 
@@ -11,11 +11,18 @@ autometa:
     twitter: websiddu
 
 tags:
-  - typography
-  - type
+  - vue.js
+  - barchart
+  - vue barchart
+  - vuejs bar chart
+  - vue charts
+  - d3-scale
+  - vue-barchart
+  - stand alone vue js bar chart
+  - barchart
 ---
 
-![Cover](https://res.cloudinary.com/websiddu/image/upload/v1578203660/blog/021/cover.png)
+![Cover](https://res.cloudinary.com/websiddu/image/upload/v1578204310/blog/021/cover.png)
 
 Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.
 
