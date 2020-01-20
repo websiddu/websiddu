@@ -5,6 +5,13 @@ permalink: /blog/understanding-event-preventdefault-better.html
 next: /blog/my-sublime-text-setup.html
 prev: /blog/use-google-app-engine-as-cdn.html
 description: It's pretty common that many of us use `event.preventDefault` and `return false` on a click event or any other event. Lets see `event.preventDefault()` first. The function name itself more or less tells the story, that it will prevents...
+
+tags:
+  - jquery preventdefault
+  - event.preventDefault()
+  - jquery
+  - default prevented
+  -
 ---
 
 It's pretty common that many of us use `event.preventDefault` and `return false` on a click event or any other event. Lets see `event.preventDefault()` first. The function name itself more or less tells the story, that it will prevents the default action on any event.
@@ -53,7 +60,10 @@ The example above is specific to jQuery, However `preventDefault()` is a JavaScr
 
 Above example stops the normal form submit when you click on the submit button. See in action below
 
-<a class="jsbin-embed" href="http://jsbin.com/dasob/8/embed?output">preventDefault example</a><script src="http://static.jsbin.com/js/embed.js"></script>
+<iframe height="420" style="width: 100%;" scrolling="no" title="preventDefault example" src="https://codepen.io/websiddu/embed/MWYzPey?height=420&theme-id=light&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/websiddu/pen/MWYzPey'>preventDefault example</a> by Siddhartha
+  (<a href='https://codepen.io/websiddu'>@websiddu</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## event.defaultPrevented
 

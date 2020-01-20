@@ -2,11 +2,15 @@
   <div class="posts" v-if="posts.length" :class="[page, size]">
     <template v-if="page == 'blog'">
       <section class="post" v-for="post in posts" :class="post.frontmatter.lang">
-        <time class="muted">{{prettyDate(post.frontmatter.date)}}</time>
+        <time class="muted">{{ prettyDate(post.frontmatter.date) }}</time>
         <h3 class="post-title">
-          <router-link :to="post.path">{{post.frontmatter.title}}</router-link>
+          <router-link :to="post.path">
+            {{
+            post.frontmatter.title
+            }}
+          </router-link>
         </h3>
-        <p class="desc">{{post.frontmatter.description}}</p>
+        <p class="desc">{{ post.frontmatter.description }}</p>
         <!-- <router-link :to="post.path">continue →</router-link> -->
       </section>
     </template>
@@ -14,8 +18,8 @@
       <router-link :to="post.path" v-for="post in posts" class="photo">
         <img :src="post.frontmatter.cover" :alt="post.frontmatter.subtitle" />
         <div class="photo-info">
-          <div class="photo-title">{{post.frontmatter.title}}</div>
-          <div class="photo-subtitle">{{post.frontmatter.subtitle}}</div>
+          <div class="photo-title">{{ post.frontmatter.title }}</div>
+          <div class="photo-subtitle">{{ post.frontmatter.subtitle }}</div>
         </div>
         <div class="subtitle"></div>
       </router-link>
@@ -70,17 +74,20 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .post {
   margin-bottom: 3.5rem;
+
   .post-title {
     margin: 0;
     margin-bottom: 4px;
+
     a {
       font-size: 1.4rem;
       font-weight: 500;
     }
   }
+
   p.desc {
     margin: 0;
     text-rendering: optimizeLegibility;
@@ -89,6 +96,7 @@ export default {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   }
+
   time {
     color: #888;
     font-size: 0.9rem;
@@ -108,12 +116,13 @@ export default {
   }
 
   &::before {
-    content: "";
+    content: '';
     width: 0;
     padding-bottom: 100%;
     grid-row: 1 / 1;
     grid-column: 1 / 1;
   }
+
   > *:first-child {
     grid-row: 1 / 1;
     grid-column: 1 / 1;
@@ -131,7 +140,6 @@ export default {
         rgba(33, 36, 37, 0.8) 50%,
         rgba(33, 36, 37, 0.9) 100%
       );
-
       color: #fff;
       position: absolute;
       padding: 16px 24px 24px;
@@ -140,12 +148,14 @@ export default {
       right: 0;
       display: flex;
       flex-flow: column;
+
       .photo-title {
         font-size: 1.9rem;
         font-weight: 700;
         transform: translateY(24px);
         transition: all 0.2s ease-in-out;
       }
+
       .photo-subtitle {
         line-height: 1.4;
         opacity: 0;

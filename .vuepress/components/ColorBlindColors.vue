@@ -218,7 +218,7 @@ export default {
 };
 </script>
 
-<style lang='scss'>
+<style lang="stylus">
 .palettes {
   display: flex;
   flex-wrap: wrap;
@@ -237,6 +237,7 @@ export default {
     font-weight: 500;
     text-transform: uppercase;
     color: #5f6368;
+
     .clr-block {
       height: 32px;
       width: 30px;

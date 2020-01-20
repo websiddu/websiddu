@@ -80,16 +80,17 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped>
+<style lang="stylus" scoped>
 .photo-set {
   overflow: hidden;
   line-height: 0;
+
   img {
     background-color: rgba(0, 0, 0, 0.2);
   }
 }
 
-img[lazy="loaded"] {
+img[lazy='loaded'] {
   opacity: 0;
   animation-name: fadein;
   animation-duration: 0.5s;
@@ -97,10 +98,12 @@ img[lazy="loaded"] {
   animation-fill-mode: forwards;
   animation-direction: normal;
   animation-timing-function: ease-out;
+
   @keyframes fadein {
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }

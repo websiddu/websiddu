@@ -248,13 +248,14 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped>
+<style lang="stylus" scoped>
 .chart {
   display: block;
   border: solid 1px #eee;
   border-radius: 4px;
   margin: 0 auto;
   max-width: 730px;
+
   .chart-title {
     font-size: 18px;
     padding: 16px;
@@ -278,6 +279,7 @@ export default {
     width: 0;
     position: absolute;
   }
+
   label {
     display: flex;
     align-items: center;
@@ -293,6 +295,7 @@ export default {
 
     &.selected {
       background: #303f9f;
+
       svg {
         fill: #fff;
         fill-opacity: 1;
@@ -315,6 +318,7 @@ export default {
   .r {
     text-align: right;
   }
+
   .l {
     text-align: left;
   }

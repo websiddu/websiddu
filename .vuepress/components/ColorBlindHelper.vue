@@ -105,17 +105,20 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="stylus">
 .image-preview {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
   .prev {
     width: 160px;
   }
+
   img {
     display: block;
   }
+
   select {
     width: 160px;
     margin-bottom: 12px;

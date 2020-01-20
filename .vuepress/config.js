@@ -17,7 +17,8 @@ const autometa_options = {
 };
 
 const feed_options = {
-  canonical_base: "https://websiddu.com"
+  canonical_base: "https://websiddu.com",
+  count: 1000
 };
 
 const ga_options = {

@@ -5,6 +5,9 @@ description: Often time the project you are working requires us to add a simple 
 permalink: /blog/how-to-make-a-bar-chart-using-vue-js.html
 prev: /blog/how-to-design-a-ux-portfolio-website-part1.html
 
+feed:
+  enable: true
+
 autometa:
   author:
     name: Siddhartha Gudipati

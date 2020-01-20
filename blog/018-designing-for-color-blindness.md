@@ -4,19 +4,13 @@ date: Jul 05, 2019
 description: One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..
 permalink: /blog/designing-for-color-blindness.html
 prev: /blog/sync-google-sheets-to-firebase.html
-state: published
-autometa:
-  author:
-    name: Siddhartha Gudipati
-    twitter: websiddu
-
 tags:
   - colorblind
   - ux design
   - charts design colorblind
   - web design colorblind
   - color blind simulator
-  - Deuteranomaly
+  - Deuteronomy
   - charts design for colorblind
   - colour blind
 ---

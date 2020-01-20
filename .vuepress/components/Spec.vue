@@ -17,12 +17,12 @@ export default {
 };
 </script>
 
-<style lang='scss'>
+<style lang="stylus">
 .do-dont {
   display: flex;
   flex-wrap: wrap;
-  .do,
-  .dont {
+
+  .do, .dont {
     flex: 1;
     position: relative;
     min-width: 230px;
@@ -32,6 +32,7 @@ export default {
       display: block;
       border: solid 1px #eee;
     }
+
     .label {
       font-weight: 500;
       line-height: 40px;
@@ -39,7 +40,7 @@ export default {
       font-size: 15px;
 
       &:before {
-        content: "";
+        content: '';
         left: 0;
         right: -2px;
         position: absolute;
@@ -56,6 +57,7 @@ export default {
 
   .do {
     margin-left: 12px;
+
     .label {
       &::before {
         background: #5bb974;
