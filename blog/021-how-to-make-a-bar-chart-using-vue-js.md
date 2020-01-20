@@ -24,13 +24,13 @@ tags:
 
 ![Cover](https://res.cloudinary.com/websiddu/image/upload/v1578204310/blog/021/cover.png)
 
-Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.
+Often the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.
 
 ## Goals
 
-We're going to create a small re usable bar chart component with Vue. We will go through a step by step process of making the bar chart
+We're going to create a small reusable bar chart component with Vue. We will go through a step by step process of making the bar chart
 
-- How to setup a vue application
+- How to set up a Vue application
 - Learn about d3-scale
 - How to use SVG to create a bar chart
 
@@ -89,7 +89,7 @@ Create a file called `BarChart.vue` in `src/component`. We are going to create a
 <style lang="scss"></style>
 ```
 
-Now let create a SVG element, and setup some initial height and width for the SVG tag. This SVG element will act as the container for our chart.
+Now let create an SVG element, and set up some initial height and width for the SVG tag. This SVG element will act as the container for our chart.
 
 <div class="filename">BarChart.vue</div>
 
@@ -665,4 +665,4 @@ And here is the demo and sourcecode
 - **[View demo](https://wtyzj.csb.app)**
 - **[View source](https://codesandbox.io/s/vue-barchart-wtyzj)**
 
-If you like the post please feel free to share it with on twitter of leave a comment below. If you found any errors in this article, please feel free to edit on [GitHub](https://github.com/websiddu/websiddu/blob/master/blog/021-how-to-make-a-bar-chart-using-vue-js.md)
+If you like the post please feel free to share it with on twitter or leave a comment below. If you found any errors in this article, please feel free to edit on [GitHub](https://github.com/websiddu/websiddu/blob/master/blog/021-how-to-make-a-bar-chart-using-vue-js.md)
