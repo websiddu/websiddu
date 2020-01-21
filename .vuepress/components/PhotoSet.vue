@@ -5,6 +5,7 @@
       v-lazy="img.url"
       :key="img.url"
       :alt="img.url"
+      loading="lazy"
       :style="{width: `${img.width}`, height: `${img.height}`, margin: `${margin}px`}"
     />
   </section>
