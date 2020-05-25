@@ -3,8 +3,8 @@ title: My website is build on open-source
 cover: images/covers/website.jpg
 date: May 25, 2014
 permalink: /blog/my-website-is-build-on-open-source.html
-next: /blog/good-and-bad-visualizations.html
-prev: /blog/css-box-sizing-in-and-out.html
+next: /blog/email-that-paved-my-path.html
+# prev: /blog/css-box-sizing-in-and-out.html
 description: Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is...
 ---
 
@@ -59,7 +59,7 @@ http://websiddu.github.io/websiddu/#/
 
 ### Assets
 
-All the images, screen shots and sources are hosted on google app engine again a free service. First I tried using dropbox, but it turned out that I cannot control the caching time for those files. I wrote a blogpost a while ago how to use google app engine as your static assets server or CDN. Check this out http://blog.websiddu.com/2014/01/15/use-google-app-engine-as-cdn/
+All the images, screen shots and sources are hosted on google app engine again a free service. First I tried using dropbox, but it turned out that I cannot control the caching time for those files. I wrote a blog post a while ago how to use google app engine as your static assets server or CDN. Check this out http://blog.websiddu.com/2014/01/15/use-google-app-engine-as-cdn/
 
 **Keywords**
 

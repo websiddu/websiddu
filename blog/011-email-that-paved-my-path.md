@@ -5,7 +5,7 @@ date: April 01, 2015
 description: This story takes us back to 2011, the year when I had received my appointment letter from Tata Consultancy Services after patiently waiting for 5 months. On the 23rd of September, I became a part of their Initial Learning Program(ILP) along with 500 other participants...
 next: /blog/integrating-your-node-app-with-uw-saml.html
 permalink: /blog/email-that-paved-my-path.html
-prev: /blog/use-of-using-use-strict-in-js.html
+prev: /blog/my-website-is-build-on-open-source.html
 ---
 
 ![Cover](https://res.cloudinary.com/websiddu/image/upload/c_scale,q_100,w_800/v1558759729/blog/covers/lili-popper-29472-unsplash.webp)
@@ -24,21 +24,21 @@ Though the opportunity had me elated, a sense of nervousness crept inside me. I 
 
 My other friends were still on bench, some of them were volunteers for a TCS event called "Blitz". One of my roommate Mahesh Babu(Not the film hero ;)) was talking about a "long haired guy will jeans and shirt (he is the awesomest <a href="https://twitter.com/krishashok" target="_blank">Krish Ashok</a>, Head of the labs)" with a "cool mac book air" and "web 2.0 innovation labs". Then I started searching about web 2.0 Innovation labs on google ( Google everything you will find something). So the key words were
 
-"TCS Innovation labs" & go till Page 1, 2, 3, 4 <br>
-"TCS Research Innovation labs" & go till Page 1, 2, 3, 4<br>
-"web2innovation labs" & go till Page 1, 2, 3, 4<br>
-"innovation tcs" - go till page 1, 2<br>
-"Innovation labs tcs" & go till page 1, 2<br>
-"semantic web tcs" & go till page 1, 2, 3 <br>
+"TCS Innovation labs" & go till Page 1, 2, 3, 4 <br />
+"TCS Research Innovation labs" & go till Page 1, 2, 3, 4<br />
+"web2innovation labs" & go till Page 1, 2, 3, 4<br />
+"innovation tcs" - go till page 1, 2<br />
+"Innovation labs tcs" & go till page 1, 2<br />
+"semantic web tcs" & go till page 1, 2, 3 <br />
 and goes on ...
 
 ![Thank you google](http://i.giphy.com/hC3SBLHOyIWGI.gif)
 
 after many google searches, I discovered that there is something called web 2.0 innovation labs in TCS and its part of TCS Research and Development. There is an internal portal called "Just Ask" just for TCS'ers to find answers for some mysterious questions. Surprisingly it was also maintained by web 2.0 innovation labs, which is an whole other story. I started searching again
 
-"How hard is to get into web2.0 innovation labs ?"<br>
-"How do I get into innovation labs ?" <br>
-"How do innovation labs work ?"<br>
+"How hard is to get into web2.0 innovation labs ?"<br />
+"How do I get into innovation labs ?" <br />
+"How do innovation labs work ?"<br />
 
 After reading those answers, I learnt that a person needs at-least 2 to 3 years of experience to get into innovation labs (Someone misguided me! dammit! ). I asked a question as well but none answered my question(Funny thing is Ashok, the head of labs answers that question after I joined the labs. And It read "Now you are here, sing the song of triumph").
 
@@ -48,12 +48,12 @@ So I was doing my boring job automating some of the support tasks with my limite
 
 ## Ultimatix worked
 
-Any TCSer's day should start with ultimatix and should end with ultimatix. Ultimatix is an internal portal where every TCS'er filled the timesheet, applied leave, HR, ESS, blah blah..etc.. There is also an option to search for projects in TCS and that lists the people who work in that project. So, to get a result you have to type in the exact name of the project (WTF! then why its called a search). Again I started my trial and error,
+Any TCSer's day should start with ultimatix and should end with ultimatix. Ultimatix is an internal portal where every TCS'er filled the time sheet, applied leave, HR, ESS, blah blah..etc.. There is also an option to search for projects in TCS and that lists the people who work in that project. So, to get a result you have to type in the exact name of the project (WTF! then why its called a search). Again I started my trial and error,
 
-"Web2.0 Innovation labs" - No results <br>
-"Innovation Labs" - No results <br>
-"Labs" - No results <br>
-"Web" - No results <br>
+"Web2.0 Innovation labs" - No results <br />
+"Innovation Labs" - No results <br />
+"Labs" - No results <br />
+"Web" - No results <br />
 "Web 2.0" - Ahh! success
 
 I found 3 people were working for that project "Deepak Su###an", "Prateek Mi###a", "<a href="https://twitter.com/dineshweb" target="_blank">Dinesh Pothineni</a>" (Yo! Privacy man ;)). And in all the 3 names, <a href="https://twitter.com/dineshweb" target="_blank">Dinesh Pothineni</a> sounded familiar (Its a telugu name).

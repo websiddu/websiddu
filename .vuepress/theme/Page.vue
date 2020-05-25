@@ -2,23 +2,33 @@
   <div class="page">
     <slot name="top" />
     <header :class="type" class="content__default header">
-      <h1 v-if="isBlog">{{$page.frontmatter.title}}</h1>
-      <div class="post-meta" v-if="isBlog">{{$page.frontmatter.date}} — {{$page.readingTime.text}}</div>
+      <h1 v-if="isBlog">{{ $page.frontmatter.title }}</h1>
+      <div class="post-meta" v-if="isBlog">
+        {{ $page.frontmatter.date }} — {{ $page.readingTime.text }}
+      </div>
 
-      <h1 v-if="isPhoto" class="photos-page-title">{{$page.frontmatter.title}}</h1>
-      <h2 v-if="isPhoto" class="photos-page-subtitle">{{$page.frontmatter.subtitle}}</h2>
+      <h1 v-if="isPhoto" class="photos-page-title">
+        {{ $page.frontmatter.title }}
+      </h1>
+      <h2 v-if="isPhoto" class="photos-page-subtitle">
+        {{ $page.frontmatter.subtitle }}
+      </h2>
     </header>
 
     <Content :class="type"></Content>
     <div class="page-edit">
       <div class="edit-link" v-if="editLink">
-        <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
+        <a :href="editLink" target="_blank" rel="noopener noreferrer">{{
+          editLinkText
+        }}</a>
         <OutboundLink />
       </div>
       <div class="page-actions" v-if="isBlog">
         <a
           class="btn"
-          :href="`http://twitter.com/share?text=${$page.frontmatter.title}&amp;url=https://websiddu.com/${$page.frontmatter.permalink}&amp;via=websiddu`"
+          :href="
+            `http://twitter.com/share?text=${$page.frontmatter.title}&amp;url=https://websiddu.com/${$page.frontmatter.permalink}&amp;via=websiddu`
+          "
           target="_blank"
         >
           <svg
@@ -53,7 +63,9 @@
             stroke-linecap="round"
             stroke-linejoin="round"
           >
-            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+            <path
+              d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+            />
           </svg>
           &nbsp;Discuss
         </button>
@@ -77,11 +89,15 @@
     <div class="page-nav" v-if="prev || next">
       <p class="inner">
         <span v-if="prev" class="next">
-          <router-link v-if="prev" class="prev" :to="prev.path">{{ prev.title || prev.path }}&nbsp;→</router-link>
+          <router-link v-if="prev" class="prev" :to="prev.path"
+            >{{ prev.title || prev.path }}&nbsp;→</router-link
+          >
         </span>
 
         <span v-if="next" class="prev">
-          <router-link v-if="next" :to="next.path">← {{ next.title || next.path }}</router-link>
+          <router-link v-if="next" :to="next.path"
+            >← {{ next.title || next.path }}</router-link
+          >
         </span>
       </p>
     </div>
@@ -102,7 +118,7 @@ export default {
   props: ["sidebarItems", "type"],
   data() {
     return {
-      discuss: false
+      discuss: false,
     };
   },
 
@@ -162,7 +178,7 @@ export default {
         editLinks,
         docsDir = "",
         docsBranch = "master",
-        docsRepo = repo
+        docsRepo = repo,
       } = this.$site.themeConfig;
 
       let path = normalize(this.$page.path);
@@ -182,7 +198,7 @@ export default {
         this.$site.themeConfig.editLinkText ||
         `Edit this page`
       );
-    }
+    },
   },
 
   methods: {
@@ -209,8 +225,8 @@ export default {
         (docsDir ? "/" + docsDir.replace(endingSlashRE, "") : "") +
         path
       );
-    }
-  }
+    },
+  },
 };
 
 function resolvePrev(page, items) {
@@ -223,7 +239,7 @@ function resolveNext(page, items) {
 
 function find(page, items, offset) {
   const res = [];
-  items.forEach(item => {
+  items.forEach((item) => {
     if (item.type === "group") {
       res.push(...(item.children || []));
     } else {

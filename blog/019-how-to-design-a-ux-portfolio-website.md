@@ -1,5 +1,5 @@
 ---
-title: How to design a UX Portfolio website part 1
+title: How to design a UX Portfolio website
 date: Aug 05, 2019
 description: Building a design portfolio website can be a daunting task especially when you are just starting with your design career or you are design student with no coding skills. I have heard many questions from my classmates asking where do I start. In this post I will try to explain how to build a portfolio website end to end.
 permalink: /blog/how-to-design-a-ux-portfolio-website-part1.html

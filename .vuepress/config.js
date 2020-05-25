@@ -7,22 +7,22 @@ const request = require("sync-request");
 const autometa_options = {
   author: {
     name: "Siddhartha Gudipati",
-    twitter: "websiddu"
+    twitter: "websiddu",
   },
   site: {
     name: "Siddhartha Gudipati",
-    twitter: "websiddu"
+    twitter: "websiddu",
   },
-  canonical_base: "https://websiddu.com"
+  canonical_base: "https://websiddu.com",
 };
 
 const feed_options = {
   canonical_base: "https://websiddu.com",
-  count: 1000
+  count: 1000,
 };
 
 const ga_options = {
-  ga: "UA-88629726-1"
+  ga: "UA-88629726-1",
 };
 
 module.exports = {
@@ -39,15 +39,15 @@ module.exports = {
       "container",
       {
         type: "story",
-        before: info => {
+        before: (info) => {
           return `<div class="story">`;
         },
-        after: "</div>"
-      }
-    ]
+        after: "</div>",
+      },
+    ],
   ],
   markdown: {
-    linkify: true
+    linkify: true,
   },
   extendMarkdown(md) {
     const type = "photoset";
@@ -64,7 +64,7 @@ module.exports = {
         let images = info.split(" ");
         const imageArr = [];
 
-        images.map(img => {
+        images.map((img) => {
           const imgURL = `https://res.cloudinary.com/websiddu/image/upload/c_scale,w_100/photos/${img}.webp`;
           const imgData = request("GET", imgURL);
           let body = imgData.body;
@@ -74,13 +74,13 @@ module.exports = {
           let imgSize = probe.sync(body);
           imageArr.push({
             url: imgURL,
-            imgSize
+            imgSize,
           });
         });
 
         let html = ``;
 
-        imageArr.forEach(e => {
+        imageArr.forEach((e) => {
           html =
             html +
             `<img class="photo" src="${e.url}"
@@ -94,7 +94,7 @@ module.exports = {
       }
     };
 
-    const validate = params => {
+    const validate = (params) => {
       return params.trim().match(/^photoset\s+(.*)$/);
     };
 
@@ -105,9 +105,9 @@ module.exports = {
       "link",
       {
         rel: "icon",
-        href: "/favicon.ico"
-      }
-    ]
+        href: "/favicon.ico",
+      },
+    ],
   ],
   title: "Siddhartha Gudipati",
   themeConfig: {
@@ -118,24 +118,24 @@ module.exports = {
       {
         text: "Home",
         link: "/",
-        title: "Home — Siddhartha Gudipati"
+        title: "Home — Siddhartha Gudipati",
       },
       {
         text: "Articles",
-        link: "/blog/"
+        link: "/blog/",
       },
       {
         text: "Photos",
-        link: "/photos/"
+        link: "/photos/",
       },
       {
         text: "Projects",
-        link: "/projects.html"
+        link: "/projects.html",
       },
       {
         text: "About",
-        link: "/about.html"
-      }
-    ]
-  }
+        link: "/about.html",
+      },
+    ],
+  },
 };

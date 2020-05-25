@@ -24,7 +24,7 @@ I started this website to share some of my thoughts about design, tech or life i
 - **Laptop**: [MacBook Pro 2019](https://www.bhphotovideo.com/c/product/1423741-REG/apple_mr942ll_a_15_4_macbook_pro_with.html)
 - **Desktop**: [iMac Pro](https://www.bhphotovideo.com/c/product/1380894-REG/apple_z_8c1_bh_27_imac_pro_with.html)
 - **Camera**: [Sony a7iii](https://www.bhphotovideo.com/c/product/1444401-REG/sony_alpha_a7_iii_mirrorless.html)
-- **Lens**: [Sony 24-105mm f4](https://www.bhphotovideo.com/c/product/1411907-REG/sony_fe_24_105mm_f_4_lens.html)
+- **Lenses**: [Sony 24-105mm f4](https://www.bhphotovideo.com/c/product/1411907-REG/sony_fe_24_105mm_f_4_lens.html), [Sigma 14-24mm f2.8](https://www.bhphotovideo.com/c/product/1492972-REG/sigma_213965_14_24mm_f_2_8_dg_dn.html)
 
 ## Software
 

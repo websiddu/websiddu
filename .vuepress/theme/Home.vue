@@ -14,7 +14,8 @@
       <div class="content-body">
         <h2 class="blurb">
           Hey there
-          <span class="wave">👋</span>, my name is Siddhartha. I'm a designer at Google living in the Bay Area. I love making things.
+          <span class="wave">👋</span>, my name is Siddhartha. I'm a designer at
+          Google living in the Bay Area. I love making things.
         </h2>
         <Content custom />
         <div class="navigation">
@@ -33,7 +34,9 @@
               <router-link to="/photos" class="nav-link">Photos</router-link>
             </div>
             <div class="nav-item">
-              <router-link to="/projects.html" class="nav-link">Projects</router-link>
+              <router-link to="/projects.html" class="nav-link"
+                >Projects</router-link
+              >
             </div>
             <div class="nav-item">
               <router-link to="/about.html" class="nav-link">About</router-link>
@@ -64,10 +67,10 @@ export default {
     actionLink() {
       return {
         link: this.data.actionLink,
-        text: this.data.actionText
+        text: this.data.actionText,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
