@@ -11,6 +11,20 @@ next: /blog/sync-google-sheets-to-firebase.html
 
 Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these days.
 
+> Beauty is in the eyes of beholder.
+
+> Be a head of a Cat rather than a tail to a Tiger.
+
+> Balloons are like our souls, they want to go up but they can’t and when they pop they scream.
+
+> Adversity is your ally. Make friends with your misfortunes!
+
+> Maybe we expect a lot more than what we actually deserve.
+
+> None care about how it works until it works.
+
+> Sometimes silence is true wisdoms best reply.
+
 > Don't hurry and don't worry. You are neither early or nor too late. Your time will come.
 
 > It is what it is.

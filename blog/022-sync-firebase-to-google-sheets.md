@@ -18,13 +18,11 @@ tags:
   - firebase database
 ---
 
-Testing... ()
-
 In one of my earlier posts I have described how to sync data from Google sheets to Firebase. In some cases it desired the inverse i.e Firebase → Google Sheets. Firebase is extremely powerful and very approachable to do such kinds of manipulations.
 
 In this blog post I will describe how to sync new data written to a Firebase database to a Google Sheet. It includes a method for obtaining, storing, and using Oauth2 tokens for Google API access.
 
-### Step 1:
+### Step 1: Enable Google Sheets API
 
 Follow step 1 to enable Google Sheets API in your Firebase project: https://developers.google.com/sheets/api/quickstart/nodejs
 

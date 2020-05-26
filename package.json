@@ -2,7 +2,7 @@
   "scripts": {
     "build": "vuepress build",
     "deploy": "./deploy.sh",
-    "dev": "vuepress dev --debug"
+    "dev": "vuepress dev"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "vue-lazyload": "^1.3.3"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
   }
 }

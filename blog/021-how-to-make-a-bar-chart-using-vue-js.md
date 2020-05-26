@@ -85,7 +85,7 @@ Create a file called `BarChart.vue` in `src/component`. We are going to create a
 <template> </template>
 <script>
   export default {
-    name: "BarChart"
+    name: "BarChart",
   };
 </script>
 
@@ -107,9 +107,9 @@ Now let create an SVG element, and set up some initial height and width for the 
     data() {
       return {
         height: 200,
-        width: 500
+        width: 500,
       };
-    }
+    },
   };
 </script>
 
@@ -127,7 +127,7 @@ let dataSet = [
   ["Eve", 38],
   ["Karen", 21],
   ["Kirsty", 25],
-  ["Chris", 30]
+  ["Chris", 30],
 ];
 ```
 
@@ -155,10 +155,10 @@ Now pull make the data available for you vue component, for now we will place th
           ["Eve", 38],
           ["Karen", 21],
           ["Kirsty", 25],
-          ["Chris", 30]
-        ]
+          ["Chris", 30],
+        ],
       };
-    }
+    },
   };
 </script>
 
@@ -275,7 +275,7 @@ Let's place our component in the Home.vue by importing it and calling the `<BarC
 
   export default {
     name: "home",
-    components: { BarChart }
+    components: { BarChart },
   };
 </script>
 
@@ -559,7 +559,7 @@ The next step we can remove all the hard coded values form the graph and get tho
       marginBottom: { default: 40 },
       marginRight: { default: 40 },
       tickCount: { default: 5 },
-      barPadding: { default: 0.3 }
+      barPadding: { default: 0.3 },
     },
     computed: {
       yTicks() {
@@ -569,28 +569,28 @@ The next step we can remove all the hard coded values form the graph and get tho
         return scaleBand()
           .range([0, this.width])
           .padding(this.barPadding)
-          .domain(this.dataSet.map(e => e[0]));
+          .domain(this.dataSet.map((e) => e[0]));
       },
       y() {
-        let values = this.dataSet.map(e => e[1]);
+        let values = this.dataSet.map((e) => e[1]);
         return scaleLinear()
           .range([this.height, 0])
           .domain([0, Math.max(...values)]);
       },
       bars() {
-        let bars = this.dataSet.map(d => {
+        let bars = this.dataSet.map((d) => {
           return {
             xLabel: d[0],
             x: this.x(d[0]),
             y: this.y(d[1]),
             width: this.x.bandwidth(),
-            height: this.height - this.y(d[1])
+            height: this.height - this.y(d[1]),
           };
         });
 
         return bars;
-      }
-    }
+      },
+    },
   };
 </script>
 
@@ -628,13 +628,13 @@ The next step we can remove all the hard coded values form the graph and get tho
           ["Eve", 38],
           ["Karen", 21],
           ["Kirsty", 25],
-          ["Chris", 30]
-        ]
+          ["Chris", 30],
+        ],
       };
     },
     components: {
-      BarChart
-    }
+      BarChart,
+    },
   };
 </script>
 
