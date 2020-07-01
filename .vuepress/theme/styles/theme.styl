@@ -7,7 +7,7 @@
 @require './toc'
 @import url('https://fonts.googleapis.com/css?family=Mandali')
 @import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap')
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap')
 
 html,
 body
@@ -114,12 +114,21 @@ body
   img
     max-width 100%
 
+  img.bordered
+    border solid 3px #ddd
+    box-sizing border-box
+    border-radius 8px
+
+  video
+    max-width 100%
+    border solid 3px #ddd
+    border-radius 8px
+    outline none
+
 .content__default.custom
   padding 0
   margin 0
 
-  // > *:first-child
-  // margin-top $navbarHeight
   img
     max-width 100%
 
@@ -266,7 +275,7 @@ h4,
 h5,
 h6
   line-height 1.25
-  font-weight 700
+  font-weight 600
 
   .content__default:not(.custom) > &
     margin-top 0.5rem - $navbarHeight

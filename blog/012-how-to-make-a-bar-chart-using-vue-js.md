@@ -75,7 +75,7 @@ Once that's done, you can navigate to [http://localhost:8080/](http://localhost:
 
 Before creating a barchart lets understand the components of a bar chart, let's identify the building blocks that are required to compose a bar chart,
 
-![Structure](/img/blog/21/structure.png)
+![Structure](/img/blog/12/structure.png)
 
 Create a file called `BarChart.vue` in `src/component`. We are going to create a skeleton of a vue file.
 
@@ -289,7 +289,7 @@ Let's place our component in the Home.vue by importing it and calling the `<BarC
 
 Now if you open [http://localhost:8080/](http://localhost:8080/) you will see a preview of bars arranged next to each other. You could inspect and take a look at how the SVG `rect` tag is rendered. Also you could try adjusting the data object and see how all the bars will re-adjust accordingly.
 
-![Preview](/img/blog/21/perview-1.png)
+![Preview](/img/blog/12/perview-1.png)
 
 Our next step is to generate the x and y axises, lets tackle the x-axis first. x-axis is the horizontal axis and first off, we'll need to create the line. The x and y axises are placed bottom and right edges so we need to make some room to display them, so we'll need to add a padding to the svg elements. Add an additional 40px to both height and width and then move the whole content inside by 20px left and top using the `transform` property.
 
@@ -320,7 +320,7 @@ We'll be using a another group tag `g` to place our x-axis and move that to the 
 
 This is will generate a line below the graph like below, you can adjust the tick height by changing the `d` property on the `path` tag.
 
-![Preview](/img/blog/21/preview-2.png)
+![Preview](/img/blog/12/preview-2.png)
 
 Now we need to add the ticks to the x-axis, horizontal ticks are nothing but labels for the bars and for that we can loop though the bars again and places the text label right under the bar. You can create another `g` tag and loop that though the bars and add a `text` tag inside the `g` tag along with a `line` tag to show the little tick.
 
@@ -366,7 +366,7 @@ Now we need to add the ticks to the x-axis, horizontal ticks are nothing but lab
 
 The `text-anchor` attribute will make sure the text is placed in the middle of the bar, and we will place each group at their corresponding their x position. That will produce a chart like below,
 
-![Preview](/img/blog/21/preview-3.png)
+![Preview](/img/blog/12/preview-3.png)
 
 Our next step is to add the y-axis, and for that we need a array of values in correct intervals split equally base on the height of the chart. We can use the d3s `tick()` function to generate these values. We can add a computed property called `yTicks` and use the `y` scale function to generate the number of ticks.
 
@@ -466,7 +466,7 @@ Now the `yTicks` property will contain an array values in equal intervals scaled
 
 That will generate our final graph with both x and y axis like shown in the picture below.
 
-![Preview](/img/blog/21/preview-4.png)
+![Preview](/img/blog/12/preview-4.png)
 
 The next step we can remove all the hard coded values form the graph and get those values a props for the component call and style the graph using CSS and them it look pretty. Putting it all together we will have a file like this,
 
@@ -648,7 +648,7 @@ The next step we can remove all the hard coded values form the graph and get tho
 
 Adding some details and moving all the hard coded values to props will result in a beautiful chart like below.
 
-![Preview](/img/blog/21/preview-5.png)
+![Preview](/img/blog/12/preview-5.png)
 
 ## Conclusion
 
