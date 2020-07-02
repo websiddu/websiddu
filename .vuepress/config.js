@@ -33,6 +33,7 @@ module.exports = {
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
     "disqus",
+    ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     ["@vuepress/google-analytics", ga_options],
     ["feed", feed_options],
     ["autometa", autometa_options],
@@ -109,6 +110,45 @@ module.exports = {
         href: "/favicon.ico",
       },
     ],
+    [
+      "meta",
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1",
+      },
+    ],
+
+    ["link", { rel: "icon", href: "/img/logo.svg" }],
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        href: "/img/logos/apple-touch-icon-152x152.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "mask-icon",
+        href: "/img/logos/safari-pinned-tab.svg",
+        color: "#3eaf7c",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "msapplication-TileImage",
+        content: "/img/logos/msapplication-icon-144x144.png",
+      },
+    ],
+    ["meta", { name: "msapplication-TileColor", content: "#000000" }],
   ],
   title: "Siddhartha Gudipati",
   themeConfig: {
