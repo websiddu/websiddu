@@ -4,6 +4,7 @@ cover: images/covers/website.jpg
 date: May 25, 2014
 permalink: /blog/my-website-is-build-on-open-source.html
 description: Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is...
+sidebar: false
 ---
 
 Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is a little tedious task if I want to do this even if I misspelt some thing in the content.
@@ -50,7 +51,7 @@ http://websiddu.github.io/websiddu/#/
 
 - Angular.js
 - SASS
-- Fondation
+- Foundation
 - Yeoman
 - Grunt
 - Bower
