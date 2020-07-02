@@ -241,6 +241,8 @@ Once the functions are deployed any change you make to the firebase database wil
 
 If you feel fancy you can auto create the sheets based on the endpoint if you use a wildcard reference to the database path. You can refer to the [Google Sheets API](https://developers.google.com/sheets/api/guides/batchupdate) documentation and tailor this to your needs.
 
+If you like the post please feel free to share it with on twitter or leave a comment below. If you found any errors in this article, please feel free to edit on [GitHub](https://github.com/websiddu/websiddu/blob/master/blog/posts/013-sync-firebase-to-google-sheets.md)
+
 ### References
 
 - [Copying data from Firebase to a Google Sheet via Cloud Functions](https://gist.github.com/CodingDoug/ffc4f050cc489a0280eb7f4cbe36af07)

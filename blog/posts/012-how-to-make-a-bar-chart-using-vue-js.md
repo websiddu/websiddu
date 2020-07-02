@@ -668,4 +668,4 @@ And here is the demo and sourcecode
 - **[View demo](https://wtyzj.csb.app)**
 - **[View source](https://codesandbox.io/s/vue-barchart-wtyzj)**
 
-If you like the post please feel free to share it with on twitter or leave a comment below. If you found any errors in this article, please feel free to edit on [GitHub](https://github.com/websiddu/websiddu/blob/master/blog/021-how-to-make-a-bar-chart-using-vue-js.md)
+If you like the post please feel free to share it with on twitter or leave a comment below. If you found any errors in this article, please feel free to edit on [GitHub](https://github.com/websiddu/websiddu/blob/master/blog/posts/012-how-to-make-a-bar-chart-using-vue-js.md)
