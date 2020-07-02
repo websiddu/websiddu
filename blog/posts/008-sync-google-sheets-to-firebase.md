@@ -8,7 +8,6 @@ tags:
   - google sheets
   - firebase
   - spreadsheet
-  - web design colorblind
   - firebase database
 ---
 
