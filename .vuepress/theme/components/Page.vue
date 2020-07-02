@@ -91,19 +91,6 @@ export default {
   border-top solid 1px #eee
 
 @media (max-width: $MQMobile)
-  .page-edit
-    flex-direction column-reverse
-    align-items unset
-
-    .edit-link
-      margin-bottom 1rem
-
-    .last-updated
-      font-size 0.8em
-      float none
-      text-align left
-      margin-bottom 1rem
-
   .photos-page-title
     font-size 3.5rem
     margin 2rem 0 1rem 0

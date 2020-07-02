@@ -166,7 +166,7 @@ export default {
 .page-edit
   @extend $wrapper
 
-  padding-top 1rem
+  padding-top 2rem
   padding-bottom 1rem
   overflow auto
   display flex
@@ -182,6 +182,7 @@ export default {
   .last-updated
     float right
     font-size 0.88em
+    margin-top 3px
 
     .prefix
       font-weight 500
@@ -194,10 +195,15 @@ export default {
 
 @media (max-width: $MQMobile)
   .page-edit
+    flex-direction column-reverse
+    align-items unset
+
     .edit-link
-      margin-bottom 0.5rem
+      margin-bottom 1rem
+
     .last-updated
       font-size 0.8em
       float none
       text-align left
+      margin-bottom 1rem
 </style>

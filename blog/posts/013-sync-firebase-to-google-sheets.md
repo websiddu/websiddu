@@ -200,8 +200,10 @@ exports.SyncToSheets = functions.database
 
 You can replace `products` with your own database path and also change the name `Products` in the range variable.
 
-::: tip
-This is a tip
+::: tip NOTE
+
+The piece of code `String.fromCharCode(65 + keys.length)` will only work for 26 column names, if you have more than 26 columns you have to create your own log to replicate the Google Sheets algorithm of range generation.
+
 :::
 
 ### Step 6: Deploy
