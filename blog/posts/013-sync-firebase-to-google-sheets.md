@@ -36,6 +36,12 @@ If you haven’t already, sign up for Firebase using the free tier and then crea
 
 ![New project](https://res.cloudinary.com/websiddu/image/upload/v1593528040/blog/013/new-project.png)
 
+::: warning NOTE
+
+Firebase billing is required for cloud functions to work. You have easily upgrade to `Pay as you go`, just click on the upgrade button on the bottom of the sidebar.
+
+:::
+
 ### Step 2: Enable Google Sheets API
 
 - Go to the [API Console](https://console.developers.google.com/).
