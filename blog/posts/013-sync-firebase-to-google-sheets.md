@@ -38,7 +38,7 @@ If you haven’t already, sign up for Firebase using the free tier and then crea
 
 ::: warning NOTE
 
-Firebase billing is required for cloud functions to work. You have easily upgrade to `Pay as you go`, just click on the upgrade button on the bottom of the sidebar.
+Firebase billing is required for cloud functions to work. You can easily upgrade to `Pay as you go`, just click on the upgrade button on the bottom of the sidebar.
 
 :::
 
@@ -75,21 +75,21 @@ A service account is used in an application that calls APIs on behalf of an appl
 
 ### Step 3: Create a spreadsheet
 
-Now create new Google Sheet in which you would be storing your data. You can quickly create a new sheet by accessing [sheets.new](https://sheets.new). Grab the id of the sheet.
+Now create a new Google Sheet in which you would be storing your data. You can quickly create a new sheet by accessing [sheets.new](https://sheets.new). Grab the id of the sheet.
 
 ![Sheet](https://res.cloudinary.com/websiddu/image/upload/v1593530093/blog/013/sheet.png)
 
-Share this sheet the email address in your service account and give edit access to the same. In this case I have to give edit access to email address `firebase-to-sheets@fir-to-sheets-289e1.iam.gserviceaccount.com`.
+Share this sheet the email address in your service account and give edit access to the same. In this case I have to give edit access to the email address `firebase-to-sheets@fir-to-sheets-289e1.iam.gserviceaccount.com`.
 
 ::: tip IMPORTANT
 
-Its important that you share your Spreadsheet with the service account, otherwise the cloud function will not be able to write to the sheet.
+It's important that you share your Spreadsheet with the service account, otherwise the cloud function will not be able to write to the sheet.
 
 :::
 
 ### Step 4: Setup cloud functions project
 
-For this you are expected to know how to use and setup a node js project along with good understanding of firebase command line tools. To begin create a folder and run npm init
+For this you are expected to know how to use and setup a node js project along with a good understanding of firebase command line tools. To begin create a folder and run npm init
 
 ```shell
 mkdir firebase-to-sheets
