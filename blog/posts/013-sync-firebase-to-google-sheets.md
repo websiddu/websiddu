@@ -79,7 +79,13 @@ Now create new Google Sheet in which you would be storing your data. You can qui
 
 ![Sheet](https://res.cloudinary.com/websiddu/image/upload/v1593530093/blog/013/sheet.png)
 
-Share it with edit access to the email address in your service account. In this case `firebase-to-sheets@fir-to-sheets-289e1.iam.gserviceaccount.com`
+Share this sheet the email address in your service account and give edit access to the same. In this case I have to give edit access to email address `firebase-to-sheets@fir-to-sheets-289e1.iam.gserviceaccount.com`.
+
+::: tip IMPORTANT
+
+Its important that you share your Spreadsheet with the service account, otherwise the cloud function will not be able to write to the sheet.
+
+:::
 
 ### Step 4: Setup cloud functions project
 
