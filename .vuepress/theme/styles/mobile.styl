@@ -5,7 +5,7 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
 // narrow desktop / iPad
 @media (max-width $MQNarrow)
   .sidebar
-    font-size 0.95rem
+    font-size 15px
     width $mobileSidebarWidth
 
   .page
@@ -26,7 +26,6 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
     &.sidebar-open
       .sidebar
         transform translateX(0)
-        box-shadow 3px 0px 6px rgba(0, 0, 0, 0.08)
 
     &.no-navbar
       .sidebar
@@ -37,12 +36,7 @@ $mobileSidebarWidth = $sidebarWidth * 0.82
   h1
     font-size 1.9rem
 
-  .content__default
+  {$contentClass}
     div[class*='language-']
       margin 0.85rem -1.5rem
       border-radius 0
-
-  .filename
-    margin-left -1.5rem
-    margin-right -1.5rem
-    border-radius 0

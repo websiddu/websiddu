@@ -1,3 +1,4 @@
+const glob = require("glob");
 const container = require("markdown-it-container");
 const probe = require("probe-image-size");
 const request = require("sync-request");
@@ -114,6 +115,12 @@ module.exports = {
     logo: "/img/logo.svg",
     title: "Siddhartha Gudipati",
     search: false,
+    nextLinks: true,
+    prevLinks: true,
+    sidebar: {
+      "/blog": glob.sync("blog/posts/**/*.md").map((f) => "/" + f),
+      "/": false,
+    },
     nav: [
       {
         text: "Home",

@@ -6,11 +6,7 @@
       :key="img.url"
       :alt="img.url"
       loading="lazy"
-      :style="{
-        width: `${img.width}`,
-        height: `${img.height}`,
-        margin: `${margin}px`,
-      }"
+      :style="{width: `${img.width}`, height: `${img.height}`, margin: `${margin}px`}"
     />
   </section>
 </template>
@@ -26,28 +22,28 @@ export default {
     handleResize() {
       if (!this.$refs.photoset) return;
       this.contentWidth = this.$refs.photoset.getBoundingClientRect().width;
-    },
+    }
   },
   data() {
     return {
       contentWidth: 0,
-      margin: 4,
+      margin: 4
     };
   },
   computed: {
     imgs() {
       let imgs = JSON.parse(JSON.stringify(this.src));
 
-      imgs.map((img) => (img.ratio = img.imgSize.width / img.imgSize.height));
+      imgs.map(img => (img.ratio = img.imgSize.width / img.imgSize.height));
       let minRatio = imgs.reduce(
         (min, p) => (p.ratio < min ? p.ratio : min),
         imgs[0].ratio
       );
       let j = 0;
-      imgs.forEach((img) => (j += img.ratio / minRatio));
+      imgs.forEach(img => (j += img.ratio / minRatio));
       let c = (this.contentWidth - imgs.length * (this.margin * 2)) / j;
 
-      imgs = imgs.map((img) => {
+      imgs = imgs.map(img => {
         let width = (c / minRatio) * img.ratio;
         let height = c / minRatio;
 
@@ -75,13 +71,13 @@ export default {
           url: url,
           width: width + "px",
           height: height + "px",
-          margin: this.margin,
+          margin: this.margin
         };
       });
 
       return imgs;
-    },
-  },
+    }
+  }
 };
 </script>
 

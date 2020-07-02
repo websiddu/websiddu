@@ -1,0 +1,488 @@
+@require './config'
+@require './nprogress'
+@require './code'
+@require './custom-blocks'
+@require './arrow'
+@require './wrapper'
+@require './toc'
+@import url('https://fonts.googleapis.com/css?family=Mandali')
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap')
+
+html,
+body
+  padding 0
+  margin 0
+
+body
+  font-family 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  font-size 16px
+  letter-spacing -0.011rem
+  line-height 1.6
+  color $textColor
+  scroll-behavior smooth
+  font-feature-settings 'ss01' 1, 'calt' 1, 'case' 1
+
+.page
+  // padding-left $sidebarWidth
+  padding-top $navbarHeight
+
+.navbar
+  position fixed
+  z-index 20
+  top 0
+  left 0
+  right 0
+  height $navbarHeight
+  background-color #fff
+  box-sizing border-box
+  // border-bottom 1px solid $borderColor
+
+.sidebar-mask
+  position fixed
+  z-index 9
+  top 0
+  left 0
+  width 100vw
+  height 100vh
+  display none
+
+.sidebar
+  background-color #fff
+  position fixed
+  z-index 99
+  margin 0
+  top $navbarHeight
+  left 0
+  bottom 0
+  box-sizing border-box
+  overflow-y auto
+
+  .nav-links
+    min-width unset
+
+{$contentClass}:not(.custom) a.img-link
+  color $textColor
+
+{$contentClass}:not(.custom) a.img-link:hover
+  text-decoration none
+
+{$contentClass}.header
+  @extend $wrapper-header
+
+  min-height 48px
+  position relative
+
+{$contentClass}:not(.custom)
+  @extend $wrapper
+
+  a
+    border-bottom 2px solid #e2eafd
+
+  a:hover
+    color #2161f2
+    background #f0f4fe
+    border-bottom 2px solid #2161f2
+    font-weight 500
+
+  a.img-link
+    border-bottom none
+
+    img
+      transition ease-in-out 0.2s all
+
+  a.img-link:hover
+    color unset
+    background unset
+    border-bottom none
+    font-weight normal
+
+    img
+      transform scale(1.008)
+
+  a.img-link:active
+    img
+      transform scale(1)
+
+  p.demo
+    padding 1rem 1.5rem
+    border 1px solid #ddd
+    border-radius 4px
+
+  img
+    max-width 100%
+
+  img.bordered
+    border solid 3px #ddd
+    box-sizing border-box
+    border-radius 8px
+
+  video
+    max-width 100%
+    border solid 3px #ddd
+    border-radius 8px
+    outline none
+
+{$contentClass}.custom
+  padding 0
+  margin 0
+
+  img
+    max-width 100%
+
+{$contentClass}.custom.home
+  max-width 1200px
+  margin 0 10vw
+
+{$contentClass}.custom.photos-list
+  max-width 1200px
+  margin 0 auto
+  padding 0 4vw
+
+.te
+  font-family 'Mandali', sans-serif
+
+  p
+    font-family 'Mandali', sans-serif
+    font-size 1.1rem
+
+  blockquote
+    p
+      font-size 1.4rem
+
+  ol
+    list-style-type telugu
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6
+    font-family 'Mandali', sans-serif
+
+  ol,
+  ul,
+  li
+    font-family 'Mandali', sans-serif
+    font-size 1.1rem
+
+  ol
+    list-style-type telugu
+
+{$contentClass}.custom.photo-post
+  max-width 1600px
+  width 95vw
+  margin 0 auto
+  padding-top 32px
+
+  .story
+    width 50vw
+    margin-left auto
+    margin-right auto
+    margin-top 3.5rem
+    margin-bottom 2rem
+
+    h2
+      font-size 2rem
+      margin 0
+
+    p
+      font-size 1.1rem
+      line-height 1.55
+      margin-top 0.5rem
+      margin-bottom 0.9rem
+
+footer
+  border-top 1px solid #dce1e5
+  width 100%
+  margin-top 0
+  padding 1.5rem 0 1.5rem
+  display flex
+  align-items center
+  justify-content center
+
+  .nav
+    a
+      margin 0 16px
+      color #888
+      font-size 1rem
+
+      &:hover
+        color #333
+        border-bottom solid 2px #666
+
+@media (max-width $MQNarrow)
+  {$contentClass}.custom.photo-post .story
+    width 80vw
+
+@media (max-width $MQMobile)
+  a[target='_blank']
+    word-break break-all
+
+  {$contentClass}.custom.photo-post .story
+    width 90vw
+
+    h2
+      font-size 1.7rem
+
+    p
+      font-size 1.17rem
+
+a
+  font-weight 500
+  color $accentColor
+  text-decoration none
+
+p a code
+  font-weight 400
+  color $accentColor
+
+kbd
+  background #eee
+  border solid 0.15rem #ddd
+  border-bottom solid 0.25rem #ddd
+  border-radius 0.15rem
+  padding 0 0.15em
+
+blockquote
+  font-size 1.1rem
+  color #444
+  border-left 0.25rem solid #dfe2e5
+  margin-left 0
+  padding-left 1rem
+  margin-bottom 2rem
+
+@counter-style number
+  system decimal
+
+ul,
+ol
+  padding-left 2rem
+
+  li
+    margin-bottom 4px
+
+strong
+  font-weight 700
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  line-height 1.25
+  font-weight 600
+
+  {$contentClass}:not(.custom) > &
+    margin-top 0.5rem - $navbarHeight
+    padding-top ($navbarHeight + 1.5rem)
+    margin-bottom 0
+
+    + p
+      margin-top 0.7rem
+
+    &:first-child
+      margin-top -1.5rem
+      margin-bottom 1rem
+
+      + p,
+      + pre,
+      + .custom-block
+        margin-top 2rem
+
+  &:hover .header-anchor
+    opacity 1
+
+h1
+  font-size 2.2rem
+
+h2
+  font-size 1.8rem
+  padding-bottom 0.3rem
+
+h3
+  font-size 1.35rem
+
+img[src*='#left']
+  float left
+  padding 8px 16px 12px 0
+
+img[src*='#right']
+  float right
+  padding 8px 0 12px 16px
+
+img[src*='#center']
+  display block
+  margin 0 auto
+
+a.header-anchor
+  font-size 0.85em
+  float left
+  margin-left -0.87em
+  padding-right 0.23em
+  margin-top 0.125em
+  opacity 0
+
+  &:hover
+    text-decoration none
+
+code,
+kbd,
+.line-number
+  font-family 'Fira Code', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+p,
+ul,
+ol
+  line-height 1.7
+
+hr
+  border none
+  border-top 1px solid $borderColor
+
+table
+  border-collapse collapse
+  margin 1rem 0
+  display block
+  overflow-x auto
+
+tr
+  border-top 1px solid #dfe2e5
+
+  &:nth-child(2n)
+    background-color #f6f8fa
+
+th,
+td
+  border 1px solid #dfe2e5
+  padding 0.6em 1em
+
+.custom-layout
+  padding-top $navbarHeight
+
+.theme-container
+  &.sidebar-open
+    .sidebar-mask
+      display block
+
+  &.no-navbar
+    {$contentClass}:not(.custom) > h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6
+      margin-top 1.5rem
+      padding-top 0
+
+    .sidebar
+      top 0
+
+    .custom-layout
+      padding-top 0
+
+.btn
+  -webkit-appearance none
+  display inline-block
+  border-radius 4px
+  border none
+  background #607d8b
+  color #fff
+  text-transform none
+  padding 0.6rem 0.7rem 0.6rem 0.6rem
+  vertical-align middle
+  text-align center
+  font-size 0.95rem
+  cursor pointer
+  text-decoration none
+  line-height 1
+  display inline-flex
+  align-items center
+
+.theme-container
+  &.dark
+    background $darkBackground
+    color #ccc
+
+    .sidebar
+      background #292f33
+      border-right-color #202427
+
+      .nav-item
+        a.nav-link
+          color #BDC1C6
+
+          &:hover
+            color #BDC1C6
+
+          &.router-link-active
+            color #fff
+            display inline-block
+            position relative
+
+    .navbar
+      background-color $darkBackground
+
+      .links
+        background transparent
+        color #F1F3F4
+
+      .nav-item
+        a.nav-link
+          color #BDC1C6
+
+          &:hover
+            color #BDC1C6
+
+          &.router-link-active
+            color #fff
+
+            &:before
+              background-color $navLinkActiveBarColor
+
+    .author
+      background-color $darkBackground
+      border-top-color #3a3a3a
+
+      .container
+        background-color $darkBackground
+        box-shadow 0 0 8px #0000004d
+
+    footer
+      border-top-color #3a3a3a
+
+      a.nav-link
+        color #BDC1C6
+
+        &:hover
+          color #BDC1C6
+
+        &.router-link-active
+          color #fff
+
+          &:before
+            background-color $navLinkActiveBarColor
+
+.home-title
+  font-size 2.3rem
+  line-height 1.5
+  font-weight 300
+  max-width 45rem
+  padding-top 20vh
+  padding-bottom 5vh
+  position relative
+  color rgba(0, 0, 0, 0.7)
+
+@media (min-width ($MQMobile + 1px))
+  .theme-container.no-sidebar
+    .sidebar
+      display none
+
+    .page
+      padding-left 0
+
+@require './mobile.styl'
