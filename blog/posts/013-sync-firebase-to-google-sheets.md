@@ -20,7 +20,7 @@ tags:
   - sync data from firebase to google sheets
 ---
 
-In one of my earlier posts I have described how to sync data from [Google sheets to Firebase](https://websiddu.com/blog/sync-google-sheets-to-firebase.html). In some cases it desired the inverse i.e Firebase → Google Sheets. Firebase is extremely powerful and very approachable to do such kinds of manipulations.
+In one of my earlier posts I have described how to sync data from [Google sheets to Firebase](https://websiddu.com/blog/sync-google-sheets-to-firebase.html). In some cases we need the inverse i.e Firebase → Google Sheets. Firebase is extremely powerful and very approachable to do such kinds of manipulations.
 
 <img src="/img/blog/13/demo.gif" alt="demo" class="bordered">
 
