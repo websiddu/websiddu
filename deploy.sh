@@ -20,6 +20,6 @@ git init
 git add -A
 git commit -m "Deployed at `date +'%Y-%m-%d %H:%M:%S'`"
 
-git push -f git@github.com:websiddu/websiddu.git master:gh-pages
+git push -f https://github.com/websiddu/websiddu.git master:gh-pages
 
 cd -
