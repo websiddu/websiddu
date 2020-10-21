@@ -64,7 +64,7 @@ export default {
   right: 1em;
   bottom: 1em;
   padding: 1em;
-  border: 1px solid $accentColor;
+  border: 1px solid #3d5afe;
   border-radius: 3px;
   background: #fff;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);

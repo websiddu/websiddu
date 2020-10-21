@@ -26,6 +26,7 @@ const ga_options = {
   ga: "UA-88629726-1",
 };
 
+
 module.exports = {
   port: 8089,
   plugins: [
@@ -119,7 +120,7 @@ module.exports = {
 
     ["link", { rel: "icon", href: "/img/logo.svg" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
-    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "theme-color", content: "#3d5afe" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
@@ -147,7 +148,7 @@ module.exports = {
         content: "/img/logos/msapplication-icon-144x144.png",
       },
     ],
-    ["meta", { name: "msapplication-TileColor", content: "#000000" }],
+    ["meta", { name: "msapplication-TileColor", content: "#3d5afe" }],
   ],
   title: "Siddhartha Gudipati",
   themeConfig: {
