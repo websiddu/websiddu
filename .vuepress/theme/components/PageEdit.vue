@@ -35,7 +35,7 @@
           &nbsp;Share
         </a>
         &nbsp;&nbsp;
-        <button class="btn" @click="discuss = true" v-if="!discuss">
+        <!-- <button class="btn" @click="discuss = true" v-if="!discuss">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -52,7 +52,7 @@
             />
           </svg>
           &nbsp;Discuss
-        </button>
+        </button> -->
       </div>
 
       <div style="flex: 1;"></div>
@@ -63,10 +63,17 @@
       </div>
     </div>
 
-    <div class="page-comments" v-if="discuss">
-      <ClientOnly v-if="isBlog">
-        <Disqus shortname="websiddu" />
-      </ClientOnly>
+    <div class="page-comments"  v-if="isBlog">
+        <component
+          v-if="CommentsComponent"
+          :is="CommentsComponent"
+          :title="$page.title"
+          :pathname="$page.title"
+          repo="websiddu/comments"
+          label="comment"
+          theme="github-light"
+          description="This issue contains the comments of the page:"
+        />
       <br />
     </div>
   </div>
@@ -80,9 +87,14 @@ export default {
   data() {
     return {
       discuss: false,
+      CommentsComponent: null,
     };
   },
   props: ["isBlog"],
+  mounted() {
+    import('@theme/components/Comments.vue')
+      .then(module => this.CommentsComponent = module.default);
+  },
   computed: {
     lastUpdated() {
       return this.$page.lastUpdated;

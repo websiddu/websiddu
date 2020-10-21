@@ -64,8 +64,9 @@ export default {
 .page-comments
   @extend $wrapper
 
-  padding-top 1rem
+  margin-top 1rem
   padding-bottom 0
+  border-top solid 1px #eee
 
 .photos-page-title
   font-size 5rem
