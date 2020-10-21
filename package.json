@@ -21,7 +21,6 @@
     "vuepress": "^1.5.2",
     "vuepress-plugin-autometa": "^0.1.13",
     "vuepress-plugin-container": "^2.1.2",
-    "vuepress-plugin-disqus": "^0.2.0",
     "vuepress-plugin-feed": "^0.1.8",
     "vuepress-plugin-reading-time": "^0.1.1"
   },

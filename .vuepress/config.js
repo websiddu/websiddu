@@ -32,7 +32,6 @@ module.exports = {
     "@vuepress/nprogress",
     "@vuepress/last-updated",
     "vuepress-plugin-reading-time",
-    "disqus",
     ["@vuepress/pwa", { serviceWorker: true, updatePopup: true }],
     ["@vuepress/google-analytics", ga_options],
     ["feed", feed_options],
