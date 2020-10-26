@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://websiddu.com</id>
+    <title>Siddhartha Gudipati</title>
+    <updated>2020-10-26T18:49:36.289Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://websiddu.com"/>
+    <link rel="self" href="https://websiddu.com/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My website is build on open-source]]></title>
+        <id>https://websiddu.com/blog/my-website-is-build-on-open-source.html</id>
+        <link href="https://websiddu.com/blog/my-website-is-build-on-open-source.html">
+        </link>
+        <updated>2014-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Email that paved my path]]></title>
+        <id>https://websiddu.com/blog/email-that-paved-my-path.html</id>
+        <link href="https://websiddu.com/blog/email-that-paved-my-path.html">
+        </link>
+        <updated>2015-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This story takes us back to 2011, the year when I had received my appointment letter from Tata Consultancy Services after patiently waiting for 5 months. On the 23rd of September, I became a part of their Initial Learning Program(ILP) along with 500 other participants...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Integrating node apps with UW's SAML]]></title>
+        <id>https://websiddu.com/blog/integrating-your-node-app-with-uw-saml.html</id>
+        <link href="https://websiddu.com/blog/integrating-your-node-app-with-uw-saml.html">
+        </link>
+        <updated>2015-07-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As part of my on-campus jobs, I built a custom form builder for the UW Dept of Sustainability. I used MEAN (MongoDB, Express.js, Angular.js, Node) as my tech stack. I was the only designer and developer for the whole application...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I implemented accessibility for my portfolio website?]]></title>
+        <id>https://websiddu.com/blog/how-i-implemented-accessibility-to-website.html</id>
+        <link href="https://websiddu.com/blog/how-i-implemented-accessibility-to-website.html">
+        </link>
+        <updated>2016-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[నా సంతకం తెలుగు లో మరి మీది?]]></title>
+        <id>https://websiddu.com/blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html</id>
+        <link href="https://websiddu.com/blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html">
+        </link>
+        <updated>2016-11-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[దేశ భాషలందు తెలుగు లెస్స అని శ్రీ కృష్ణ దేవరాయలు అన్నట్టు మన తెలుగు భాష నిజంగా నే వినసొంపైన భాష. ఈ ఆధునిక యుగం లో మన తేనె లొలుకు తెలుగు భాషకి ప్రాచుర్యం తగ్గిపోతుంటే, చూస్తూ ఉండటం తప్ప నేను ఏమి చేయగలను? ప్రతి రోజు పెరుగుతున్న సాంకేతిక పరిజ్ఞానం వల్ల మన ఈ తరం పిల్లలు స్వచ్చమైన తెలుగు మాట్లాడటం...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Questions that I want answers for in life]]></title>
+        <id>https://websiddu.com/blog/questions-i-want-answers-for.html</id>
+        <link href="https://websiddu.com/blog/questions-i-want-answers-for.html">
+        </link>
+        <updated>2016-12-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever wondered or lost thinking about something so deep that you want to find an answer even you know that you will never find that answer? Questions like What is the purpose of...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Morning thoughts]]></title>
+        <id>https://websiddu.com/blog/morning-thoughts.html</id>
+        <link href="https://websiddu.com/blog/morning-thoughts.html">
+        </link>
+        <updated>2017-02-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sync data Google sheets to a Firebase]]></title>
+        <id>https://websiddu.com/blog/sync-google-sheets-to-firebase.html</id>
+        <link href="https://websiddu.com/blog/sync-google-sheets-to-firebase.html">
+        </link>
+        <updated>2019-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Often times when testing a design, it’s useful to create a prototype with realistic data. And giving UX Researchers an easy way to manipulate data allows them to test multiple variations very quickly and...]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing for color blindness]]></title>
+        <id>https://websiddu.com/blog/designing-for-color-blindness.html</id>
+        <link href="https://websiddu.com/blog/designing-for-color-blindness.html">
+        </link>
+        <updated>2019-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to design a UX Portfolio website]]></title>
+        <id>https://websiddu.com/blog/how-to-design-a-ux-portfolio-website-part1.html</id>
+        <link href="https://websiddu.com/blog/how-to-design-a-ux-portfolio-website-part1.html">
+        </link>
+        <updated>2019-08-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Building a design portfolio website can be a daunting task especially when you are just starting with your design career or you are design student with no coding skills. I have heard many questions from my classmates asking where do I start. In this post I will try to explain how to build a portfolio website end to end.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Elegant free typefaces for the web]]></title>
+        <id>https://websiddu.com/blog/elegant-typefaces-for-the-web.html</id>
+        <link href="https://websiddu.com/blog/elegant-typefaces-for-the-web.html">
+        </link>
+        <updated>2019-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Here are some of my favorite type faces that I collected over the years which are elegantly designed for the web.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make a bar chart using Vue.js]]></title>
+        <id>https://websiddu.com/blog/how-to-make-a-bar-chart-using-vue-js.html</id>
+        <link href="https://websiddu.com/blog/how-to-make-a-bar-chart-using-vue-js.html">
+        </link>
+        <updated>2020-01-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sync data from Firebase to Google sheets]]></title>
+        <id>https://websiddu.com/blog/sync-data-from-firebase-to-google-sheets.html</id>
+        <link href="https://websiddu.com/blog/sync-data-from-firebase-to-google-sheets.html">
+        </link>
+        <updated>2020-05-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this blog post I will describe how to sync new data written to a Firebase to Google Sheets. It includes a method for obtaining, storing, and using Oauth2 tokens for Google API access.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make a pie chart using Vue.js]]></title>
+        <id>https://websiddu.com/blog/how-to-make-a-pie-chart-using-vue-js.html</id>
+        <link href="https://websiddu.com/blog/how-to-make-a-pie-chart-using-vue-js.html">
+        </link>
+        <updated>2020-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog]]></title>
+        <id>https://websiddu.com/blog/</id>
+        <link href="https://websiddu.com/blog/">
+        </link>
+        <updated>2020-10-26T18:49:36.286Z</updated>
+    </entry>
+</feed>

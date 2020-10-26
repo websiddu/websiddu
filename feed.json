@@ -1,0 +1,124 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Siddhartha Gudipati",
+    "home_page_url": "https://websiddu.com",
+    "feed_url": "https://websiddu.com/feed.json",
+    "items": [
+        {
+            "id": "https://websiddu.com/blog/my-website-is-build-on-open-source.html",
+            "url": "https://websiddu.com/blog/my-website-is-build-on-open-source.html",
+            "title": "My website is build on open-source",
+            "summary": "Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is...",
+            "date_modified": "2014-05-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/email-that-paved-my-path.html",
+            "url": "https://websiddu.com/blog/email-that-paved-my-path.html",
+            "title": "Email that paved my path",
+            "summary": "This story takes us back to 2011, the year when I had received my appointment letter from Tata Consultancy Services after patiently waiting for 5 months. On the 23rd of September, I became a part of their Initial Learning Program(ILP) along with 500 other participants...",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/c_scale,q_100,w_800/v1558759729/blog/covers/lili-popper-29472-unsplash.webp",
+            "date_modified": "2015-04-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/integrating-your-node-app-with-uw-saml.html",
+            "url": "https://websiddu.com/blog/integrating-your-node-app-with-uw-saml.html",
+            "title": "Integrating node apps with UW's SAML",
+            "summary": "As part of my on-campus jobs, I built a custom form builder for the UW Dept of Sustainability. I used MEAN (MongoDB, Express.js, Angular.js, Node) as my tech stack. I was the only designer and developer for the whole application...",
+            "image": "http://res.cloudinary.com/websiddu/image/upload/v1440464533/saml1_yn7gcm.png",
+            "date_modified": "2015-07-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/how-i-implemented-accessibility-to-website.html",
+            "url": "https://websiddu.com/blog/how-i-implemented-accessibility-to-website.html",
+            "title": "How I implemented accessibility for my portfolio website?",
+            "summary": "I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says...",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558759191/blog/covers/absolutvision-1243127-unsplash.jpg",
+            "date_modified": "2016-02-19T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html",
+            "url": "https://websiddu.com/blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html",
+            "title": "నా సంతకం తెలుగు లో మరి మీది?",
+            "summary": "దేశ భాషలందు తెలుగు లెస్స అని శ్రీ కృష్ణ దేవరాయలు అన్నట్టు మన తెలుగు భాష నిజంగా నే వినసొంపైన భాష. ఈ ఆధునిక యుగం లో మన తేనె లొలుకు తెలుగు భాషకి ప్రాచుర్యం తగ్గిపోతుంటే, చూస్తూ ఉండటం తప్ప నేను ఏమి చేయగలను? ప్రతి రోజు పెరుగుతున్న సాంకేతిక పరిజ్ఞానం వల్ల మన ఈ తరం పిల్లలు స్వచ్చమైన తెలుగు మాట్లాడటం...",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1558758929/blog/covers/8508259185_9af747d84d_o.jpg",
+            "date_modified": "2016-11-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/questions-i-want-answers-for.html",
+            "url": "https://websiddu.com/blog/questions-i-want-answers-for.html",
+            "title": "Questions that I want answers for in life",
+            "summary": "Have you ever wondered or lost thinking about something so deep that you want to find an answer even you know that you will never find that answer? Questions like What is the purpose of...",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558758433/blog/covers/evan-dennis-75563-unsplash.jpg",
+            "date_modified": "2016-12-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/morning-thoughts.html",
+            "url": "https://websiddu.com/blog/morning-thoughts.html",
+            "title": "Morning thoughts",
+            "summary": "Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these...",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558756403/blog/covers/daniel-mingook-kim-139409-unsplash.jpg",
+            "date_modified": "2017-02-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/sync-google-sheets-to-firebase.html",
+            "url": "https://websiddu.com/blog/sync-google-sheets-to-firebase.html",
+            "title": "Sync data Google sheets to a Firebase",
+            "summary": "Often times when testing a design, it’s useful to create a prototype with realistic data. And giving UX Researchers an easy way to manipulate data allows them to test multiple variations very quickly and...",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/v1557636671/blog/017/1.png",
+            "date_modified": "2019-05-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/designing-for-color-blindness.html",
+            "url": "https://websiddu.com/blog/designing-for-color-blindness.html",
+            "title": "Designing for color blindness",
+            "summary": "One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..",
+            "image": "//res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1562353853/blog/018/marina-vitale-t809JJ6r9KA-unsplash.jpg",
+            "date_modified": "2019-07-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/how-to-design-a-ux-portfolio-website-part1.html",
+            "url": "https://websiddu.com/blog/how-to-design-a-ux-portfolio-website-part1.html",
+            "title": "How to design a UX Portfolio website",
+            "summary": "Building a design portfolio website can be a daunting task especially when you are just starting with your design career or you are design student with no coding skills. I have heard many questions from my classmates asking where do I start. In this post I will try to explain how to build a portfolio website end to end.",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/v1565479060/blog/019/Option1.png",
+            "date_modified": "2019-08-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/elegant-typefaces-for-the-web.html",
+            "url": "https://websiddu.com/blog/elegant-typefaces-for-the-web.html",
+            "title": "5 Elegant free typefaces for the web",
+            "summary": "Here are some of my favorite type faces that I collected over the years which are elegantly designed for the web.",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/blog/020/Inter.png",
+            "date_modified": "2019-07-05T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/how-to-make-a-bar-chart-using-vue-js.html",
+            "url": "https://websiddu.com/blog/how-to-make-a-bar-chart-using-vue-js.html",
+            "title": "How to make a bar chart using Vue.js",
+            "summary": "Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/v1578204310/blog/021/cover.png",
+            "date_modified": "2020-01-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/sync-data-from-firebase-to-google-sheets.html",
+            "url": "https://websiddu.com/blog/sync-data-from-firebase-to-google-sheets.html",
+            "title": "Sync data from Firebase to Google sheets",
+            "summary": "In this blog post I will describe how to sync new data written to a Firebase to Google Sheets. It includes a method for obtaining, storing, and using Oauth2 tokens for Google API access.",
+            "image": "https://res.cloudinary.com/websiddu/image/upload/v1593528040/blog/013/new-project.png",
+            "date_modified": "2020-05-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/how-to-make-a-pie-chart-using-vue-js.html",
+            "url": "https://websiddu.com/blog/how-to-make-a-pie-chart-using-vue-js.html",
+            "title": "How to make a pie chart using Vue.js",
+            "summary": "Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.",
+            "date_modified": "2020-10-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://websiddu.com/blog/",
+            "url": "https://websiddu.com/blog/",
+            "title": "Blog",
+            "date_modified": "2020-10-26T18:49:36.286Z"
+        }
+    ]
+}

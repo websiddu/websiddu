@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Siddhartha Gudipati</title>
+        <link>https://websiddu.com</link>
+        <description></description>
+        <lastBuildDate>Mon, 26 Oct 2020 18:49:36 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://websiddu.com/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[My website is build on open-source]]></title>
+            <link>https://websiddu.com/blog/my-website-is-build-on-open-source.html</link>
+            <guid>https://websiddu.com/blog/my-website-is-build-on-open-source.html</guid>
+            <pubDate>Sun, 25 May 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[Few months ago, my old website was pretty static and whenever I want to add a new project to my portfolio, I have to goto the file add the required details build the project again and FTP it to server. Which is...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Email that paved my path]]></title>
+            <link>https://websiddu.com/blog/email-that-paved-my-path.html</link>
+            <guid>https://websiddu.com/blog/email-that-paved-my-path.html</guid>
+            <pubDate>Wed, 01 Apr 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[This story takes us back to 2011, the year when I had received my appointment letter from Tata Consultancy Services after patiently waiting for 5 months. On the 23rd of September, I became a part of their Initial Learning Program(ILP) along with 500 other participants...]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/c_scale,q_100,w_800/v1558759729/blog/covers/lili-popper-29472-unsplash.webp">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Integrating node apps with UW's SAML]]></title>
+            <link>https://websiddu.com/blog/integrating-your-node-app-with-uw-saml.html</link>
+            <guid>https://websiddu.com/blog/integrating-your-node-app-with-uw-saml.html</guid>
+            <pubDate>Tue, 28 Jul 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[As part of my on-campus jobs, I built a custom form builder for the UW Dept of Sustainability. I used MEAN (MongoDB, Express.js, Angular.js, Node) as my tech stack. I was the only designer and developer for the whole application...]]></description>
+            <enclosure url="http://res.cloudinary.com/websiddu/image/upload/v1440464533/saml1_yn7gcm.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[How I implemented accessibility for my portfolio website?]]></title>
+            <link>https://websiddu.com/blog/how-i-implemented-accessibility-to-website.html</link>
+            <guid>https://websiddu.com/blog/how-i-implemented-accessibility-to-website.html</guid>
+            <pubDate>Fri, 19 Feb 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[I am a designer who is full of empathy and I strongly believe in universal design. First of all, let me tell you what I understand about universal design. Wikipedia says...]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558759191/blog/covers/absolutvision-1243127-unsplash.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[నా సంతకం తెలుగు లో మరి మీది?]]></title>
+            <link>https://websiddu.com/blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html</link>
+            <guid>https://websiddu.com/blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html</guid>
+            <pubDate>Mon, 14 Nov 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[దేశ భాషలందు తెలుగు లెస్స అని శ్రీ కృష్ణ దేవరాయలు అన్నట్టు మన తెలుగు భాష నిజంగా నే వినసొంపైన భాష. ఈ ఆధునిక యుగం లో మన తేనె లొలుకు తెలుగు భాషకి ప్రాచుర్యం తగ్గిపోతుంటే, చూస్తూ ఉండటం తప్ప నేను ఏమి చేయగలను? ప్రతి రోజు పెరుగుతున్న సాంకేతిక పరిజ్ఞానం వల్ల మన ఈ తరం పిల్లలు స్వచ్చమైన తెలుగు మాట్లాడటం...]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1558758929/blog/covers/8508259185_9af747d84d_o.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Questions that I want answers for in life]]></title>
+            <link>https://websiddu.com/blog/questions-i-want-answers-for.html</link>
+            <guid>https://websiddu.com/blog/questions-i-want-answers-for.html</guid>
+            <pubDate>Tue, 20 Dec 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Have you ever wondered or lost thinking about something so deep that you want to find an answer even you know that you will never find that answer? Questions like What is the purpose of...]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558758433/blog/covers/evan-dennis-75563-unsplash.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Morning thoughts]]></title>
+            <link>https://websiddu.com/blog/morning-thoughts.html</link>
+            <guid>https://websiddu.com/blog/morning-thoughts.html</guid>
+            <pubDate>Sat, 11 Feb 2017 00:00:00 GMT</pubDate>
+            <description><![CDATA[Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these...]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1558756403/blog/covers/daniel-mingook-kim-139409-unsplash.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Sync data Google sheets to a Firebase]]></title>
+            <link>https://websiddu.com/blog/sync-google-sheets-to-firebase.html</link>
+            <guid>https://websiddu.com/blog/sync-google-sheets-to-firebase.html</guid>
+            <pubDate>Sat, 11 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Often times when testing a design, it’s useful to create a prototype with realistic data. And giving UX Researchers an easy way to manipulate data allows them to test multiple variations very quickly and...]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/v1557636671/blog/017/1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Designing for color blindness]]></title>
+            <link>https://websiddu.com/blog/designing-for-color-blindness.html</link>
+            <guid>https://websiddu.com/blog/designing-for-color-blindness.html</guid>
+            <pubDate>Fri, 05 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..]]></description>
+            <enclosure url="//res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1562353853/blog/018/marina-vitale-t809JJ6r9KA-unsplash.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[How to design a UX Portfolio website]]></title>
+            <link>https://websiddu.com/blog/how-to-design-a-ux-portfolio-website-part1.html</link>
+            <guid>https://websiddu.com/blog/how-to-design-a-ux-portfolio-website-part1.html</guid>
+            <pubDate>Mon, 05 Aug 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Building a design portfolio website can be a daunting task especially when you are just starting with your design career or you are design student with no coding skills. I have heard many questions from my classmates asking where do I start. In this post I will try to explain how to build a portfolio website end to end.]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/v1565479060/blog/019/Option1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[5 Elegant free typefaces for the web]]></title>
+            <link>https://websiddu.com/blog/elegant-typefaces-for-the-web.html</link>
+            <guid>https://websiddu.com/blog/elegant-typefaces-for-the-web.html</guid>
+            <pubDate>Fri, 05 Jul 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[Here are some of my favorite type faces that I collected over the years which are elegantly designed for the web.]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/blog/020/Inter.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[How to make a bar chart using Vue.js]]></title>
+            <link>https://websiddu.com/blog/how-to-make-a-bar-chart-using-vue-js.html</link>
+            <guid>https://websiddu.com/blog/how-to-make-a-bar-chart-using-vue-js.html</guid>
+            <pubDate>Fri, 03 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/v1578204310/blog/021/cover.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Sync data from Firebase to Google sheets]]></title>
+            <link>https://websiddu.com/blog/sync-data-from-firebase-to-google-sheets.html</link>
+            <guid>https://websiddu.com/blog/sync-data-from-firebase-to-google-sheets.html</guid>
+            <pubDate>Tue, 26 May 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this blog post I will describe how to sync new data written to a Firebase to Google Sheets. It includes a method for obtaining, storing, and using Oauth2 tokens for Google API access.]]></description>
+            <enclosure url="https://res.cloudinary.com/websiddu/image/upload/v1593528040/blog/013/new-project.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[How to make a pie chart using Vue.js]]></title>
+            <link>https://websiddu.com/blog/how-to-make-a-pie-chart-using-vue-js.html</link>
+            <guid>https://websiddu.com/blog/how-to-make-a-pie-chart-using-vue-js.html</guid>
+            <pubDate>Fri, 23 Oct 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Often time the project you are working requires us to add a simple bar chart and including a charing library like highcharts.js or charts.js is too costly and resource consuming. In this post lets a make a simple re-usable vue component for a bar chart.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <link>https://websiddu.com/blog/</link>
+            <guid>https://websiddu.com/blog/</guid>
+            <pubDate>Mon, 26 Oct 2020 18:49:36 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

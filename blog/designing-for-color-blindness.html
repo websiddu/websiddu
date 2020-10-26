@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Designing for color blindness</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/img/logo.svg">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/img/logos/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="/img/logos/safari-pinned-tab.svg" color="#3eaf7c">
+    <link rel="alternate" type="application/rss+xml" href="https://websiddu.com/rss.xml" title="Siddhartha Gudipati RSS Feed">
+    <link rel="alternate" type="application/atom+xml" href="https://websiddu.com/feed.atom" title="Siddhartha Gudipati Atom Feed">
+    <link rel="alternate" type="application/json" href="https://websiddu.com/feed.json" title="Siddhartha Gudipati JSON Feed">
+    <meta name="description" content="One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..">
+    <meta name="image" content="//res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1562353853/blog/018/marina-vitale-t809JJ6r9KA-unsplash.jpg">
+    <meta name="twitter:title" content="Designing for color blindness">
+    <meta name="twitter:description" content="One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="//res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1562353853/blog/018/marina-vitale-t809JJ6r9KA-unsplash.jpg">
+    <meta name="twitter:url" content="https://websiddu.com/blog/posts/009-designing-for-color-blindness.html">
+    <meta name="twitter:creator" content="@websiddu">
+    <meta name="twitter:site" content="@websiddu">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Designing for color blindness">
+    <meta property="og:description" content="One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..">
+    <meta property="og:image" content="//res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1562353853/blog/018/marina-vitale-t809JJ6r9KA-unsplash.jpg">
+    <meta property="og:url" content="https://websiddu.com/blog/posts/009-designing-for-color-blindness.html">
+    <meta property="og:site_name" content="Siddhartha Gudipati">
+    <meta property="article:author" content="Siddhartha Gudipati">
+    <meta property="article:published_time" content="Jul 05, 2019">
+    <meta property="article:tag" content="colorblind">
+    <meta itemprop="name" content="Designing for color blindness">
+    <meta itemprop="description" content="One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness..">
+    <meta itemprop="image" content="//res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1562353853/blog/018/marina-vitale-t809JJ6r9KA-unsplash.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#3d5afe">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-TileImage" content="/img/logos/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#3d5afe">
+    <link rel="preload" href="/assets/css/0.styles.6fe59e33.css" as="style"><link rel="preload" href="/assets/js/app.da7058d1.js" as="script"><link rel="preload" href="/assets/js/2.faa5509e.js" as="script"><link rel="preload" href="/assets/js/31.ccdb97fb.js" as="script"><link rel="preload" href="/assets/js/16.c3b4e995.js" as="script"><link rel="preload" href="/assets/js/19.d0b6f1ed.js" as="script"><link rel="preload" href="/assets/js/14.63f60329.js" as="script"><link rel="preload" href="/assets/js/15.c43e3758.js" as="script"><link rel="preload" href="/assets/js/20.e440b549.js" as="script"><link rel="prefetch" href="/assets/js/10.78463937.js"><link rel="prefetch" href="/assets/js/11.166e2cac.js"><link rel="prefetch" href="/assets/js/12.679a44d5.js"><link rel="prefetch" href="/assets/js/13.ddeaa070.js"><link rel="prefetch" href="/assets/js/17.80334dcc.js"><link rel="prefetch" href="/assets/js/18.602b73d8.js"><link rel="prefetch" href="/assets/js/21.8754582b.js"><link rel="prefetch" href="/assets/js/22.d5bd860d.js"><link rel="prefetch" href="/assets/js/23.2ab19d7f.js"><link rel="prefetch" href="/assets/js/24.3c4fbd65.js"><link rel="prefetch" href="/assets/js/25.f5e20f80.js"><link rel="prefetch" href="/assets/js/26.30ae31d3.js"><link rel="prefetch" href="/assets/js/27.ef46a43e.js"><link rel="prefetch" href="/assets/js/28.f4059904.js"><link rel="prefetch" href="/assets/js/29.2d820bbe.js"><link rel="prefetch" href="/assets/js/3.44bbc4d4.js"><link rel="prefetch" href="/assets/js/30.b03d48ca.js"><link rel="prefetch" href="/assets/js/32.9edf4337.js"><link rel="prefetch" href="/assets/js/33.ca1c709b.js"><link rel="prefetch" href="/assets/js/34.9fe29e1f.js"><link rel="prefetch" href="/assets/js/35.ba935731.js"><link rel="prefetch" href="/assets/js/36.c09c97ae.js"><link rel="prefetch" href="/assets/js/37.9d4a09b7.js"><link rel="prefetch" href="/assets/js/38.ab13e2a6.js"><link rel="prefetch" href="/assets/js/39.816342f5.js"><link rel="prefetch" href="/assets/js/4.46878d81.js"><link rel="prefetch" href="/assets/js/40.ca699137.js"><link rel="prefetch" href="/assets/js/41.57498da7.js"><link rel="prefetch" href="/assets/js/42.21e18e46.js"><link rel="prefetch" href="/assets/js/43.156bd200.js"><link rel="prefetch" href="/assets/js/44.8c035e28.js"><link rel="prefetch" href="/assets/js/45.03ae0f48.js"><link rel="prefetch" href="/assets/js/46.a3932bbb.js"><link rel="prefetch" href="/assets/js/47.9dc47ad7.js"><link rel="prefetch" href="/assets/js/48.159ae1d9.js"><link rel="prefetch" href="/assets/js/49.a8cf396b.js"><link rel="prefetch" href="/assets/js/5.55e428b3.js"><link rel="prefetch" href="/assets/js/50.e4c87a6b.js"><link rel="prefetch" href="/assets/js/51.d559ba25.js"><link rel="prefetch" href="/assets/js/52.7d0f2557.js"><link rel="prefetch" href="/assets/js/53.3c5178c1.js"><link rel="prefetch" href="/assets/js/54.ebd4744b.js"><link rel="prefetch" href="/assets/js/55.11d68665.js"><link rel="prefetch" href="/assets/js/56.9ffff2a2.js"><link rel="prefetch" href="/assets/js/6.c032651f.js"><link rel="prefetch" href="/assets/js/7.e53105dd.js"><link rel="prefetch" href="/assets/js/8.ad1662c3.js"><link rel="prefetch" href="/assets/js/9.015f938d.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.6fe59e33.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.svg" alt="Siddhartha Gudipati" class="logo"></a> <div class="links" style="max-width:nullpx;"><nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">Articles</a></div><div class="nav-item"><a href="/photos/" class="nav-link">Photos</a></div><div class="nav-item"><a href="/projects.html" class="nav-link">Projects</a></div><div class="nav-item"><a href="/about.html" class="nav-link">About</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Home</a></div><div class="nav-item"><a href="/blog/" class="nav-link router-link-active">Articles</a></div><div class="nav-item"><a href="/photos/" class="nav-link">Photos</a></div><div class="nav-item"><a href="/projects.html" class="nav-link">Projects</a></div><div class="nav-item"><a href="/about.html" class="nav-link">About</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/my-website-is-build-on-open-source.html" class="sidebar-link">My website is build on open-source</a></li><li><a href="/blog/email-that-paved-my-path.html" class="sidebar-link">Email that paved my path</a></li><li><a href="/blog/integrating-your-node-app-with-uw-saml.html" class="sidebar-link">Integrating node apps with UW's SAML</a></li><li><a href="/blog/how-i-implemented-accessibility-to-website.html" class="sidebar-link">How I implemented accessibility for my portfolio website?</a></li><li><a href="/blog/నా-సంతకం-తెలుగు-లో-మరి-మీది.html" class="sidebar-link">నా సంతకం తెలుగు లో మరి మీది?</a></li><li><a href="/blog/questions-i-want-answers-for.html" class="sidebar-link">Questions that I want answers for in life</a></li><li><a href="/blog/morning-thoughts.html" class="sidebar-link">Morning thoughts</a></li><li><a href="/blog/sync-google-sheets-to-firebase.html" class="sidebar-link">Sync data Google sheets to a Firebase</a></li><li><a href="/blog/designing-for-color-blindness.html" aria-current="page" class="active sidebar-link">Designing for color blindness</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/designing-for-color-blindness.html#understanding-vision-deficiency" class="sidebar-link">Understanding vision deficiency</a></li><li class="sidebar-sub-header"><a href="/blog/designing-for-color-blindness.html#how-do-i-design" class="sidebar-link">How do I Design?</a></li><li class="sidebar-sub-header"><a href="/blog/designing-for-color-blindness.html#what-software-should-i-use" class="sidebar-link">What software should I use?</a></li><li class="sidebar-sub-header"><a href="/blog/designing-for-color-blindness.html#references" class="sidebar-link">References</a></li></ul></li><li><a href="/blog/how-to-design-a-ux-portfolio-website-part1.html" class="sidebar-link">How to design a UX Portfolio website</a></li><li><a href="/blog/elegant-typefaces-for-the-web.html" class="sidebar-link">5 Elegant free typefaces for the web</a></li><li><a href="/blog/how-to-make-a-bar-chart-using-vue-js.html" class="sidebar-link">How to make a bar chart using Vue.js</a></li><li><a href="/blog/sync-data-from-firebase-to-google-sheets.html" class="sidebar-link">Sync data from Firebase to Google sheets</a></li><li><a href="/blog/how-to-make-a-pie-chart-using-vue-js.html" class="sidebar-link">How to make a pie chart using Vue.js</a></li></ul> </div> <main class="page"> <header class="theme-default-content header"><h1>Designing for color blindness</h1> <div class="post-meta">
+      Jul 05, 2019 — 7 min read
+    </div> <!----> <!----></header> <div class="theme-default-content content__default"><p><img src="//res.cloudinary.com/websiddu/image/upload/w_800,ar_16:9,c_fill,g_auto/v1562353853/blog/018/marina-vitale-t809JJ6r9KA-unsplash.jpg" alt="Cover Image"></p> <p></p><div class="table-of-contents"><ul><li><a href="#understanding-vision-deficiency">Understanding vision deficiency</a></li><li><a href="#how-do-i-design">How do I Design?</a><ul><li><a href="#designing-for-red-green">Designing for red/green</a></li><li><a href="#designing-color-blind-friendly-charts">Designing color blind friendly charts</a></li></ul></li><li><a href="#what-software-should-i-use">What software should I use?</a></li><li><a href="#references">References</a></li></ul></div><p></p> <p>One of the most common questions asked in making a site accessible is to How do I design for the colorblind users? First off, before designing for colorblind we have to understand what is how our eye works and what is the reason causing the colorblindness. Let’s jump right in,</p> <blockquote><p>Color blindness is not &quot;color blindness&quot;!</p></blockquote> <p>There are still a lot of people who think that if you are colorblind you really can’t see any colors. But the term is misleading, as more than 99% of all colorblind people can see colors. A better wording would be color vision deficiency, which describes this visual disorder more precisely.</p> <p>So what actually is color vision deficiency? In simpler words, if you are suffering from a color vision deficiency you perceive a narrower color spectrum compared to somebody with normal color vision.</p> <p>Color perception build up by three different types of cones. Each type is sensitive to a certain wavelength of light (red, green, blue). Every perceived color is therefore a mixture of stimuli of those three cone types.</p> <p><strong>So why is this important?</strong> Approximately 8% of all men and 0.5% of all women worldwide are affected by color vision deficiency.</p> <h2 id="understanding-vision-deficiency"><a href="#understanding-vision-deficiency" class="header-anchor">#</a> Understanding vision deficiency</h2> <p>Let’s look at a human eye and understand what it is constructed of, we all know retina is responsible for our vision and the retina is built with a number of atomic cells called cones and rods. Cone cells, or cones, are photoreceptor cells in the retinas of vertebrate eyes that will they respond differently to light of different wavelengths, and are thus responsible for color vision and function best in relatively bright light, as opposed to rod cells, which are responsible for seeing in dim light.</p> <p>Cones contain one of three different photopigments. This makes cones sensitive to long (red), medium (green), or short (blue) wavelengths of light. The presence of three types of photopigments, each sensitive to a different part of the visual spectrum, is what gives us our rich color vision. Humans are unusual among mammals for our trichromatic vision – named for the three different types of photopigments we have. Here are the three types of cones responsive to different wavelengths,</p> <p><img src="//res.cloudinary.com/websiddu/image/upload/c_scale,w_450/v1562349079/blog/018/chart.png#right" alt="Img"></p> <ul><li><strong>S-cones</strong>: sensitive to short wavelength light with a peak at ca. 420nm • Blue (tritan)</li> <li><strong>M-cones</strong>: sensitive to medium wavelength light, peak at ca. 530nm • Green (detuan)</li> <li><strong>L-cones</strong>: sensitive to long wavelength light with a peak at ca. 560nm • Red (protan)</li></ul> <br> <br> <br> <p>So when one or more types of these cones are missing/defective the vision deficiency occurs and can see fewer or no colors. There are 3 types of vision deficiency,</p> <p><strong>Monochromatism</strong>
+Either no cones available or just one type of them.</p> <p><strong>Dichromatism (Anopia)</strong>
+Only two different cone types. Third one is missing completely.</p> <p><strong>Anomalous trichromatism (Anomaly)</strong>
+All three types exists but with shifted peaks of sensitivity for one of them, which results in a smaller color spectrum.</p> <p>Based on the cone type missing or defective, there are many types of colorblindness, for e.g, if a person is missing (anopia) red cones (protan) its called Proto-anopia, if they have malfunctioned (anomaly) red cones(protan) its called Proto-anomaly, similar for all the other 2 cone types.</p> <p>And below image shows how different wavelengths are missing or disoriented from the normal cone curves,</p> <p><img src="https://res.cloudinary.com/websiddu/image/upload/v1562400013/blog/018/cones.png" alt="Image showing the different wavelengths"></p> <p>here is what different colorblind people see from the original colors,</p> <div class="color-blind-helper"><div class="image-preview"><div class="prev"><select disabled="disabled"><option selected="selected" value="[object Object]">Normal</option></select> <img src="https://res.cloudinary.com/websiddu/image/upload/v1562398088/blog/018/normal.png" alt="Normal" width="160px" height="320px"></div> <div class="prev"><select><option value="[object Object]">Normal</option><option selected="selected" value="[object Object]">Deuteranopia</option><option value="[object Object]">Deuteranomaly</option><option value="[object Object]">Protanopia</option><option value="[object Object]">Protanomaly</option><option value="[object Object]">Tritanopia</option><option value="[object Object]">Tritanomaly</option><option value="[object Object]">Achromatopsia</option></select> <img src="https://res.cloudinary.com/websiddu/image/upload/v1562398088/blog/018/deuteranopia.png" alt="Deuteranopia" width="160px" height="320px"></div> <div class="prev hm"><select><option value="[object Object]">Normal</option><option value="[object Object]">Deuteranopia</option><option selected="selected" value="[object Object]">Deuteranomaly</option><option value="[object Object]">Protanopia</option><option value="[object Object]">Protanomaly</option><option value="[object Object]">Tritanopia</option><option value="[object Object]">Tritanomaly</option><option value="[object Object]">Achromatopsia</option></select> <img src="https://res.cloudinary.com/websiddu/image/upload/v1562398088/blog/018/deuteranomaly.png" alt="Deuteranomaly" width="160px" height="320px"></div> <div class="prev hm"><select><option value="[object Object]">Normal</option><option value="[object Object]">Deuteranopia</option><option value="[object Object]">Deuteranomaly</option><option value="[object Object]">Protanopia</option><option selected="selected" value="[object Object]">Protanomaly</option><option value="[object Object]">Tritanopia</option><option value="[object Object]">Tritanomaly</option><option value="[object Object]">Achromatopsia</option></select> <img src="https://res.cloudinary.com/websiddu/image/upload/v1562398088/blog/018/protanomaly.png" alt="Protanomaly" width="160px" height="320px"></div></div></div> <p>Not all colorblindness common, share of different type of colorblind humans worldwide and it looks like below,</p> <table style="font-size:14px;"><tr><th></th> <th colspan="3">Anopia (missing) </th> <th colspan="3">Anomaly (malfunctioning)</th> <th colspan="3">Monochromacy</th></tr> <tr><th></th> <th></th> <th style="font-size:18px;opacity:0.8;padding:0;">🧔🏽</th> <th style="font-size:18px;opacity:0.8;padding:0;">👩🏼‍🦰</th> <th></th> <th style="font-size:18px;opacity:0.8;padding:0;">🧔🏽</th> <th style="font-size:18px;opacity:0.8;padding:0;">👩🏼‍🦰</th> <th></th> <th style="font-size:18px;opacity:0.8;padding:0;">🧔🏽</th> <th style="font-size:18px;opacity:0.8;padding:0;">👩🏼‍🦰</th></tr> <tr><td style="color:red;font-weight:500;">Protan (red)</td> <td>Protanopia</td> <td>1.01%</td> <td>0.02%</td> <td>Protanomaly</td> <td>1.08%</td> <td>0.03%</td> <td rowspan="3" style="transform:rotate(-90deg) translateX(-66%);padding:0;max-width:30px;">Achromatopsia</td> <td colspan="2" rowspan="3">0.00003%</td></tr> <tr><td style="color:green;font-weight:500;">Detuan (green)</td> <td>Deuteranopia</td> <td>1.27%</td> <td>0.01%</td> <td>Deuteranomaly</td> <td style="font-weight:500;">4.63%</td> <td>0.36%</td></tr> <tr><td style="color:blue;font-weight:500;">Tritan (blue)</td> <td>Tritanopia</td> <td colspan="2" style="text-align:center;">0.0001%</td> <td>Tritanomaly</td> <td colspan="2" style="text-align:center;">0.0002%</td></tr></table> <h2 id="how-do-i-design"><a href="#how-do-i-design" class="header-anchor">#</a> How do I Design?</h2> <h3 id="designing-for-red-green"><a href="#designing-for-red-green" class="header-anchor">#</a> Designing for red/green</h3> <ul><li>Don’t just rely on color to differentiate between data.</li> <li>Use some kind of additional indicator to show the difference. E.g Icon, +ve -ve signs, fill patterns</li></ul> <p>When using conditional formatting in tables don't just rely on red &amp; green, add an additional indicator like an icon here shown below.</p> <div class="do-dont"><div class="dont"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562405056/blog/018/1dnt.png" alt> <div class="label">👎🏽Dont.</div></div> <div class="do"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562405056/blog/018/1d.png" alt> <div class="label">👍🏽Do.</div></div></div> <p>Similarly when showing a scorecard, don't just rely on the color alone, use an additional indicator to denote the special situation</p> <div class="do-dont"><div class="dont"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562402569/blog/018/2dnt.png" alt> <div class="label">👎🏽Dont.</div></div> <div class="do"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562402569/blog/018/2d.png" alt> <div class="label">👍🏽Do.</div></div></div> <p>When designing form validations make sure you are not just relying on color alone to convey the message; e.g like below take a simple form when the user submits an incomplete while the text itself is enough its better to mix the message with an icon giving stronger indication focus.</p> <div class="do-dont"><div class="dont"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562439500/blog/018/3dnt.png" alt> <div class="label">👎🏽Dont.</div></div> <div class="do"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562439500/blog/018/3d.png" alt> <div class="label">👍🏽Do.</div></div></div> <h3 id="designing-color-blind-friendly-charts"><a href="#designing-color-blind-friendly-charts" class="header-anchor">#</a> Designing color blind friendly charts</h3> <h4 id="leverage-dark-and-light-when-necessary"><a href="#leverage-dark-and-light-when-necessary" class="header-anchor">#</a> Leverage dark and light when necessary</h4> <p>Sometimes your chart design will require a combination that is considered unsuitable for those who are color blind. In cases where you must use combinations like red and green, it’s highly recommended that you leverage a dark vs. light combination.</p> <div class="do-dont"><div class="dont"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562441167/blog/018/4dnt.png" alt> <div class="label">👎🏽Dont.</div></div> <div class="do"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562441167/blog/018/4d.png" alt> <div class="label">👍🏽Do.</div></div></div> <h4 id="alternatives-for-distinguishing-information"><a href="#alternatives-for-distinguishing-information" class="header-anchor">#</a> Alternatives for distinguishing information.</h4> <p>Think of alternatives to color, like fill patterns and symbols to indicate different colors.</p> <div class="do-dont"><div class="dont"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562443364/blog/018/5dnt.png" alt> <div class="label">👎🏽Dont.</div></div> <div class="do"><img src="https://res.cloudinary.com/websiddu/image/upload/v1562443364/blog/018/5d.png" alt> <div class="label">👍🏽Do.</div></div></div> <p>also try to avoiding bad color combos</p> <ul><li>Green &amp; Red</li> <li>Green &amp; Brown</li> <li>Blue &amp; Purple</li> <li>Green &amp; Blue</li> <li>Light Green &amp; Yellow</li> <li>Blue &amp; Grey</li> <li>Green &amp; Grey</li> <li>Green &amp; Black</li></ul> <h4 id="use-a-colorblind-friendly-color-palette"><a href="#use-a-colorblind-friendly-color-palette" class="header-anchor">#</a> Use a colorblind friendly color palette</h4> <p>By using a colorblind-safe color palette, you are making sure that everyone can capture the differences and meanings of the information presented in the chart, as well as easily remember things you have put focus on.</p> <p>The following are some colorblind-safe color palette</p> <div class="palettes"><div class="palette"><div class="clr"><div class="clr-block" style="background:#f7fcfd;"></div>
+      #f7fcfd
+    </div><div class="clr"><div class="clr-block" style="background:#e5f5f9;"></div>
+      #e5f5f9
+    </div><div class="clr"><div class="clr-block" style="background:#ccece6;"></div>
+      #ccece6
+    </div><div class="clr"><div class="clr-block" style="background:#99d8c9;"></div>
+      #99d8c9
+    </div><div class="clr"><div class="clr-block" style="background:#66c2a4;"></div>
+      #66c2a4
+    </div><div class="clr"><div class="clr-block" style="background:#41ae76;"></div>
+      #41ae76
+    </div><div class="clr"><div class="clr-block" style="background:#238b45;"></div>
+      #238b45
+    </div><div class="clr"><div class="clr-block" style="background:#006d2c;"></div>
+      #006d2c
+    </div><div class="clr"><div class="clr-block" style="background:#00441b;"></div>
+      #00441b
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#f7fcfd;"></div>
+      #f7fcfd
+    </div><div class="clr"><div class="clr-block" style="background:#e0ecf4;"></div>
+      #e0ecf4
+    </div><div class="clr"><div class="clr-block" style="background:#bfd3e6;"></div>
+      #bfd3e6
+    </div><div class="clr"><div class="clr-block" style="background:#9ebcda;"></div>
+      #9ebcda
+    </div><div class="clr"><div class="clr-block" style="background:#8c96c6;"></div>
+      #8c96c6
+    </div><div class="clr"><div class="clr-block" style="background:#8c6bb1;"></div>
+      #8c6bb1
+    </div><div class="clr"><div class="clr-block" style="background:#88419d;"></div>
+      #88419d
+    </div><div class="clr"><div class="clr-block" style="background:#810f7c;"></div>
+      #810f7c
+    </div><div class="clr"><div class="clr-block" style="background:#4d004b;"></div>
+      #4d004b
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#f7fcf0;"></div>
+      #f7fcf0
+    </div><div class="clr"><div class="clr-block" style="background:#e0f3db;"></div>
+      #e0f3db
+    </div><div class="clr"><div class="clr-block" style="background:#ccebc5;"></div>
+      #ccebc5
+    </div><div class="clr"><div class="clr-block" style="background:#a8ddb5;"></div>
+      #a8ddb5
+    </div><div class="clr"><div class="clr-block" style="background:#7bccc4;"></div>
+      #7bccc4
+    </div><div class="clr"><div class="clr-block" style="background:#4eb3d3;"></div>
+      #4eb3d3
+    </div><div class="clr"><div class="clr-block" style="background:#2b8cbe;"></div>
+      #2b8cbe
+    </div><div class="clr"><div class="clr-block" style="background:#0868ac;"></div>
+      #0868ac
+    </div><div class="clr"><div class="clr-block" style="background:#084081;"></div>
+      #084081
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#fff7ec;"></div>
+      #fff7ec
+    </div><div class="clr"><div class="clr-block" style="background:#fee8c8;"></div>
+      #fee8c8
+    </div><div class="clr"><div class="clr-block" style="background:#fdd49e;"></div>
+      #fdd49e
+    </div><div class="clr"><div class="clr-block" style="background:#fdbb84;"></div>
+      #fdbb84
+    </div><div class="clr"><div class="clr-block" style="background:#fc8d59;"></div>
+      #fc8d59
+    </div><div class="clr"><div class="clr-block" style="background:#ef6548;"></div>
+      #ef6548
+    </div><div class="clr"><div class="clr-block" style="background:#d7301f;"></div>
+      #d7301f
+    </div><div class="clr"><div class="clr-block" style="background:#b30000;"></div>
+      #b30000
+    </div><div class="clr"><div class="clr-block" style="background:#7f0000;"></div>
+      #7f0000
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#fff7fb;"></div>
+      #fff7fb
+    </div><div class="clr"><div class="clr-block" style="background:#ece7f2;"></div>
+      #ece7f2
+    </div><div class="clr"><div class="clr-block" style="background:#d0d1e6;"></div>
+      #d0d1e6
+    </div><div class="clr"><div class="clr-block" style="background:#a6bddb;"></div>
+      #a6bddb
+    </div><div class="clr"><div class="clr-block" style="background:#74a9cf;"></div>
+      #74a9cf
+    </div><div class="clr"><div class="clr-block" style="background:#3690c0;"></div>
+      #3690c0
+    </div><div class="clr"><div class="clr-block" style="background:#0570b0;"></div>
+      #0570b0
+    </div><div class="clr"><div class="clr-block" style="background:#045a8d;"></div>
+      #045a8d
+    </div><div class="clr"><div class="clr-block" style="background:#023858;"></div>
+      #023858
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#fff7fb;"></div>
+      #fff7fb
+    </div><div class="clr"><div class="clr-block" style="background:#ece2f0;"></div>
+      #ece2f0
+    </div><div class="clr"><div class="clr-block" style="background:#d0d1e6;"></div>
+      #d0d1e6
+    </div><div class="clr"><div class="clr-block" style="background:#a6bddb;"></div>
+      #a6bddb
+    </div><div class="clr"><div class="clr-block" style="background:#67a9cf;"></div>
+      #67a9cf
+    </div><div class="clr"><div class="clr-block" style="background:#3690c0;"></div>
+      #3690c0
+    </div><div class="clr"><div class="clr-block" style="background:#02818a;"></div>
+      #02818a
+    </div><div class="clr"><div class="clr-block" style="background:#016c59;"></div>
+      #016c59
+    </div><div class="clr"><div class="clr-block" style="background:#014636;"></div>
+      #014636
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#f7f4f9;"></div>
+      #f7f4f9
+    </div><div class="clr"><div class="clr-block" style="background:#e7e1ef;"></div>
+      #e7e1ef
+    </div><div class="clr"><div class="clr-block" style="background:#d4b9da;"></div>
+      #d4b9da
+    </div><div class="clr"><div class="clr-block" style="background:#c994c7;"></div>
+      #c994c7
+    </div><div class="clr"><div class="clr-block" style="background:#df65b0;"></div>
+      #df65b0
+    </div><div class="clr"><div class="clr-block" style="background:#e7298a;"></div>
+      #e7298a
+    </div><div class="clr"><div class="clr-block" style="background:#ce1256;"></div>
+      #ce1256
+    </div><div class="clr"><div class="clr-block" style="background:#980043;"></div>
+      #980043
+    </div><div class="clr"><div class="clr-block" style="background:#67001f;"></div>
+      #67001f
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#fff7f3;"></div>
+      #fff7f3
+    </div><div class="clr"><div class="clr-block" style="background:#fde0dd;"></div>
+      #fde0dd
+    </div><div class="clr"><div class="clr-block" style="background:#fcc5c0;"></div>
+      #fcc5c0
+    </div><div class="clr"><div class="clr-block" style="background:#fa9fb5;"></div>
+      #fa9fb5
+    </div><div class="clr"><div class="clr-block" style="background:#f768a1;"></div>
+      #f768a1
+    </div><div class="clr"><div class="clr-block" style="background:#dd3497;"></div>
+      #dd3497
+    </div><div class="clr"><div class="clr-block" style="background:#ae017e;"></div>
+      #ae017e
+    </div><div class="clr"><div class="clr-block" style="background:#7a0177;"></div>
+      #7a0177
+    </div><div class="clr"><div class="clr-block" style="background:#49006a;"></div>
+      #49006a
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#ffffe5;"></div>
+      #ffffe5
+    </div><div class="clr"><div class="clr-block" style="background:#f7fcb9;"></div>
+      #f7fcb9
+    </div><div class="clr"><div class="clr-block" style="background:#d9f0a3;"></div>
+      #d9f0a3
+    </div><div class="clr"><div class="clr-block" style="background:#addd8e;"></div>
+      #addd8e
+    </div><div class="clr"><div class="clr-block" style="background:#78c679;"></div>
+      #78c679
+    </div><div class="clr"><div class="clr-block" style="background:#41ab5d;"></div>
+      #41ab5d
+    </div><div class="clr"><div class="clr-block" style="background:#238443;"></div>
+      #238443
+    </div><div class="clr"><div class="clr-block" style="background:#006837;"></div>
+      #006837
+    </div><div class="clr"><div class="clr-block" style="background:#004529;"></div>
+      #004529
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#ffffd9;"></div>
+      #ffffd9
+    </div><div class="clr"><div class="clr-block" style="background:#edf8b1;"></div>
+      #edf8b1
+    </div><div class="clr"><div class="clr-block" style="background:#c7e9b4;"></div>
+      #c7e9b4
+    </div><div class="clr"><div class="clr-block" style="background:#7fcdbb;"></div>
+      #7fcdbb
+    </div><div class="clr"><div class="clr-block" style="background:#41b6c4;"></div>
+      #41b6c4
+    </div><div class="clr"><div class="clr-block" style="background:#1d91c0;"></div>
+      #1d91c0
+    </div><div class="clr"><div class="clr-block" style="background:#225ea8;"></div>
+      #225ea8
+    </div><div class="clr"><div class="clr-block" style="background:#253494;"></div>
+      #253494
+    </div><div class="clr"><div class="clr-block" style="background:#081d58;"></div>
+      #081d58
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#ffffe5;"></div>
+      #ffffe5
+    </div><div class="clr"><div class="clr-block" style="background:#fff7bc;"></div>
+      #fff7bc
+    </div><div class="clr"><div class="clr-block" style="background:#fee391;"></div>
+      #fee391
+    </div><div class="clr"><div class="clr-block" style="background:#fec44f;"></div>
+      #fec44f
+    </div><div class="clr"><div class="clr-block" style="background:#fe9929;"></div>
+      #fe9929
+    </div><div class="clr"><div class="clr-block" style="background:#ec7014;"></div>
+      #ec7014
+    </div><div class="clr"><div class="clr-block" style="background:#cc4c02;"></div>
+      #cc4c02
+    </div><div class="clr"><div class="clr-block" style="background:#993404;"></div>
+      #993404
+    </div><div class="clr"><div class="clr-block" style="background:#662506;"></div>
+      #662506
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#ffffcc;"></div>
+      #ffffcc
+    </div><div class="clr"><div class="clr-block" style="background:#ffeda0;"></div>
+      #ffeda0
+    </div><div class="clr"><div class="clr-block" style="background:#fed976;"></div>
+      #fed976
+    </div><div class="clr"><div class="clr-block" style="background:#feb24c;"></div>
+      #feb24c
+    </div><div class="clr"><div class="clr-block" style="background:#fd8d3c;"></div>
+      #fd8d3c
+    </div><div class="clr"><div class="clr-block" style="background:#fc4e2a;"></div>
+      #fc4e2a
+    </div><div class="clr"><div class="clr-block" style="background:#e31a1c;"></div>
+      #e31a1c
+    </div><div class="clr"><div class="clr-block" style="background:#bd0026;"></div>
+      #bd0026
+    </div><div class="clr"><div class="clr-block" style="background:#800026;"></div>
+      #800026
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#f7fbff;"></div>
+      #f7fbff
+    </div><div class="clr"><div class="clr-block" style="background:#deebf7;"></div>
+      #deebf7
+    </div><div class="clr"><div class="clr-block" style="background:#c6dbef;"></div>
+      #c6dbef
+    </div><div class="clr"><div class="clr-block" style="background:#9ecae1;"></div>
+      #9ecae1
+    </div><div class="clr"><div class="clr-block" style="background:#6baed6;"></div>
+      #6baed6
+    </div><div class="clr"><div class="clr-block" style="background:#4292c6;"></div>
+      #4292c6
+    </div><div class="clr"><div class="clr-block" style="background:#2171b5;"></div>
+      #2171b5
+    </div><div class="clr"><div class="clr-block" style="background:#08519c;"></div>
+      #08519c
+    </div><div class="clr"><div class="clr-block" style="background:#08306b;"></div>
+      #08306b
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#ffffff;"></div>
+      #ffffff
+    </div><div class="clr"><div class="clr-block" style="background:#f0f0f0;"></div>
+      #f0f0f0
+    </div><div class="clr"><div class="clr-block" style="background:#d9d9d9;"></div>
+      #d9d9d9
+    </div><div class="clr"><div class="clr-block" style="background:#bdbdbd;"></div>
+      #bdbdbd
+    </div><div class="clr"><div class="clr-block" style="background:#969696;"></div>
+      #969696
+    </div><div class="clr"><div class="clr-block" style="background:#737373;"></div>
+      #737373
+    </div><div class="clr"><div class="clr-block" style="background:#525252;"></div>
+      #525252
+    </div><div class="clr"><div class="clr-block" style="background:#252525;"></div>
+      #252525
+    </div><div class="clr"><div class="clr-block" style="background:#000000;"></div>
+      #000000
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#f7fcf5;"></div>
+      #f7fcf5
+    </div><div class="clr"><div class="clr-block" style="background:#e5f5e0;"></div>
+      #e5f5e0
+    </div><div class="clr"><div class="clr-block" style="background:#c7e9c0;"></div>
+      #c7e9c0
+    </div><div class="clr"><div class="clr-block" style="background:#a1d99b;"></div>
+      #a1d99b
+    </div><div class="clr"><div class="clr-block" style="background:#74c476;"></div>
+      #74c476
+    </div><div class="clr"><div class="clr-block" style="background:#41ab5d;"></div>
+      #41ab5d
+    </div><div class="clr"><div class="clr-block" style="background:#238b45;"></div>
+      #238b45
+    </div><div class="clr"><div class="clr-block" style="background:#006d2c;"></div>
+      #006d2c
+    </div><div class="clr"><div class="clr-block" style="background:#00441b;"></div>
+      #00441b
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#fcfbfd;"></div>
+      #fcfbfd
+    </div><div class="clr"><div class="clr-block" style="background:#efedf5;"></div>
+      #efedf5
+    </div><div class="clr"><div class="clr-block" style="background:#dadaeb;"></div>
+      #dadaeb
+    </div><div class="clr"><div class="clr-block" style="background:#bcbddc;"></div>
+      #bcbddc
+    </div><div class="clr"><div class="clr-block" style="background:#9e9ac8;"></div>
+      #9e9ac8
+    </div><div class="clr"><div class="clr-block" style="background:#807dba;"></div>
+      #807dba
+    </div><div class="clr"><div class="clr-block" style="background:#6a51a3;"></div>
+      #6a51a3
+    </div><div class="clr"><div class="clr-block" style="background:#54278f;"></div>
+      #54278f
+    </div><div class="clr"><div class="clr-block" style="background:#3f007d;"></div>
+      #3f007d
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#fff5f0;"></div>
+      #fff5f0
+    </div><div class="clr"><div class="clr-block" style="background:#fee0d2;"></div>
+      #fee0d2
+    </div><div class="clr"><div class="clr-block" style="background:#fcbba1;"></div>
+      #fcbba1
+    </div><div class="clr"><div class="clr-block" style="background:#fc9272;"></div>
+      #fc9272
+    </div><div class="clr"><div class="clr-block" style="background:#fb6a4a;"></div>
+      #fb6a4a
+    </div><div class="clr"><div class="clr-block" style="background:#ef3b2c;"></div>
+      #ef3b2c
+    </div><div class="clr"><div class="clr-block" style="background:#cb181d;"></div>
+      #cb181d
+    </div><div class="clr"><div class="clr-block" style="background:#a50f15;"></div>
+      #a50f15
+    </div><div class="clr"><div class="clr-block" style="background:#67000d;"></div>
+      #67000d
+    </div></div><div class="palette"><div class="clr"><div class="clr-block" style="background:#fff5eb;"></div>
+      #fff5eb
+    </div><div class="clr"><div class="clr-block" style="background:#fee6ce;"></div>
+      #fee6ce
+    </div><div class="clr"><div class="clr-block" style="background:#fdd0a2;"></div>
+      #fdd0a2
+    </div><div class="clr"><div class="clr-block" style="background:#fdae6b;"></div>
+      #fdae6b
+    </div><div class="clr"><div class="clr-block" style="background:#fd8d3c;"></div>
+      #fd8d3c
+    </div><div class="clr"><div class="clr-block" style="background:#f16913;"></div>
+      #f16913
+    </div><div class="clr"><div class="clr-block" style="background:#d94801;"></div>
+      #d94801
+    </div><div class="clr"><div class="clr-block" style="background:#a63603;"></div>
+      #a63603
+    </div><div class="clr"><div class="clr-block" style="background:#7f2704;"></div>
+      #7f2704
+    </div></div></div> <p>To learn more visit <a href="https://colorbrewer2.org" target="_blank" rel="noopener noreferrer">https://colorbrewer2.org<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h4 id="label-information-when-necessary"><a href="#label-information-when-necessary" class="header-anchor">#</a> Label information when necessary</h4> <p>Clearly label the information when necessary, this helps to avoid confusion.</p> <h4 id="provide-a-fallback"><a href="#provide-a-fallback" class="header-anchor">#</a> Provide a fallback</h4> <p>If any of the above steps won’t optimize the graph, then provide a fallback of the data in a tabular or a readable format. Like shown in the below chart provide an option to toggle to the raw data view.</p> <div class="chart" data-v-44a23d3e><div class="chart-title" data-v-44a23d3e>
+    Smoking is more prevalent in Europe
+    <div class="split-button" data-v-44a23d3e><label class="selected" data-v-44a23d3e><input type="radio" name="splitButton" value="map" checked="checked" data-v-44a23d3e> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24" data-v-44a23d3e><path d="M 12 2 C 8.741068 2 5.8486894 3.5773875 4.0214844 6 L 4 6 L 4 6.0273438 C 2.7499527 7.6966931 2 9.7603852 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 15 4.5839844 C 17.935098 5.7673596 20 8.6326468 20 12 C 20 14.087831 19.200587 15.978318 17.898438 17.400391 C 17.642583 16.590687 16.894567 16 16 16 C 15.448 16 15 15.552 15 15 L 15 13 C 15 12.448 14.552 12 14 12 L 10 12 C 9.448 12 9 11.552 9 11 C 9 10.448 9.448 10 10 10 C 10.552 10 11 9.552 11 9 L 11 8 C 11 7.448 11.448 7 12 7 L 13 7 C 14.105 7 15 6.105 15 5 L 15 4.5839844 z M 4.2070312 10.207031 L 9 15 L 9 16 C 9 17.105 9.895 18 11 18 L 11 19.931641 C 7.0457719 19.441154 4 16.090654 4 12 C 4 11.382188 4.0755242 10.784034 4.2070312 10.207031 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" data-v-44a23d3e></path></svg></label> <label data-v-44a23d3e><input type="radio" name="splitButton" value="table" data-v-44a23d3e> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 16 16" data-v-44a23d3e><g id="surface1" data-v-44a23d3e><path d="M 2.5 1 C 1.675781 1 1 1.675781 1 2.5 L 1 12.5 C 1 13.324219 1.675781 14 2.5 14 L 12.5 14 C 13.324219 14 14 13.324219 14 12.5 L 14 2.5 C 14 1.675781 13.324219 1 12.5 1 Z M 2.5 2 L 5 2 L 5 5 L 2 5 L 2 2.5 C 2 2.21875 2.21875 2 2.5 2 Z M 6 2 L 9 2 L 9 5 L 6 5 Z M 10 2 L 12.5 2 C 12.78125 2 13 2.21875 13 2.5 L 13 5 L 10 5 Z M 2 6 L 5 6 L 5 9 L 2 9 Z M 6 6 L 9 6 L 9 9 L 6 9 Z M 10 6 L 13 6 L 13 9 L 10 9 Z M 2 10 L 5 10 L 5 13 L 2.5 13 C 2.21875 13 2 12.78125 2 12.5 Z M 6 10 L 9 10 L 9 13 L 6 13 Z M 10 10 L 13 10 L 13 12.5 C 13 12.78125 12.78125 13 12.5 13 L 10 13 Z " style=" " data-v-44a23d3e></path></g></svg></label></div></div> <img src="/img/chart.png" alt="Map showing smoking" data-v-44a23d3e> <!----></div> <h2 id="what-software-should-i-use"><a href="#what-software-should-i-use" class="header-anchor">#</a> What software should I use?</h2> <p>It is important that we test our designs beforehand, but there might not be always a colorblind person accessible to help you in testing your designs. Thanks to technology, there are some softwares that can simulate different type of colorblindness, the best one out of all is Sim Daltonism, a tiny MacOS only app that let's check your designs and websites with easy. There are other software but I recommend using Sim Daltonism.</p> <p><img src="https://res.cloudinary.com/websiddu/image/upload/v1562479031/blog/018/software.png" alt="Screenshot of Sim Daltonism software"></p> <ul><li><a href="https://michelf.ca/projects/sim-daltonism/" target="_blank" rel="noopener noreferrer">Sim Daltonism<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li>Alternatives
+<ul><li><a href="https://getstark.co/" target="_blank" rel="noopener noreferrer">Sketch Stark<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://chrome.google.com/webstore/detail/colorblinding/dgbgleaofjainknadoffbjkclicbbgaa?hl=en" target="_blank" rel="noopener noreferrer">Chrome plugin<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul> <h2 id="references"><a href="#references" class="header-anchor">#</a> References</h2> <ul><li><a href="http://www.color-blindness.com/wp-content/documents/Color-Blind-Essentials.pdf" target="_blank" rel="noopener noreferrer">Color-Blind-Essentials<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> by Daniel</li> <li><a href="http://www.journal.faa-design.com/pdf/4-4-tawfeek.pdf" target="_blank" rel="noopener noreferrer">Web Design for Color Blind Persons<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="https://uxdesign.cc/color-blindness-in-user-interfaces-66c27331b858" target="_blank" rel="noopener noreferrer">Color blindness: how to design an accessible user interface<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://www.color-blindness.com/coblis-color-blindness-simulator/" target="_blank" rel="noopener noreferrer">Color Blindness Simulator<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li> <li><a href="http://accelconf.web.cern.ch/AccelConf/icalepcs2017/papers/thsh103.pdf" target="_blank" rel="noopener noreferrer">Using color blind simulator<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul> <p>If you like the post or have a suggestion? Please leave a comment below and also don't forget to follow me on twitter <a href="https://twitter.com/websiddu" target="_blank" rel="noopener noreferrer">@websiddu<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <div><div class="page-edit"><div class="page-share"><svg viewBox="0 0 39 32" class="Icon"><g id="icon-twitter-bird"><path fill="#55acee" d="M34.7 5c1.7-1 2.8-2.5 3.4-4.4-1.6 0.9-3.3 1.6-5 2-1.6-1.7-3.6-2.6-5.8-2.6-2.2 0-4.2 0.7-5.7 2.3-1.6 1.6-2.3 3.4-2.3 5.8 0 0.6 0.1 1.2 0.2 1.8-6.9-0.4-12.6-3.2-16.9-8.5-0.7 1.2-1.1 2.7-1.1 4.1 0 3 1.2 5.2 3.6 6.8-1.2 0-2.5-0.4-3.6-1v0.1c0 2 0.6 3.7 1.8 5.2 1.2 1.5 2.7 2.5 4.6 2.8-0.6 0.1-1.2 0.2-2.1 0.2-0.4 0-0.9 0-1.5-0.1 0.5 1.5 1.4 2.8 2.8 3.8 1.4 1 3 1.5 4.7 1.6-3.1 2.5-6.4 3.7-10 3.7-0.5 0-1.1 0-2-0.1 3.7 2.2 7.8 3.4 12.4 3.4 3.6 0 6.8-0.7 9.8-2.1 3-1.4 5.4-3.2 7.3-5.4 1.8-2.2 3.3-4.7 4.3-7.4s1.6-5.4 1.6-8.1v-1c1.4-1 2.7-2.5 3.9-4.2-1.6 0.6-3.2 1.1-4.7 1.2z"></path></g></svg> <div>
+        If you liked this article and think others should read it, please
+        <a href="http://twitter.com/share?text=Designing for color blindness&amp;url=https://websiddu.com//blog/designing-for-color-blindness.html&amp;via=websiddu" target="_blank">
+          share it on Twitter
+        </a></div></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <br> <span class="time">7/2/2020, 12:30:18 AM</span></div></div> <div class="page-comments"><!----> <br></div></div> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+
+      <a href="/blog/how-to-design-a-ux-portfolio-website-part1.html" class="prev">How to design a UX Portfolio website</a></span> <span class="next"><a href="/blog/sync-google-sheets-to-firebase.html">Sync data Google sheets to a Firebase</a>
+      →
+    </span></p></div> </main> <footer data-v-2531d917><div class="footer-content" data-v-2531d917><nav class="nav-links" data-v-2531d917><div class="nav-item" data-v-2531d917><a href="https://twitter.com/websiddu" target="_blank" class="nav-link" data-v-2531d917>Twitter</a></div> <div class="nav-item" data-v-2531d917><a href="https://github.com/websiddu" target="_blank" class="nav-link" data-v-2531d917>Github</a></div> <div class="nav-item" data-v-2531d917><a href="https://github.com/websiddu/websiddu" target="_blank" class="nav-link" data-v-2531d917>Source</a></div> <div class="nav-item" data-v-2531d917><a href="https://websiddu.com/feed.atom" target="_blank" class="nav-link" data-v-2531d917>Feed</a></div> <div class="nav-spacer" data-v-2531d917></div> <div class="nav-item" data-v-2531d917><a href="/blog" class="nav-link router-link-active" data-v-2531d917>Articles</a></div> <div class="nav-item" data-v-2531d917><a href="/photos" class="nav-link" data-v-2531d917>Photos</a></div> <div class="nav-item" data-v-2531d917><a href="/projects.html" class="nav-link" data-v-2531d917>Projects</a></div> <div class="nav-item" data-v-2531d917><a href="/about.html" class="nav-link" data-v-2531d917>About</a></div></nav></div></footer></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.da7058d1.js" defer></script><script src="/assets/js/2.faa5509e.js" defer></script><script src="/assets/js/31.ccdb97fb.js" defer></script><script src="/assets/js/16.c3b4e995.js" defer></script><script src="/assets/js/19.d0b6f1ed.js" defer></script><script src="/assets/js/14.63f60329.js" defer></script><script src="/assets/js/15.c43e3758.js" defer></script><script src="/assets/js/20.e440b549.js" defer></script>
+  </body>
+</html>
