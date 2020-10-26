@@ -10,6 +10,8 @@ sidebar: false
 
 Here are the list of morning thoughts I had from the past few years, some might sound stupid but they are really deep you just have to think which we general do less these days.
 
+> Keep your eyes on the problem, not the distraction.
+
 > Beauty is in the eyes of beholder.
 
 > Be a head of a Cat rather than a tail to a Tiger.
