@@ -34,6 +34,7 @@ I will assume that you have some basic knowledge of vue js and javascript includ
 
 First off, Let's identify the building blocks that are required to compose a pie chart.
 
+
 ### Adding a legend
 
 ### Adding animations

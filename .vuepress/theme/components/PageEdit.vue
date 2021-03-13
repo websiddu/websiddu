@@ -1,38 +1,39 @@
 <template>
   <div>
-    <div class="page-share" v-if="isBlog">
-      <svg class="Icon" viewBox="0 0 39 32">
-        <g id="icon-twitter-bird">
-          <path
-            fill="#55acee"
-            d="M34.7 5c1.7-1 2.8-2.5 3.4-4.4-1.6 0.9-3.3 1.6-5 2-1.6-1.7-3.6-2.6-5.8-2.6-2.2 0-4.2 0.7-5.7 2.3-1.6 1.6-2.3 3.4-2.3 5.8 0 0.6 0.1 1.2 0.2 1.8-6.9-0.4-12.6-3.2-16.9-8.5-0.7 1.2-1.1 2.7-1.1 4.1 0 3 1.2 5.2 3.6 6.8-1.2 0-2.5-0.4-3.6-1v0.1c0 2 0.6 3.7 1.8 5.2 1.2 1.5 2.7 2.5 4.6 2.8-0.6 0.1-1.2 0.2-2.1 0.2-0.4 0-0.9 0-1.5-0.1 0.5 1.5 1.4 2.8 2.8 3.8 1.4 1 3 1.5 4.7 1.6-3.1 2.5-6.4 3.7-10 3.7-0.5 0-1.1 0-2-0.1 3.7 2.2 7.8 3.4 12.4 3.4 3.6 0 6.8-0.7 9.8-2.1 3-1.4 5.4-3.2 7.3-5.4 1.8-2.2 3.3-4.7 4.3-7.4s1.6-5.4 1.6-8.1v-1c1.4-1 2.7-2.5 3.9-4.2-1.6 0.6-3.2 1.1-4.7 1.2z"
-          ></path>
-        </g>
-      </svg>
-
-      <div>
-        If you liked this article and think others should read it, please
-        <a
-          :href="`http://twitter.com/share?text=${$page.frontmatter.title}&amp;url=https://websiddu.com/${$page.frontmatter.permalink}&amp;via=websiddu`"
-          target="_blank"
-        >
-          share it on Twitter
-        </a>
-      </div>
-    </div>
-
     <div class="page-edit">
-      <div class="edit-link" v-if="editLink">
+      <!-- <div class="edit-link" v-if="editLink">
         <a :href="editLink" target="_blank" rel="noopener noreferrer">
           {{ editLinkText }}
         </a>
         <OutboundLink />
-      </div>
+      </div> -->
 
-      <div style="flex: 1"></div>
+      <!-- <div style="flex: 1"></div> -->
+
+      <div class="page-share" v-if="isBlog">
+        <svg class="Icon" viewBox="0 0 39 32">
+          <g id="icon-twitter-bird">
+            <path
+              fill="#55acee"
+              d="M34.7 5c1.7-1 2.8-2.5 3.4-4.4-1.6 0.9-3.3 1.6-5 2-1.6-1.7-3.6-2.6-5.8-2.6-2.2 0-4.2 0.7-5.7 2.3-1.6 1.6-2.3 3.4-2.3 5.8 0 0.6 0.1 1.2 0.2 1.8-6.9-0.4-12.6-3.2-16.9-8.5-0.7 1.2-1.1 2.7-1.1 4.1 0 3 1.2 5.2 3.6 6.8-1.2 0-2.5-0.4-3.6-1v0.1c0 2 0.6 3.7 1.8 5.2 1.2 1.5 2.7 2.5 4.6 2.8-0.6 0.1-1.2 0.2-2.1 0.2-0.4 0-0.9 0-1.5-0.1 0.5 1.5 1.4 2.8 2.8 3.8 1.4 1 3 1.5 4.7 1.6-3.1 2.5-6.4 3.7-10 3.7-0.5 0-1.1 0-2-0.1 3.7 2.2 7.8 3.4 12.4 3.4 3.6 0 6.8-0.7 9.8-2.1 3-1.4 5.4-3.2 7.3-5.4 1.8-2.2 3.3-4.7 4.3-7.4s1.6-5.4 1.6-8.1v-1c1.4-1 2.7-2.5 3.9-4.2-1.6 0.6-3.2 1.1-4.7 1.2z"
+            ></path>
+          </g>
+        </svg>
+
+        <div>
+          If you liked this article and think others should read it, please
+          <a
+            :href="`http://twitter.com/share?text=${$page.frontmatter.title}&amp;url=https://websiddu.com/${$page.frontmatter.permalink}&amp;via=websiddu`"
+            target="_blank"
+          >
+            share it on Twitter
+          </a>
+        </div>
+      </div>
 
       <div class="last-updated" v-if="lastUpdated && isBlog">
         <span class="prefix">{{ lastUpdatedText }}:</span>
+        <br />
         <span class="time">{{ lastUpdated }}</span>
       </div>
     </div>
@@ -151,11 +152,9 @@ export default {
 @require '../styles/wrapper.styl'
 
 .page-share
-  @extend $wrapper
-
   font-size 0.9rem
-  margin-top 3em
-  padding 1.25em
+  padding 1rem
+  margin-right 2rem
   background lighten($textColor, 96%)
   border-radius 0.5rem
   display flex
@@ -186,6 +185,8 @@ export default {
     float right
     font-size 0.88em
     margin-top 3px
+    width 240px
+    text-align right
 
     .prefix
       font-weight 500
